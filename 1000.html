@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Products</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="1000.css">
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!---------------------Navigation menu--------------------->
+        <div class="menu_bar">
+            <div class="logo">
+                <a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a>
+            </div>
+        <ul>
+            <li><a href="about.html">За мен</a></li>
+            <li>
+                <a href="products.html">Продукти</a>
+                <div class="dropdown_menu">
+                    <ul>
+                        <li><a href="health.html">Здраве и добавки</a>
+                            <div class="dropdown_menu1">
+                                <ul>
+                                    <li><a href="drinks.html">Напитки</a></li>
+                                    <li><a href="supplements.html">Добавки</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="cosmetics.html">Козметика</a>
+                            <div class="dropdown_menu2">
+                                <ul>
+                                    <li><a href="face.html">Грижа за лицето</a></li>
+                                    <li><a href="body.html">Грижа за тялото</a></li>
+                                    <li><a href="personal_hygiene.html">Лична хигиена</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="weightcontrol.html">Контрол на теглото</a></li>
+                        <li><a href="packages.html">Пакети</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+        </ul>
+    </div>
+    <!---------------------Main part--------------------->
+    <header>
+        <div class="header_img">
+            <img src="products_img/header_img.png" alt="">
+        </div>
+        <div class="button"><a href="shop.html"><button type="button">Присъедни се към моя екип и пазарувай с отстъпка!</button></a></div>
+    </header>
+    <main class="main_section">
+        <section>
+            <div class="image">
+                <div class="magnifier">
+                    <img src="products_img/health/drinks/forever_aloe_vera_gel.jpg" alt="">
+                </div>
+                <p class="price">59.54 лв</p>
+            </div>
+            <div class="text">
+                <h1>Aloe Vera Gel</h1>
+                <h2>Гел от Алое Вера</h2>
+                <p class="p-id">Продуктов номер: 1000</p>
+                <p class="txt">Алое Вера Гел съдържа 99,7% чист гел от вътрешността на листата на растението алое вера, който бива извлечен на ръка, за да се осигури добиването на максимално качествен продукт. Той е предназначен да насърчава цялостното благосъстояние и е популярен избор сред тези, които търсят естествени добавки в подкрепа на здравето си. Сега в Тетра Пак опаковка, изработена от 100% рециклируеми материали! Основните му предимства се изразяваат в поддържане здравето на храносмилането: Алое вера може да спомогне за облекчаване при храносмилателен дискомфорт, подкрепа на имунната система: Алое вера съдържа антиоксиданти и витамини, които могат да помогнат за засилване на имунната система, съдържание на естествени хранителни вещества, като витамини А, С и Е, както и калций, магнезий и калий.
+                </p>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Content')">Състав<i class="bi bi-arrow-down-short"></i></button>
+                    <button class="tablinks" onclick="openTab(event, 'Use')">Употреба<i class="bi bi-arrow-down-short"></i></button>
+                    <button class="tablinks" onclick="openTab(event, 'Storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
+                </div>
+                  
+                <div id="Content" class="tabcontent">
+                <h2>Състав</h2>
+                <p>Стабилизиран гел от алое вера [гел от алое вера (99,7%), витамин С (аскорбинова киселина), антиоксидант (аскорбинова киселина), регулатор на киселинността (лимонена киселина)].</p>
+                </div>
+                
+                <div id="Use" class="tabcontent">
+                <h2>Употреба</h2>
+                <p>Разклатете добре преди употреба! Три приема дневно по 40 мл. Сипвайте всяка доза в чаша и разреждайте в 240 мл вода или сок. Сипвайте напитката в чаша, не пийте директно от опаковката, за да не попадат в нея бактерии, които могат да ускорят развалянето.
+                </p> 
+                </div>
+                
+                <div id="Storage" class="tabcontent">
+                <h2>Съхранение</h2>
+                <p>На сухо и хладно място. След отваряне съхранявайте в изправено положение в хладилник (макс. 7°С) и консумирайте до 30 дни. Не вдигайте опаковката за гърлото, за да не я повредите.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!---------------------Footer--------------------->
+        <footer class="footer">
+            <div class="left">
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100080698834400"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iglika.velichkova/"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@iglikarumenova"><i class="bi bi-youtube"></i></a></div>
+                <h1>Контакти</h1>
+                <p><i class="bi bi-telephone">&nbsp;&nbsp;+359 88 766 3362</i></p>
+                <p class="email"><i class="bi bi-envelope">&nbsp;&nbsp;&nbsp;iglika.velichkova@gmail.com</i></p>
+                <p class="name">Иглика Величкова</p>
+            </div>
+            <div class="center">
+                <p class="copyright">Copyright © 2023 Иглика Величкова</p>
+            </div>
+            <div class="right">
+                <div class="logo"><img src="index_img/IglikaLogo.png" alt="logo"></div>
+                <p class="FAQ"></i><a href="FAQ.html">Често задавани въпроси</a></p>
+                <p class="termsOfUse"><a href="termsOfUse.html">Условия за ползване</a></p>
+                <p class="biscuits"><a href="Buscuits.html">Бисквитки</a></p>
+            </div>
+        </footer>
+        <script>
+            function openTab(evt, info) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(info).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+
+        </script>
+    </body>
+</html>
