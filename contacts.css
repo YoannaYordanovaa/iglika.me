@@ -121,19 +121,16 @@ body{
   height: 100%;
 }
 
-main {
-  position: relative;
+main{
   margin-top: -20%;
-  margin-left: 45%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-
+  margin-left: 50%;
 }
 
 .container {
   display: grid;
   grid-template-columns: 340px 513px;
   gap: 40px;
+  transform: translate(-50%, -50%);
 }
 
 .left-side {
@@ -141,14 +138,14 @@ main {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
   font-weight: 300;
   border-radius: 0.3rem;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.266);
 }
 
 .left-side p{
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 .left-side h1{
@@ -158,12 +155,12 @@ main {
 .left-side h2{
   font-weight: 300;
   font-size: 20px;
-  padding-bottom: 3%;
   font-style: italic;
+  padding-bottom: 10%;
 }
 
 .id{
-  margin-top: 22%;
+  margin-top: 15%;
   font-style: italic;
 }
 
