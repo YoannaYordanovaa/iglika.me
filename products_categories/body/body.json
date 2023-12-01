@@ -1,0 +1,65 @@
+[
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_body_lotion.jpg",
+    "p-id": 1048,
+    "p-name": "Aloe Body Lotion",
+    "p-name2": "Алое лосион за тяло",
+    "description": "Ежедневен овлажняващ продукт, който омекотява кожата и я оставя хидратирана и здрава.",
+    "price": "34.34 лв.",
+    "url": 1048
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_cooling_lotion.jpg",
+    "p-id": 1049,
+    "p-name": "Aloe Cooling lotion",
+    "p-name2": "Aлое oхлаждащ лосион",
+    "description": "Предоставя охлаждащо усещане с освежаващ ментов аромат.",
+    "price": "34.34 лв.",
+    "url": 1049
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_first.jpg",
+    "p-id": 1050,
+    "p-name": "Aloe First",
+    "p-name2": "Алое Фърст",
+    "description": "Успокояващ продукт за грижа за кожата, съдържащ гел от алое вера, пчелен прополис и единадесет полезни билкови екстракта.",
+    "price": "45.24 лв.",
+    "url": 1050
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_msm_gel.jpg",
+    "p-id": 1051,
+    "p-name": "Aloe MSM Gel",
+    "p-name2": "Алое МСМ гел",
+    "description": "Предназначен за облекчаване на ставни и мускулни болки.",
+    "price": "52.68 лв.",
+    "url": 1051
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_propolis_creme.jpg",
+    "p-id": 1052,
+    "p-name": "Aloe Propolis Creme",
+    "p-name2": "Алое Прополис крем",
+    "description": "Витамините A, E и C работят за подхранване и овлажняване на кожата, докато прополисът помага за подмладяване на кожата.",
+    "price": "45.24 лв.",
+    "url": 1052
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_sunscreen.jpg",
+    "p-id": 1053,
+    "p-name": "Aloe sunscreen",
+    "p-name2": "Алое Сънскрийн",
+    "description": "Този слънцезащитен продукт предлага водоустойчива SPF 30 защита от UVA и UVB лъчи, плюс успокояващата сила на алое.",
+    "price": "47.53 лв.",
+    "url": 1053
+  },
+  {
+    "image": "products_img\\cosmetics\\body\\aloe_vera_gelly.jpg",
+    "p-id": 1054,
+    "p-name": "Aloe Vera Gelly",
+    "p-name2": "Алое Вера гел",
+    "description": "Почти идентичен с вътрешността на листата на алое вера, овлажнява, подхранва и успокоява кожата",
+    "price": "34.34 лв.",
+    "url": 1054
+  }
+]

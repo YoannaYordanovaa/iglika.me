@@ -106,14 +106,5 @@
     "description": "FAB Forever Active Boost е богат на витамини B2, B3, B6 и B12. Помага за поддържането на нормалната функция на имунната система и намалява умората.",
     "price": "8.58 лв.",
     "url": 1011
-  },
-  {
-    "image": "products_img\\health\\supplements\\fields_of_greens.jpg",
-    "p-id": 1012,
-    "p-name": "Fields of Greens",
-    "p-name2": "Зелени поля",
-    "description": "Fields of Greens е отличен източник на \"зелена храна\" и антиоксиданти.",
-    "price": "27.48 лв.",
-    "url": 1012
   }
 ]

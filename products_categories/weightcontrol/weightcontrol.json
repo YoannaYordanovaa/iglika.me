@@ -1,0 +1,83 @@
+[
+  {
+    "image": "products_img\\weight_control\\FOREVER_ULTRA_CHOC_SHAKE.jpg",
+    "p-id": 1066,
+    "p-name": "Forever Lite Ultra with Aminotein chocolate",
+    "p-name2": "Форевър лайт ултра с аминотеин шоколад",
+    "description": "Протеинова добавка, която предоставя 17 грама протеин от растителен източник на порция със страхотен ванилов вкус.",
+    "price": "57.23 лв.",
+    "url": 1066
+  },
+  {
+    "image": "products_img\\weight_control\\FOREVER_ULTRA_VANILLE_SHAKE.jpg",
+    "p-id": 1067,
+    "p-name": "Forever Lite Ultra with Aminotein vanilla",
+    "p-name2": "Форевър лайт ултра с аминотеин ванилия",
+    "description": "Протеинова добавка, която предоставя 17 грама протеин от растителен източник на порция със страхотен шоколадов вкус.",
+    "price": "57.23 лв.",
+    "url": 1067
+  },
+  {
+    "image": "products_img\\weight_control\\FOREVER_PLANT_PROTEIN.jpg",
+    "p-id": 1068,
+    "p-name": "Forever Plant Protein",
+    "p-name2": "Форевър Растителен протеин",
+    "description": "Веганска, безмлечна и без соеви продукти протеинова добавка, която предлага 17 грама протеин на порция.",
+    "price": "127.62 лв.",
+    "url": 1068
+  },
+  {
+    "image": "products_img\\weight_control\\Forever_Sensatiable.jpg",
+    "p-id": 1069,
+    "p-name": "Forever Sensatiable",
+    "p-name2": "Форевър Сенсейшабъл",
+    "description": "Естествено подсладена дъвчаща таблетка, която помага за контролиране на апетита.",
+    "price": "60.11 лв.",
+    "url": 1069
+  },
+  {
+    "image": "products_img\\weight_control\\FOREVER_LEAN.jpg",
+    "p-id": 1070,
+    "p-name": "Forever Lean",
+    "p-name2": "Форевър Лийн",
+    "description": "Помага за блокиране на абсорбцията на калории от мазнини и въглехидрати.",
+    "price": "86.44 лв.",
+    "url": 1070
+  },
+  {
+    "image": "products_img\\weight_control\\FAST_BREAK_BARS.jpg",
+    "p-id": 1071,
+    "p-name": "Forever FastBreak",
+    "p-name2": "Форевър Фаст Брейк",
+    "description": "Вкусен, пълен с витамини и зареден с 11 грама протеин.",
+    "price": "10.31 лв.",
+    "url": 1071
+  },
+  {
+    "image": "products_img\\weight_control\\DX4_BODY_BALANCING_SYSTEM.jpg",
+    "p-id": 1072,
+    "p-name": "DX4 Body Balancing System",
+    "p-name2": "DX4 Балансираща програма",
+    "description": "Четиридневна програма, която помага за рестартиране на вашето физическо, ментално и духовно здраве чрез седем хранителни продукта, практики за установяване на мисленето и ръководство за приемане на храната.",
+    "price": "320.50 лв.",
+    "url": 1072
+  },
+  {
+    "image": "products_img\\weight_control\\forever_clean-9.jpg",
+    "p-id": 1073,
+    "p-name": "Clean-9",
+    "p-name2": "",
+    "description": "Програмата включва различни продукти, които ще ви помогнат да постигнете вашите цели за отслабване, както и физически упражнения.",
+    "price": "270.32 лв.",
+    "url": 1073
+  },
+  {
+    "image": "products_img\\weight_control\\f15_vanilla.jpg",
+    "p-id": 1074,
+    "p-name": "F15",
+    "p-name2": "",
+    "description": "15-дневна програма за напреднали в областта на храненето и фитнеса, която може да ви помогне да промените своята рутина за фитнес и хранене.",
+    "price": "337.32 лв.",
+    "url": 1074
+  }
+]

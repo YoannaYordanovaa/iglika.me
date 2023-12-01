@@ -98,7 +98,7 @@
             const itemsPerPage = 16;
 
             async function fetchProducts() {
-                const response = await fetch('products.json');
+                const response = await fetch('products_categories/weightcontrol/weightcontrol.json');
                 const products = await response.json();
                 allProducts = products;
             }

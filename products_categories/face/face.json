@@ -1,0 +1,155 @@
+[
+  {
+    "image": "products_img\\cosmetics\\face\\aloe_activator.jpg",
+    "p-id": 1031,
+    "p-name": "Aloe activator",
+    "p-name2": "Алое активатор",
+    "description": "Този продукт съдържа над 98% гел от алое вера, което го прави идеален за чувствителна кожа.",
+    "price": "36.61 лв.",
+    "url": 1031
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\awakening_eye_cream.jpg",
+    "p-id": 1032,
+    "p-name": "Awakening eye cream",
+    "p-name2": "Пробуждащ околоочен крем",
+    "description": "Предназначен да подобри и изглади чувствителната област около очите, видимо намалява появата на линии, бръчки и тъмни кръгове.",
+    "price": "41.79 лв.",
+    "url": 1032
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\balancing_toner.jpg",
+    "p-id": 1033,
+    "p-name": "Balancing toner",
+    "p-name2": "Балансиращ тоник",
+    "description": "Помага да се балансира pH на кожата и да се премахне излишният остатък след използване на почистващи продукти.",
+    "price": "49.78 лв.",
+    "url": 1033
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\forever_aloe_lips.jpg",
+    "p-id": 1034,
+    "p-name": "Aloe lips",
+    "p-name2": "Алое липс",
+    "description": "Най-доброто решение срещу напукани устни.",
+    "price": "8.00 лв.",
+    "url": 1034
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\forever_aloe_scrub.jpg",
+    "p-id": 1035,
+    "p-name": "Aloe scrub",
+    "p-name2": "Алое ексфолиант",
+    "description": "Натурален ексфолиант за лице и тяло.",
+    "price": "36.08 лв.",
+    "url": 1035
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\forever_infinite.jpg",
+    "p-id": 1036,
+    "p-name": "Infinite by Forever",
+    "p-name2": "Инфинит от Форевър",
+    "description": "Продуктите се грижат за това да намалят появата на фини линии и бръчки, да подобрят гладкостта на кожата и да подкрепят красотата отвътре навън.",
+    "price": "400.64 лв.",
+    "url": 1036
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\hydrating_serum.jpg",
+    "p-id": 1037,
+    "p-name": "Hydrating serum",
+    "p-name2": "Хидратиращ серум",
+    "description": "Продукт за грижа за кожата, предназначен да осигури максимална хидратация.",
+    "price": "80.12 лв.",
+    "url": 1037
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\infinite_by_forever__firming_serum.jpg",
+    "p-id": 1038,
+    "p-name": "Infinite by Forever firming serum",
+    "p-name2": "Инфинит стягащ серум",
+    "description": "Допълва естествените процеси в кожата, за да увеличи здравината и да намали появата на фини линии и бръчки",
+    "price": "119.05 лв.",
+    "url": 1038
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\infinite_by_forever__hydrating_cleanser.jpg",
+    "p-id": 1039,
+    "p-name": "Infinite by Forever hydrating cleanser",
+    "p-name2": "Хидратиращ почистващ лосион",
+    "description": "Хидратира кожата, нежно отмива мръсотията и мазнините без да изсушава.",
+    "price": "60.11 лв.",
+    "url": 1039
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\infinite_by_forever_restoring.jpg",
+    "p-id": 1040,
+    "p-name": "Infinite by Forever restoring creme",
+    "p-name2": "Възстановяващ крем",
+    "description": "Абсорбира се в кожата, като я оставя хидратирана и гладка.",
+    "price": "132.77 лв.",
+    "url": 1040
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\Protecting_Day_Lotion.jpg",
+    "p-id": 1041,
+    "p-name": "Protecting Day Lotion",
+    "p-name2": "Защитен дневен лосион",
+    "description": "Този лосион предлага широкоспектърна SPF 20 защита и подхранва кожата.",
+    "price": "83.57 лв.",
+    "url": 1041
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\smoothing_exfoliator.jpg",
+    "p-id": 1042,
+    "p-name": "Smoothing exfoliator",
+    "p-name2": "Изглаждащ ексфолиант",
+    "description": "Премахва мъртвите клетки и изглажда текстурата, за по-сияеща кожа.",
+    "price": "41.79 лв.",
+    "url": 1042
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\sonya_daily_skincare.jpg",
+    "p-id": 1043,
+    "p-name": "Sonya daily skincare system",
+    "p-name2": "Ежедневна грижа за кожата \"Соня",
+    "description": "Формулирана специално за комбинирана кожа, цялата линия осигурява най-доброто от науката и природата за всеки аспект от ежедневната ви грижа за кожата.",
+    "price": "195.18 лв.",
+    "url": 1043
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\sonya__illuminating_gel.jpg",
+    "p-id": 1044,
+    "p-name": "Sonya illuminating gel",
+    "p-name2": "Озаряващ гел",
+    "description": "Помага за хармонизация на тена на кожата и намаляване на пигментните петна.",
+    "price": "50.92 лв.",
+    "url": 1044
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\sonya__refining_gel_mask.jpg",
+    "p-id": 1045,
+    "p-name": "Sonya refining gel mask",
+    "p-name2": "Усъвършенстваща гел маска",
+    "description": "Поддържа външния вид на кожата, контролира мазнините и озарява тена.",
+    "price": "53.82 лв.",
+    "url": 1045
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\sonya__refreshing_gel_cleanser.jpg",
+    "p-id": 1046,
+    "p-name": "Sonya refreshing gel cleanser",
+    "p-name2": "Освежаващ почистващ гел",
+    "description": "Иновативен почистващ гел за лице, специално разработен за комбинирана кожа.",
+    "price": "53.82 лв.",
+    "url": 1046
+  },
+  {
+    "image": "products_img\\cosmetics\\face\\sonya__soothing_gel_moisturizer.jpg",
+    "p-id": 1047,
+    "p-name": "Sonya soothing gel moisturizer",
+    "p-name2": "Успокояващ овлажняващ гел",
+    "description": "Осигурява мощно успокояващо и овлажняващо действие за комбинирана кожа.",
+    "price": "58.96 лв.",
+    "url": 1047
+  }
+]

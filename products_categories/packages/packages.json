@@ -1,0 +1,29 @@
+[
+  {
+    "image": "products_img\\packages\\1cc_touch_of_forever.jpg",
+    "p-id": 1063,
+    "p-name": "Touch of Forever",
+    "p-name2": "Докосване до Форевър",
+    "description": "Пакет от популярни продукти от Forever Living Products, предназначени да ви запознаят с предложенията на марката.",
+    "price": "1 116.34 лв.",
+    "url": 1063
+  },
+  {
+    "image": "products_img\\packages\\330ml_forever_aloe_vera_gel_argi_tripack.jpg",
+    "p-id": 1064,
+    "p-name": "ARGI+ & Aloe Mini TriPak",
+    "p-name2": "ТриПак АРГИ+ и Алое мини",
+    "description": "В пакета ще откриете три мини опаковки гел от алое вера по 330 мл и три пакетчета Арги+.",
+    "price": "75.19 лв.",
+    "url": 1064
+  },
+  {
+    "image": "products_img\\packages\\StartYourJourneyPack.png",
+    "p-id": 1065,
+    "p-name": "Start Your Journey Pack",
+    "p-name2": "Пакет „Стартирай пътешествието си“",
+    "description": "Ако търсите начин да започнете собствен Форевър бизнес или да пазарувате продуктите на Форевър Ливинг с 30% отстъпка, този пакет може да ви заинтригува.",
+    "price": "Само за преференциални клиенти",
+    "url": 1065
+  }
+]
