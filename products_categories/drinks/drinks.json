@@ -1,0 +1,119 @@
+[
+  {
+    "image": "products_img\\health\\drinks\\forever_aloe_vera_gel.jpg",
+    "p-id": 1000,
+    "p-name": "Forever Aloe Vera Gel",
+    "p-name2": "Гел от Алое Вера",
+    "description": "Със съдържание на над 99,7% чист гел от вътрешността на листата на алое вера Барбаденсис, който се грижи за храносмилателната система.",
+    "price": "59.54 лв.",
+    "url": "1000.html"
+  },
+  {
+    "image": "products_img\\health\\drinks\\forever_aloe_mango.jpg",
+    "p-id": 1001,
+    "p-name": "Forever Aloe Mango",
+    "p-name2": "Алое Манго",
+    "description": "Подкрепете храносмилателната система и се насладете на невероятния манго вкус!",
+    "price": "59.54 лв.",
+    "url": 1001
+  },
+  {
+    "image": "products_img\\health\\drinks\\forever_aloe_berry_nectar.jpg",
+    "p-id": 1002,
+    "p-name": "Forever Aloe Berry Nectar",
+    "p-name2": "Алое Бери Нектар",
+    "description": "90,7% чист гел от алое вера плюс натурални плодови концентрати за подкрепа на вашето здраве!",
+    "price": "59.54 лв.",
+    "url": 1002
+  },
+  {
+    "image": "products_img\\health\\drinks\\tripack_forever_aloe_vera_gel.jpg",
+    "p-id": 1003,
+    "p-name": "Aloe Vera Gel TriPack",
+    "p-name2": "Гел от Алое Вера ТриПак",
+    "description": "Троен пакет Гел от Алое Вера!",
+    "price": "178.61 лв.",
+    "url": 1003
+  },
+  {
+    "image": "products_img\\health\\drinks\\tripack_forever_aloe_mango.jpg",
+    "p-id": 1004,
+    "p-name": "Forever Aloe Mango TriPak",
+    "p-name2": "Алое Манго ТриПак",
+    "description": "Троен пакет Алое Манго!",
+    "price": "178.61 лв.",
+    "url": 1004
+  },
+  {
+    "image": "products_img\\health\\drinks\\tripack_forever_aloe_berry.jpg",
+    "p-id": 1005,
+    "p-name": "Aloe Berry Nectar TriPak",
+    "p-name2": "Алое Бери Нектар ТриПак",
+    "description": "Троен пакет Алое Бери нектар!",
+    "price": "178.61 лв.",
+    "url": 1005
+  },
+  {
+    "image": "products_img\\health\\drinks\\aloe_vera_gel_330ml__pack.jpg",
+    "p-id": 1006,
+    "p-name": "Forever Aloe Vera Gel mini",
+    "p-name2": "Гел от Алое Вера мини",
+    "description": "Със съдържание на над 99,7% чист гел от вътрешността на листата на алое вера Барбаденсис, който се грижи за храносмилателната система. Сега в мини опаковка 12 броя х 330мл!",
+    "price": "238.12 лв.",
+    "url": 1006
+  },
+  {
+    "image": "products_img\\health\\drinks\\aloe_peaches_330ml_pack.jpg",
+    "p-id": 1007,
+    "p-name": "Forever Aloe Peaches mini",
+    "p-name2": "Алое Праскови мини",
+    "description": "84,5% чист гел от алое вера, допълнен с натурално пюре и аромат на праскови! Сега в мини опаковка 12 броя х 330мл!",
+    "price": "238.12 лв.",
+    "url": 1007
+  },
+  {
+    "image": "products_img\\health\\drinks\\aloe_berry_nectar_330ml__pack.jpg",
+    "p-id": 1008,
+    "p-name": "Forever Aloe Berry Nectar mini",
+    "p-name2": "Алое Бери Нектар мини",
+    "description": "90,7% чист гел от алое вера плюс натурални плодови концентрати за подкрепа на вашето здраве! Сега в мини опаковка 12 броя х 330мл!",
+    "price": "238.12 лв.",
+    "url": 1008
+  },
+  {
+    "image": "products_img\\health\\drinks\\forever_freedom.jpg",
+    "p-id": 1009,
+    "p-name": "Forever Freedom",
+    "p-name2": "Форевър Фрийдъм",
+    "description": "Този напитка се гордее с висока концентрация от 89% чист гел от алое вера, който спомага за подкрепата на естествените защитни функции на нашето тяло.",
+    "price": "81.36 лв.",
+    "url": 1009
+  },
+  {
+    "image": "products_img\\health\\drinks\\aloe_blossom_herbal_tea.jpg",
+    "p-id": 1010,
+    "p-name": "Aloe Blossom Herbal Tea",
+    "p-name2": "Билков чай с цветчета от Алое",
+    "description": "Безкофеинова смес от листа, билки и подправки, която може да се консумира гореща или охладена.",
+    "price": "40.06 лв.",
+    "url": 1010
+  },
+  {
+    "image": "products_img\\health\\drinks\\fab_forever_active_boost.jpg",
+    "p-id": 1011,
+    "p-name": "FAB Forever Active Boost",
+    "p-name2": "ФАБ- Енергийна напитка",
+    "description": "FAB Forever Active Boost е богат на витамини B2, B3, B6 и B12. Помага за поддържането на нормалната функция на имунната система и намалява умората.",
+    "price": "8.58 лв.",
+    "url": 1011
+  },
+  {
+    "image": "products_img\\health\\supplements\\fields_of_greens.jpg",
+    "p-id": 1012,
+    "p-name": "Fields of Greens",
+    "p-name2": "Зелени поля",
+    "description": "Fields of Greens е отличен източник на \"зелена храна\" и антиоксиданти.",
+    "price": "27.48 лв.",
+    "url": 1012
+  }
+]
