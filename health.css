@@ -121,28 +121,6 @@
     margin-bottom: 2%;
     }
   
-  .main_paragraph{
-    font-size: 20px;
-    font-weight: 300;
-    text-align: justify;
-    }
-  
-  .text .main_paragraph .first{
-    font-family: 'Marck Script', cursive;
-    font-size: 40px;
-    }
-  
-  .text .main_paragraph .aloe{
-    color: #5CA700;
-    }
-  
-  h1{
-    font-size: 20px;
-    margin-top: 2%;
-    font-weight: 400;
-    text-align: center;
-    }
-  
   main{
     margin-left: 5%;
     margin-right: 5%;
