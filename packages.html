@@ -49,12 +49,7 @@
         </div>
         <!---------------------Main part--------------------->
         <div class="cover">
-            <div class="text">
-                <p class="main_paragraph"><span class="first">В сърцето на нашите продукти се крие силата на <span class="aloe">алое вера</span></span>, използвана с много любов и внимание, за създаването на разнообразие от освежаващи напитки с алое, хранителни добавки, средства за контрол на теглото, грижа за кожата и много други. Независимо от това, което търсите, Форевър Ливинг предлага нещо за всеки, който желае да инвестира в здравето си и да придаде жизненост на ежедневието си.
-                </p>
-                <h1>Разгледайте продуктовата гама и ако имате нужда от помощ при избора си, не се колебайте да се консултирате с мен!</h1>
-            </div>
-            <img src="products_img/cover2.png" alt="">
+            <img src="products_img/packages_cover.png" alt="">
         </div>
         <main class="main">
                 <div class="button"><a href="shop.html"><button type="button">Присъедни се към моя екип и пазарувай с отстъпка!</button></a></div>
@@ -152,23 +147,6 @@
                 updatePaginationButtons();
             })
             .catch(error => console.error('Error:', error));
-
-            function updatePaginationButtons() {
-                const pagination = document.getElementById('pagination');
-                pagination.innerHTML = ''; // clear the pagination
-
-                const totalPages = Math.ceil(allProducts.length / itemsPerPage);
-
-                for (let i = 1; i <= totalPages; i++) {
-                    const pageNumberButton = document.createElement('button');
-                    pageNumberButton.textContent = i;
-                    pageNumberButton.addEventListener('click', () => {
-                        currentPage = i;
-                        paginateProducts();
-                    });
-                    pagination.appendChild(pageNumberButton);
-                }
-            }
 
             function searchFunction() {
                 const input = document.getElementById('searchInput');

@@ -153,23 +153,6 @@
             })
             .catch(error => console.error('Error:', error));
 
-            function updatePaginationButtons() {
-                const pagination = document.getElementById('pagination');
-                pagination.innerHTML = ''; // clear the pagination
-
-                const totalPages = Math.ceil(allProducts.length / itemsPerPage);
-
-                for (let i = 1; i <= totalPages; i++) {
-                    const pageNumberButton = document.createElement('button');
-                    pageNumberButton.textContent = i;
-                    pageNumberButton.addEventListener('click', () => {
-                        currentPage = i;
-                        paginateProducts();
-                    });
-                    pagination.appendChild(pageNumberButton);
-                }
-            }
-
             function searchFunction() {
                 const input = document.getElementById('searchInput');
                 const filter = input.value.toUpperCase();
