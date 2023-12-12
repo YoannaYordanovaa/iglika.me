@@ -14,6 +14,11 @@ body{
 }
 /*------------------Navigation bar------------------*/
 
+.no-scroll {
+    overflow: hidden;
+}
+
+
 header{
     position: fixed;
     top: 0;
@@ -160,8 +165,13 @@ header label{
 
 @media (max-width: 1140px) {
 
+    .logo img{
+        width: 147px;
+        height: 66px;
+    }
+
     header{
-        padding: 10px;
+        padding: 10px 7%;
     }
 
     header label{
@@ -169,13 +179,17 @@ header label{
     }
 
     header .navbar{
-        position: absolute;
-        top: 100%; 
+        position: fixed; 
         left: 0;
         right: 0;
+        top: 15vh;
+        bottom: 0;
         background: #fff;
         display: none;
-
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+       
     }
 
     header .navbar ul li{
@@ -189,6 +203,7 @@ header label{
 
     header .navbar ul li ul li{
         background: #fff;
+        border-bottom: none;
     }
 
     header .navbar ul li ul li ul{
@@ -202,14 +217,10 @@ header label{
 
     header .navbar span {
         display: block;
-        padding-top: 3%;
-    }
-
-    header .navbar ul li ul li{
-        border-top: none;
+        padding-top: 5%;
         
     }
-    
+
     /*------------------ Main section ------------------*/
 
     .main_section {
@@ -217,11 +228,20 @@ header label{
         margin: 0 5%;
     }
 
+    .main_text h2{
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+
     .image img {
-        height: 244.5px;
-        width: 274px;
+        height: 274.5px;
+        width: 304px;
         display: block;
         margin: auto;
+    }
+
+    .image{
+        margin-top: -5%;
     }
 
     .main_text h1 {
@@ -229,7 +249,7 @@ header label{
     }
 
     .main_text h2 {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .cover{

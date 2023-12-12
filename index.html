@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!---------------------Navigation menu--------------------->
@@ -19,15 +20,15 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="about.html">За мен</a></li>
-                    <li><a href="products.html">Продукти</a><span class="arrow">&#128899;</span>
+                    <li><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
                         <ul>
-                            <li><a href="health.html">Здраве и добавки</a><span class="arrow">&#128899;</span>
+                            <li><a href="health.html">Здраве и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
                                 <ul>
                                     <li><a href="drinks.html">Напитки</a></li>
                                     <li><a href="supplements.html">Добавки</a></li>
                                 </ul>
                             </li>
-                            <li><a href="cosmetics.html">Козметика</a><span class="arrow">&#128899;</span>
+                            <li><a href="cosmetics.html">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
                                 <ul>
                                     <li><a href="face.html">Грижа за лицето</a></li>
                                     <li><a href="body.html">Грижа за тялото</a></li>
@@ -56,17 +57,17 @@
                     <div class="button"><a href="about.html"><button type="button">За мен</button></a></div>
                 </div>
             </div>
-        </main>
+        </main>   
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>     
         <script>
             document.querySelectorAll('.arrow').forEach(function(arrow) {
-            arrow.addEventListener('click', function(e) {
-                e.stopPropagation();
-                this.nextSibling.style.display = this.nextSibling.style.display === 'none' ? 'block' : 'none';
+                arrow.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    let submenu = this.nextElementSibling;
+                    submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
+                });
             });
-        });
         </script>
     </body>
 </html>    
