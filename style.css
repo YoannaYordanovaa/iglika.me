@@ -21,7 +21,7 @@ header{
     right: 0;
     background: #ffffff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-    padding: 20px 7%;
+    padding: 10px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,6 @@ header{
 
 header .navbar ul{
     list-style: none;
-   
 }
 
 header .navbar span{
@@ -65,8 +64,7 @@ header .navbar ul li ul{
 
 header .navbar ul li ul li{
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, .1);
-    
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 header .navbar ul li ul li ul{
@@ -162,7 +160,6 @@ header label{
 
 @media (max-width: 1140px) {
 
-
     header{
         padding: 10px;
     }
@@ -212,7 +209,6 @@ header label{
         border-top: none;
         
     }
-
     
     /*------------------ Main section ------------------*/
 
@@ -240,4 +236,3 @@ header label{
         display: none;
     }
 }
-
