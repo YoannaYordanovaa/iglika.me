@@ -45,7 +45,7 @@ header .navbar span{
 header .navbar ul li{
     position: relative;
     float: left;
-    padding: 25px;
+    padding: 20px;
 }
 
 header .navbar ul li a{
@@ -62,20 +62,21 @@ header .navbar ul li a:hover{
 header .navbar ul li ul{
     position: absolute;
     left: 0;
-    width: 200px;
+    top: 100%;
+    width: 230px;
     background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     display: none;
 }
 
 header .navbar ul li ul li{
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    
 }
 
 header .navbar ul li ul li ul{
-    left: 200px;
+    left: 220px;
     top: 0;
-    
 }
 
 header .navbar ul li:focus-within > ul,
