@@ -13,109 +13,81 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /*------------------Navigation bar------------------*/
-.logo img{
-    width: 224px;
-    height: 92px;
-}
 
-.menu_bar{
-    height: 80px;
-    width: 100%;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 20px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4% 5%;
-    z-index: 40;
-    position: fixed;
-    background-color: white;
-    padding-top: 4%;
-    padding-bottom: 3%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.153);
+    z-index: 10;
+
 }
 
-.hamburger {
+header .navbar ul{
+    list-style: none;
+   
+}
+
+header .navbar span{
     display: none;
 }
 
-.menu_bar ul{
-    list-style: none;
-    display: flex;
-}
-
-.menu_bar ul li{
-    padding: 10px 30px;
+header .navbar ul li{
     position: relative;
+    float: left;
+    padding: 25px;
 }
 
-.menu_bar ul li a{
+header .navbar ul li a{
+    font-size: 20px;
+    display: block;
     color: #182C00;
     text-decoration: none;
-    font-size: 20px;
-    transition: all 0.3s;
-    font-weight: 400;
 }
 
-.menu_bar ul li a:hover{
+header .navbar ul li a:hover{
     color: #F82536;
 }
 
-.dropdown_menu{
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #ffffff;
     display: none;
 }
 
-.menu_bar ul li:hover .dropdown_menu{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: rgba(255, 255, 255);
-    border-radius: 2%;
-    z-index: 1;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.153);
-}
-
-.menu_bar ul li:hover .dropdown_menu ul{
-    display: block;
-    margin: 5px;
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
     
 }
 
-.menu_bar ul li:hover .dropdown_menu ul li{
-    width: 180px;
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+    
 }
 
-.dropdown_menu1{
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar{
     display: none;
 }
 
-.dropdown_menu ul li:hover .dropdown_menu1{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 160px;
-    background-color: rgba(255, 255, 255);
-    border-radius: 2%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.153);
-}
-
-.dropdown_menu2{
+header label{
+    color: #182C00;
+    cursor: pointer;
     display: none;
-}
-
-.dropdown_menu ul li:hover .dropdown_menu2{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 160px;
-    background-color: rgba(255, 255, 255);
-    border-radius: 2%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.153);
-}
-
-.cover img{
-    height: 100%;
-    width: 100%;
-    z-index: -1;
 }
 
 
@@ -188,23 +160,61 @@ body{
     transform: translateY(-5%);
 }
 
+@media (max-width: 1140px) {
 
-@media (max-width: 900px) {
 
-    .hamburger{
-        display: block;
+    header{
+        padding: 10px;
     }
 
-    /*------------------ Main section ------------------*/
+    header label{
+        display: initial;
+    }
 
-    .logo img {
-        width: 112px;
-        height: 46px;
-        z-index: 1;
-        display: inline;
+    header .navbar{
         position: absolute;
-        top: 30%;
+        top: 100%; 
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: none;
+
     }
+
+    header .navbar ul li{
+        width: 100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: #fff;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+
+    header .navbar span {
+        display: block;
+        padding-top: 3%;
+    }
+
+    header .navbar ul li ul li{
+        border-top: none;
+        
+    }
+
+    
+    /*------------------ Main section ------------------*/
 
     .main_section {
         grid-template-columns: 1fr;
@@ -230,3 +240,4 @@ body{
         display: none;
     }
 }
+
