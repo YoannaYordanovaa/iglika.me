@@ -1,0 +1,136 @@
+doctype html
+head
+  meta(charset="utf-8")
+  meta(
+    content="IE=edge" 
+    http-equiv="X-UA-Compatible"
+    )
+  title Продукти
+  meta(
+    content="" 
+    name="description"
+    )
+  meta(
+    content="width=device-width, initial-scale=1" 
+    name="viewport"
+    )
+  link(
+    href="personal_hygiene.css" 
+    rel="stylesheet"
+    )
+  link(
+    href="header.css" 
+    rel="stylesheet"
+    )
+  link(
+    rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+    )
+  link(
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" 
+    rel="stylesheet"
+    )
+body
+  // -------------------Navigation menu-------------------
+  include header.pug
+  // -------------------Main part-------------------
+  .cover
+    .text
+      p(class="main_paragraph")
+        span.first
+          | В сърцето на нашите продукти се крие силата на
+          span.aloe алое вера
+        | , използвана с много любов и внимание, за създаването на разнообразие от освежаващи напитки с алое, хранителни добавки, средства за контрол на теглото, грижа за кожата и много други. Независимо от това, което търсите, Форевър Ливинг предлага нещо за всеки, който желае да инвестира в здравето си и да придаде жизненост на ежедневието си.
+      h1
+        | Разгледайте продуктовата гама и ако имате нужда от помощ при избора си, не се колебайте да се консултирате с мен!
+    img(
+      alt="" 
+      src="products_img/cover2.png"
+      )
+  main.main
+    .button
+      a(href="shop.html")
+        button(type="button") Присъедни се към моя екип и пазарувай с отстъпка!
+    .search
+      h2 Намери продукт
+      i.bi.bi-search
+      input#searchInput(
+        placeholder="Търсене..." 
+        onkeyup="searchFunction()" 
+        type="text"
+        )
+      #productList.row
+    .container.page-wrapper
+      .page-inner
+        .row
+    #pagination
+  // -------------------Footer-------------------
+  // -------------------Script-------------------
+  script.
+    let allProducts = [];
+      let currentPage = 1;
+      let currentProducts = [];
+      let filteredProducts = [];
+      const itemsPerPage = 16;
+      async function fetchProducts() {
+      const response = await fetch('products_categories/personal_hygiene/personal_hygiene.json');
+      const products = await response.json();
+      allProducts = products;
+      }
+      function displayProducts(products) {
+      const row = document.querySelector('.row');
+      row.innerHTML = ''; // clear the row
+      products.forEach(product => {
+      const productElement = document.createElement('div');
+      productElement.classList.add('wrapper');
+      productElement.innerHTML = `
+      <div class="box-up">
+      <img class="img" src="${product.image}" alt="">
+      <div class="img-info">
+      <div class="info-inner">
+      <span class="p-id">№&nbsp;${product['p-id']}</span>
+      <span class="p-name">${product['p-name']}</span>
+      <span class="p-name2">${product['p-name2']}</span>
+      </div>
+      <div class="description">${product.description}</div>
+      </div>
+      </div>
+      <div class="box-down">
+      <div class="h-bg">
+      <div class="h-bg-inner"></div>
+      </div>
+      <a class="cart" href="#">
+      <span class="price">${product.price}</span>
+      <span class="see-more">
+      <span class="txt">Виж повече</span>
+      </span>
+      </a>
+      </div>`;
+      row.appendChild(productElement);
+      });
+      }
+      function paginateProducts() {
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      currentProducts = allProducts.slice(start, end);
+      displayProducts(currentProducts);
+      }
+      fetchProducts()
+      .then(() => {
+      paginateProducts();
+      updatePaginationButtons();
+      })
+      .catch(error => console.error('Error:', error));
+      function searchFunction() {
+      const input = document.getElementById('searchInput');
+      const filter = input.value.toUpperCase();
+      filteredProducts = allProducts.filter(product => {
+      return product['p-name'].toUpperCase().includes(filter) || product['p-name2'].toUpperCase().includes(filter);
+      });
+      if (filter) {
+      displayProducts(filteredProducts);
+      } else {
+      paginateProducts();
+      }
+      updatePaginationButtons();
+      }

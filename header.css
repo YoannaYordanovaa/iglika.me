@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 5px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar span{
+    display: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    display: block;
+    color: #182C00;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover{
+    color: #F82536;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 230px;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    padding: 6%;
+    border-bottom: solid 1px rgba(0, 0, 0, .1);
+}
+
+header .navbar ul li ul li ul{
+    left: 230px;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    color: #182C00;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width: 1140px) {
+
+    .logo img{
+        width: 147px;
+        height: 66px;
+    }
+
+    header{
+        padding: 10px 7%;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: fixed; 
+        left: 0;
+        right: 0;
+        top: 15vh;
+        bottom: 0;
+        background: #fff;
+        display: none;
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+       
+    }
+
+    header .navbar ul li{
+        width: 100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: #fff;
+        border-bottom: none;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+
+    header .navbar span {
+        display: block;
+        padding-top: 5%;
+        
+    }
+}

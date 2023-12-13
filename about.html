@@ -1,160 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>About me page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="about.css">
-        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    </head>
-    <body>
-        <!---------------------Navigation menu--------------------->
-        <div class="menu_bar">
-            <div class="logo">
-                <a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>About me page</title>
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="about.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- -------------------Navigation menu--------------------->
+    <header>
+      <div class="logo"><a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
+      <input type="checkbox" title="manu-bar" id="menu-bar">
+      <label for="menu-bar"><img src="index_img/hamburger.png" alt=""></label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="about.html">За мен</a></li>
+          <li><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
             <ul>
-                <li><a href="about.html">За мен</a></li>
-                <li>
-                    <a href="products.html">Продукти</a>
-                    <div class="dropdown_menu">
-                        <ul>
-                            <li><a href="health.html">Здраве и добавки</a>
-                                <div class="dropdown_menu1">
-                                    <ul>
-                                        <li><a href="drinks.html">Напитки</a></li>
-                                        <li><a href="supplements.html">Добавки</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="cosmetics.html">Козметика</a>
-                                <div class="dropdown_menu2">
-                                    <ul>
-                                        <li><a href="face.html">Грижа за лицето</a></li>
-                                        <li><a href="bodyCare.html">Грижа за тялото</a></li>
-                                        <li><a href="personal_hygiene.html">Лична хигиена</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="weightcontrol.html">Контрол на теглото</a></li>
-                            <li><a href="packages.html">Пакети</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="contacts.html">Контакти</a></li>
-                <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+              <li><a href="health.html">Здраве и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+                <ul>
+                  <li><a href="drinks.html">Напитки</a></li>
+                  <li><a href="supplements.html">Добавки</a></li>
+                </ul>
+              </li>
+              <li><a href="cosmetics.html">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+                <ul>
+                  <li><a href="face.html">Грижа за лицето</a></li>
+                  <li><a href="body.html">Грижа за тялото</a></li>
+                  <li><a href="personal_hygiene.html">Лична хигиена</a></li>
+                </ul>
+              </li>
+              <li><a href="weightcontrol.html">Контрол на теглото</a></li>
+              <li><a href="packages.html">Пакети</a></li>
             </ul>
-        </div>
-            <div class="cover"><img src="about_img/cover_img.png" alt=""></div>
-            <div class="main_section">
-                <div class="main_text">
-                    <h1>Моето име е Иглика Величкова и съм собственик на Форевър бизнес вече повече от 10 години!</h1>
-                </div>
-                <div class="gallery">
-                    <img src="Iglika-photos/Iglika/1.jpg" alt="a sky photo of an old city">
-                    <img src="Iglika-photos/Iglika/01.jpg" alt="a hot air balloon">
-                    <img src="Iglika-photos/Iglika/2.jpg" alt="a small boat">
-                    <img src="Iglika-photos/Iglika/3.jpg" alt="a forest">
-                </div>
-            </div>
-        <!---------------------Main part--------------------->
-        <main class="main">
-            <h2>Нека Ви разкажа малко повече за компанията от която съм част, а именно <br>Форевър Ливинг...</h2>
-            <p class="paragraph">Основана 1978г., компанията има за цел да е открие най-добрите природни източници на здраве и красота и да ги сподели със Света. Поради тази причина се насочват към производството на алое вера. Компанията работи на принципа на мулти левъл маркетинг стратегия, като през 2021г. отчита приходи от 4 милиарда долара и мрежа от 9.3 милиона дистрибутори по Света. Това говори само по себе си за качеството на предлаганите продукти. Причините за доверието на толкова много хора в компанията са много, но някои от основните са:</p>
-                <ul class="first_list">
-                    <li>Форевър Ливинг е най-големият производител и дистрибутор на алое вера в Света;</li>
-                    <li>Оперира в повече от 160 държави;</li>
-                    <li>Компанията не бива повлияна финансово от Covid-19 кризата. </li>
-                    <li>Работят активно с благотворителни организации, които помагат в борбата с глада и бедността по света.</li>
-                    <li>Ако станете част от Форевър ще имате възможността да се възползвате от безплатни обучения, както и спонсорски програми организирани от компанията, като:</li>
-                </ul>
-                <ul class="second_list">
-                    <li> <span>Форевър Глобално рали</span> – дава Ви възможност да научите за нови продукти от световни лидери и ръководители, както и да отпразнувате достигането на определен етап от развитието си в компанията на локации като: Малдиви, Бали, Тайланд, Сингапур и много други.</li>
-                    <li><span>Chairman’s Bonus </span>– програма за бонуси на компанията, която връща процент от глобалните и приходи годишно на лидери и създатели на бизнес, за да ги възнагради за тяхната упорита работа и отдаденост.</li>
-                    <li><span>Forever 2 Drive</span> – Ако се квалифицирате за този бонус получавате допълнителни приходи от компанията, които може да вложите в нова кола, лодка или каквото Ви прави щастливи!</li>
-                </ul>
-                <p class="paragraph1">Освен за подобряване здравето на Вас и хората около вас, Форевър може да допринесе с много повече! Всичко по-горе написано е повече от реалност, знам, защото се случи на мен, така де, не просто се случи…
-                </p>
-                <p class="paragraph2">“Няма пряк път към успеха” - Рекс Моън</p>
-                <div class="container">
-                    <div class="box">
-                        <img src="Iglika-photos/family/1.jpg" alt="Family photo">
-                        <span></span>
-                        </div>
-                    <div class="box">
-                        <img src="Iglika-photos/family/2.jpg" alt="Family photo">
-                        <span></span>
-                    </div>
-                    <div class="box">
-                        <img src="Iglika-photos/family/3.jpg" alt="Family photo">
-                        <span></span>
-                    </div>
-                    <div class="box">
-                        <img src="Iglika-photos/family/IMG_20220918_174823.jpg" alt="Family photo">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="my_story">
-                    <h3>Как започна моето приключение с Форевър Ливинг... </h3>
-                    <p class="paragraph3">Когато дъщеря ми беше само на година и половина, страдаше от упорита кашлица, която продължи почти година. След многобройни опити да ѝ помогна да се излекува по възможно най-щадящия начин, поради крепката ѝ възраст, стигнах до нещо, което в миналото се е смятало за „универсалната панацея“, а именно Алое Вера. За мой късмет имах приятелка която знаех, че се занимава с разпространение на това лековито растение. Тогава обаче се появи една основна пречка... Като семейство, което живееше с ограничен бюджет, не можех да си позволя да ѝ осигуря висококачествените продукти, от които се нуждаеше.
-                        <p class="paragraph4">Така започна моето пътуване с Форевър Ливинг- уплашена, несигурна, но с надежда!</p>
-                    Въпреки всички трудности през които преминах, за да ѝ осигуря алоето от което се нуждаеше осъзнах, че всичко до тук си е заслужавало усилията. Продуктите на Форевър помогнаха не само за подобряване здравето на моята дъщеря, но и се отразиха изключително благоприятно за повишаване имунитета на всички вкъщи! Въпреки че първоначално се колебаех да се присъединя към мулти левъл маркетинг индустрията поради негативната ѝ репутация, използвайки продуктите на Форевър, като клиент в продължение на две години, осъзнах, че определено си заслужава повече хора да научат за тях.
-                    </p>
-                </div>
-                <div class="container">
-                    <div class="box">
-                        <img src="Iglika-photos/team/1.JPG" alt="Family photo">
-                        <span></span>
-                        </div>
-                    <div class="box">
-                        <img src="Iglika-photos/team/2.jpg" alt="Family photo">
-                        <span></span>
-                    </div>
-                    <div class="box">
-                        <img src="Iglika-photos/team/3.jpg" alt="Family photo">
-                        <span></span>
-                    </div>
-                    <div class="box">
-                        <img src="Iglika-photos/team/4.JPG" alt="Family photo">
-                        <span></span>
-                    </div>
-                    <div class="box">
-                        <img src="Iglika-photos/team/5.JPG" alt="Family photo">
-                        <span></span>
-                        </div>
-                        <div class="box">
-                        <img src="Iglika-photos/team/6.JPG" alt="Family photo">
-                        <span></span>
-                        </div>
-                </div>
-                <div class="my_story1">
-                    <h4>Предизвикателствата са само прикрити възможности!</h4>
-                    <p class="paragraph5">Днес след повече то 10 години в компанията смело мога да кажа, че взех правилното решение. Форевър отвори нови врати за мен и моето семейство. Получих възможността да разполагам не просто с достатъчно свободно време, което да прекарвам с близките си, но и с финансова свобода. Дестинации като Бали, Малдиви, Тайланд и много други вече не бяха просто мечти, а самата реалност. Реалност, която нямаше да е възможна, ако не бях повярвала във възможностите на компанията, а те не стигат просто до екзотични дестинации и финансова независимост. Форевър е едно голямо семейство, чиято основна цел е да ни сплоти и да ни помогне да бъдем по-добри с всеки изминал ден.
-                    <span><br>Мечтите се сбъдват</span>, но не се случва просто така. Те изискват действие, решителност и Вяра, Вяра в себе си. Така че, ако и ти си готов за положителна промяна, позволи ми да те въведа в един нов Свят изпълнен с нови приключения, сега е момента…</p>
-                </div>
-            <div class="button"><a href="contacts.html"><button type="button">Започни своето пътешествие!</button></a></div>
-        </main>
-        <!---------------------Footer--------------------->
-        <footer class="footer">
-            <div class="left">
-                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100080698834400"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iglika.velichkova/"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@iglikarumenova"><i class="bi bi-youtube"></i></a></div>
-                <p class="p1">Контакти</p>
-                <p class="telephone"><i class="bi bi-telephone">&nbsp;&nbsp;+359 88 766 3362</i></p>
-                <p class="email"><i class="bi bi-envelope">&nbsp;&nbsp;&nbsp;iglika.velichkova@gmail.com</i></p>
-                <p class="name">Иглика Величкова</p>
-            </div>
-            <div class="center">
-                <p class="copyright">Copyright © 2023 Иглика Величкова</p>
-            </div>
-            <div class="right">
-                <div class="logo"><img src="index_img/IglikaLogo.png" alt="logo"></div>
-                <p class="FAQ"></i><a href="FAQ.html">Често задавани въпроси</a></p>
-                <p class="termsOfUse"><a href="termsOfUse.html">Условия за ползване</a></p>
-                <p class="biscuits"><a href="Buscuits.html">Бисквитки</a></p>
-            </div>
-        </footer>
-    </body>
+          </li>
+          <li><a href="contacts.html">Контакти</a></li>
+          <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- -------------------Main part--------------------->
+    <div class="cover"><img alt="" src="about_img/cover_img.png"></div>
+    <div class="main_section">
+      <div class="main_text">
+        <h1>Моето име е Иглика Величкова и съм собственик на Форевър бизнес вече повече от 10 години!</h1>
+      </div>
+      <div class="gallery"><img alt="a sky photo of an old city" src="Iglika-photos/Iglika/1.jpg"><img alt="a hot air balloon" src="Iglika-photos/Iglika/01.jpg"><img alt="a small boat" src="Iglika-photos/Iglika/2.jpg"><img alt="a forest" src="Iglika-photos/Iglika/3.jpg"></div>
+    </div>
+    <main class="main">
+      <h2>Нека Ви разкажа малко повече за компанията от която съм част, а именно<br>Форевър Ливинг...</h2>
+      <p class="paragraph">Основана 1978г., компанията има за цел да е открие най-добрите природни източници на здраве и красота и да ги сподели със Света. Поради тази причина се насочват към производството на алое вера. Компанията работи на принципа на мулти левъл маркетинг стратегия, като през 2021г. отчита приходи от 4 милиарда долара и мрежа от 9.3 милиона дистрибутори по Света. Това говори само по себе си за качеството на предлаганите продукти. Причините за доверието на толкова много хора в компанията са много, но някои от основните са:</p>
+      <ul class="first_list">
+        <li>Форевър Ливинг е най-големият производител и дистрибутор на алое вера в Света;</li>
+        <li>Оперира в повече от 160 държави;</li>
+        <li>Компанията не бива повлияна финансово от Covid-19 кризата.</li>
+        <li>Работят активно с благотворителни организации, които помагат в борбата с глада и бедността по света.</li>
+        <li>Ако станете част от Форевър ще имате възможността да се възползвате от безплатни обучения, както и спонсорски програми организирани от компанията, като:</li>
+      </ul>
+      <ul class="second_list">
+        <li><span>Форевър Глобално рали</span>– дава Ви възможност да научите за нови продукти от световни лидери и ръководители, както и да отпразнувате достигането на определен етап от развитието си в компанията на локации като: Малдиви, Бали, Тайланд, Сингапур и много други.</li>
+        <li><span>Chairman’s Bonus</span>– програма за бонуси на компанията, която връща процент от глобалните и приходи годишно на лидери и създатели на бизнес, за да ги възнагради за тяхната упорита работа и отдаденост.</li>
+        <li><span>Forever 2 Drive</span>– Ако се квалифицирате за този бонус получавате допълнителни приходи от компанията, които може да вложите в нова кола, лодка или каквото Ви прави щастливи!</li>
+      </ul>
+      <p class="paragraph1">Освен за подобряване здравето на Вас и хората около вас, Форевър може да допринесе с много повече! Всичко по-горе написано е повече от реалност, знам, защото се случи на мен, така де, не просто се случи…</p>
+      <p class="paragraph2">“Няма пряк път към успеха” - Рекс Моън</p>
+      <div class="container">
+        <div class="box"><img alt="Family photo" src="Iglika-photos/family/1.jpg"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/family/2.jpg"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/family/3.jpg"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/family/IMG_20220918_174823.jpg"><span></span></div>
+      </div>
+      <div class="my_story">
+        <h3>Как започна моето приключение с Форевър Ливинг...</h3>
+        <p class="paragraph3">Когато дъщеря ми беше само на година и половина, страдаше от упорита кашлица, която продължи почти година. След многобройни опити да ѝ помогна да се излекува по възможно най-щадящия начин, поради крепката ѝ възраст, стигнах до нещо, което в миналото се е смятало за „универсалната панацея“, а именно Алое Вера. За мой късмет имах приятелка която знаех, че се занимава с разпространение на това лековито растение. Тогава обаче се появи една основна пречка... Като семейство, което живееше с ограничен бюджет, не можех да си позволя да ѝ осигуря висококачествените продукти, от които се нуждаеше.</p>
+        <p class="paragraph4">Така започна моето пътуване с Форевър Ливинг- уплашена, несигурна, но с надежда!</p>Въпреки всички трудности през които преминах, за да ѝ осигуря алоето от което се нуждаеше осъзнах, че всичко до тук си е заслужавало усилията. Продуктите на Форевър помогнаха не само за подобряване здравето на моята дъщеря, но и се отразиха изключително благоприятно за повишаване имунитета на всички вкъщи! Въпреки че първоначално се колебаех да се присъединя към мулти левъл маркетинг индустрията поради негативната ѝ репутация, използвайки продуктите на Форевър, като клиент в продължение на две години, осъзнах, че определено си заслужава повече хора да научат за тях.
+        <p></p>
+      </div>
+      <div class="container">
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/1.JPG"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/2.jpg"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/3.jpg"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/4.JPG"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/5.JPG"><span></span></div>
+        <div class="box"><img alt="Family photo" src="Iglika-photos/team/6.JPG"><span></span></div>
+      </div>
+      <div class="my_story1">
+        <h4>Предизвикателствата са само прикрити възможности!</h4>
+        <p class="paragraph5">Днес след повече то 10 години в компанията смело мога да кажа, че взех правилното решение. Форевър отвори нови врати за мен и моето семейство. Получих възможността да разполагам не просто с достатъчно свободно време, което да прекарвам с близките си, но и с финансова свобода. Дестинации като Бали, Малдиви, Тайланд и много други вече не бяха просто мечти, а самата реалност. Реалност, която нямаше да е възможна, ако не бях повярвала във възможностите на компанията, а те не стигат просто до екзотични дестинации и финансова независимост. Форевър е едно голямо семейство, чиято основна цел е да ни сплоти и да ни помогне да бъдем по-добри с всеки изминал ден.<span><br>Мечтите се сбъдват</span>, но не се случва просто така. Те изискват действие, решителност и Вяра, Вяра в себе си. Така че, ако и ти си готов за положителна промяна, позволи ми да те въведа в един нов Свят изпълнен с нови приключения, сега е момента…</p>
+      </div>
+      <div class="button"><a href="contacts.html">
+          <button type="button">Започни своето пътешествие!</button></a></div>
+    </main>
+    <!-- -------------------Footer--------------------->
+
+    <script>
+      document.querySelectorAll('.arrow').forEach(function(arrow) {
+        arrow.addEventListener('click', function(e) {
+          e.stopPropagation();
+          let submenu = this.nextElementSibling;
+          submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    </script>
+  </body>
 </html>

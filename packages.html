@@ -1,170 +1,145 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Продукти</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="packages.css">
-        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    </head>
-    <body>
-        <!---------------------Navigation menu--------------------->
-        <div class="menu_bar">
-            <div class="logo">
-                <a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a>
-            </div>
-            <ul>
-                <li><a href="about.html">За мен</a></li>
-                <li>
-                    <a href="products.html">Продукти</a>
-                    <div class="dropdown_menu">
-                        <ul>
-                            <li><a href="health.html">Здраве и добавки</a>
-                                <div class="dropdown_menu1">
-                                    <ul>
-                                        <li><a href="drinks.html">Напитки</a></li>
-                                        <li><a href="supplements.html">Добавки</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="cosmetics.html">Козметика</a>
-                                <div class="dropdown_menu2">
-                                    <ul>
-                                        <li><a href="face.html">Грижа за лицето</a></li>
-                                        <li><a href="body.html">Грижа за тялото</a></li>
-                                        <li><a href="personal_hygiene.html">Лична хигиена</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="weightcontrol.html">Контрол на теглото</a></li>
-                            <li><a href="packages.html">Пакети</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="contacts.html">Контакти</a></li>
-                <li><a href="shop.html">Пазарувай с отстъпка</a></li>
-            </ul>
-        </div>
-        <!---------------------Main part--------------------->
-        <div class="cover">
-            <img src="products_img/packages_cover.png" alt="">
-        </div>
-        <main class="main">
-                <div class="button"><a href="shop.html"><button type="button">Присъедни се към моя екип и пазарувай с отстъпка!</button></a></div>
-                <div class="search">
-                    <h2>Намери продукт</h2>
-                    <i class="bi bi-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Търсене...">
-                    <div class="row" id="productList"></div>
-                </div>
-            <div class="container page-wrapper">
-                <div class="page-inner">
-                <div class="row"></div>
-                </div>
-            </div>
-            <div id="pagination"></div>
-        </main>
-        <!---------------------Footer--------------------->
-        <footer class="footer">
-            <div class="left">
-                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100080698834400"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/iglika.velichkova/"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@iglikarumenova"><i class="bi bi-youtube"></i></a></div>
-                <p class="p1">Контакти</p>
-                <p class="telephone"><i class="bi bi-telephone">&nbsp;&nbsp;+359 88 766 3362</i></p>
-                <p class="email"><i class="bi bi-envelope">&nbsp;&nbsp;&nbsp;iglika.velichkova@gmail.com</i></p>
-                <p class="name">Иглика Величкова</p>
-            </div>
-            <div class="center">
-                <p class="copyright">Copyright © 2023 Иглика Величкова</p>
-            </div>
-            <div class="right">
-                <div class="logo"><img src="index_img/IglikaLogo.png" alt="logo"></div>
-                <p class="FAQ"></i><a href="FAQ.html">Често задавани въпроси</a></p>
-                <p class="termsOfUse"><a href="termsOfUse.html">Условия за ползване</a></p>
-                <p class="biscuits"><a href="Buscuits.html">Бисквитки</a></p>
-            </div>
-        </footer>
-        <!---------------------Script--------------------->
-        <script>
-            let allProducts = [];
-            let currentPage = 1;
-            let currentProducts = [];
-            let filteredProducts = [];
-            const itemsPerPage = 16;
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>Продукти</title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="packages.css" rel="stylesheet">
+  <link href="header.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- -------------------Navigation menu--------------------->
+  <header>
+    <div class="logo"><a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
+    <input type="checkbox" id="menu-bar" title="menu-bar">
+    <label for="menu-bar"><img src="index_img/hamburger.png" alt=""></label>
+    <nav class="navbar">
+      <ul>
+        <li><a href="about.html">За мен</a></li>
+        <li><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+          <ul>
+            <li><a href="health.html">Здраве и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+              <ul>
+                <li><a href="drinks.html">Напитки</a></li>
+                <li><a href="supplements.html">Добавки</a></li>
+              </ul>
+            </li>
+            <li><a href="cosmetics.html">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+              <ul>
+                <li><a href="face.html">Грижа за лицето</a></li>
+                <li><a href="body.html">Грижа за тялото</a></li>
+                <li><a href="personal_hygiene.html">Лична хигиена</a></li>
+              </ul>
+            </li>
+            <li><a href="weightcontrol.html">Контрол на теглото</a></li>
+            <li><a href="packages.html">Пакети</a></li>
+          </ul>
+        </li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- -------------------Main part--------------------->
+  <div class="cover"><img alt="" src="products_img/packages_cover.png"></div>
+  <main class="main">
+    <div class="button"><a href="shop.html">
+        <button type="button">Присъедни се към моя екип и пазарувай с отстъпка!</button></a></div>
+    <div class="search">
+      <h2>Намери продукт</h2><i class="bi bi-search"></i>
+      <input id="searchInput" placeholder="Търсене..." onkeyup="searchFunction()" type="text">
+      <div class="row" id="productList"></div>
+    </div>
+    <div class="container page-wrapper">
+      <div class="page-inner">
+        <div class="row"></div>
+      </div>
+    </div>
+    <div id="pagination"></div>
+  </main>
+  <!-- -------------------Footer--------------------->
+  <!-- -------------------Script--------------------->
+  <script>
+    let allProducts = [];
+      let currentPage = 1;
+      let currentProducts = [];
+      let filteredProducts = [];
+      const itemsPerPage = 16;
+      async function fetchProducts() {
+      const response = await fetch('products_categories/packages/packages.json');
+      const products = await response.json();
+      allProducts = products;
+      }
+      function displayProducts(products) {
+      const row = document.querySelector('.row');
+      row.innerHTML = ''; // clear the row
+      products.forEach(product => {
+      const productElement = document.createElement('div');
+      productElement.classList.add('wrapper');
+      productElement.innerHTML = `
+      <div class="box-up">
+      <img class="img" src="${product.image}" alt="">
+      <div class="img-info">
+      <div class="info-inner">
+      <span class="p-id">№&nbsp;${product['p-id']}</span>
+      <span class="p-name">${product['p-name']}</span>
+      <span class="p-name2">${product['p-name2']}</span>
+      </div>
+      <div class="description">${product.description}</div>
+      </div>
+      </div>
+      <div class="box-down">
+      <div class="h-bg">
+      <div class="h-bg-inner"></div>
+      </div>
+      <a class="cart" href="#">
+      <span class="price">${product.price}</span>
+      <span class="see-more">
+      <span class="txt">Виж повече</span>
+      </span>
+      </a>
+      </div>`;
+      row.appendChild(productElement);
+      });
+      }
+      function paginateProducts() {
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      currentProducts = allProducts.slice(start, end);
+      displayProducts(currentProducts);
+      }
+      fetchProducts()
+      .then(() => {
+      paginateProducts();
+      updatePaginationButtons();
+      })
+      .catch(error => console.error('Error:', error));
+      function searchFunction() {
+      const input = document.getElementById('searchInput');
+      const filter = input.value.toUpperCase();
+      filteredProducts = allProducts.filter(product => {
+      return product['p-name'].toUpperCase().includes(filter) || product['p-name2'].toUpperCase().includes(filter);
+      });
+      if (filter) {
+      displayProducts(filteredProducts);
+      } else {
+      paginateProducts();
+      }
+      updatePaginationButtons();
+      }
+  </script>
 
-            async function fetchProducts() {
-                const response = await fetch('products_categories/packages/packages.json');
-                const products = await response.json();
-                allProducts = products;
-            }
-
-            function displayProducts(products) {
-                const row = document.querySelector('.row');
-                row.innerHTML = ''; // clear the row
-
-                products.forEach(product => {
-                    const productElement = document.createElement('div');
-                    productElement.classList.add('wrapper');
-
-                    productElement.innerHTML = `
-                    <div class="box-up">
-                        <img class="img" src="${product.image}" alt="">
-                        <div class="img-info">
-                        <div class="info-inner">
-                            <span class="p-id">№&nbsp;${product['p-id']}</span>
-                            <span class="p-name">${product['p-name']}</span>
-                            <span class="p-name2">${product['p-name2']}</span>
-                        </div>
-                        <div class="description">${product.description}</div>
-                        </div>
-                    </div>
-                    <div class="box-down">
-                        <div class="h-bg">
-                        <div class="h-bg-inner"></div>
-                        </div>
-                        <a class="cart" href="#">
-                        <span class="price">${product.price}</span>
-                        <span class="see-more">
-                            <span class="txt">Виж повече</span>
-                        </span>
-                        </a>
-                    </div>`;
-
-                    row.appendChild(productElement);
-                });
-            }
-
-            function paginateProducts() {
-                const start = (currentPage - 1) * itemsPerPage;
-                const end = start + itemsPerPage;
-                currentProducts = allProducts.slice(start, end);
-                displayProducts(currentProducts);
-            }
-
-            fetchProducts()
-            .then(() => {
-                paginateProducts();
-                updatePaginationButtons();
-            })
-            .catch(error => console.error('Error:', error));
-
-            function searchFunction() {
-                const input = document.getElementById('searchInput');
-                const filter = input.value.toUpperCase();
-
-                filteredProducts = allProducts.filter(product => {
-                    return product['p-name'].toUpperCase().includes(filter) || product['p-name2'].toUpperCase().includes(filter);
-                });
-
-                if (filter) {
-                    displayProducts(filteredProducts);
-                } else {
-                    paginateProducts();
-                }
-
-                updatePaginationButtons();
-            }
-
-    </script>
-    </body>
-</html>
+  <script>
+    document.querySelectorAll('.arrow').forEach(function(arrow) {
+      arrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        let submenu = this.nextElementSibling;
+        submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
