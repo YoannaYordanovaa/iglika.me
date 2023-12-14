@@ -1,80 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
 .footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  color: #182C00;
+  line-height: 1.5;
+  border-top: 0.5px solid #a3a3a386;
+  
+}
+
+.left, .right {
+  padding: 20px;
+}
+
+.left .p1 {
+  font-size: 34px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.left .telephone{
+  padding-bottom: 5px;
+}
+
+.left .name{
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.left .icon a{
+  color: #182C00;
+  text-decoration: none;
+  transition: all 0.2s;  
+}
+
+.left .icon a:hover{
+  color: #F82536;
+}
+
+.right{
+  text-align: right;
+}
+
+.right .logo{
+  padding-bottom: 10px;
+  
+}
+
+.right a{
+  color: #182C00;
+  text-decoration: none;
+}
+
+.right a:hover {
+  font-weight: 500;
+  color: #F82536;
+}
+
+.center{
+  text-align: center;
+  align-self: end;
+  padding-bottom: 5px;
+}
+
+.center .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 1140px) {
+
+  .logo1 img{
+      width: 147px;
+      height: 66px;
+  }
+
+  .footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    margin-top: 3%;
-    width: 100%;
-    color: #182C00;
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    line-height: 1.5;
-    border-top: 0.5px solid #a3a3a3aa;
-    background-image: url(index_img/footer.png);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    padding-top: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
   }
-  
-  .footer .left{
-    text-align: left;
+
+  .right{
+    text-align: center;
     line-height: 2;
-    color: #182C00;
   }
-  
-  .footer .left .p1{
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
-  .left .telephone .email{
-    padding-bottom: 2%;
-  }
-  
-  .left .name{
-    padding-top: 1%;
-  }
-  
-  .left .icon a{
-    color: #182C00;
-  }
-  
-  .footer .name{
-    font-weight: 600;
-  }
-  
-  .footer .right{
-    text-align: right;
-    font-weight: 300;
-    color: #182C00;
-    padding-top: 3%;
-  }    
-  
-  .footer .right a{
-    color: #182C00;
-    text-decoration: none;
-    transition: all 0.2s;  
-  }
-  
-  .footer .right a:hover{
-    font-weight: 500;
-    color: #F82536;
-  }
-  
-  .right .logo img{
-    padding: 0;
-    width: 186px;
-    height: 73px;
-    text-align: left;
-  }
-  
-  .footer .center .copyright{
-    font-weight: 400;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 14px;
-    text-align: center;
-    
-  }
+}
