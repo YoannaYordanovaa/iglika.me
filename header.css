@@ -103,7 +103,7 @@ header label{
     }
 
     header{
-        padding: 10px 7%;
+        padding: 20px 7%;
     }
 
     header label{
@@ -114,9 +114,9 @@ header label{
         position: fixed; 
         left: 0;
         right: 0;
-        top: 15vh;
+        top: 100px;
         bottom: 0;
-        background: #fff;
+        background: #ffffff;
         display: none;
         width: 100%;
         height: auto;
