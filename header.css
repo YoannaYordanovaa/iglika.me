@@ -70,7 +70,7 @@ header .navbar ul li ul{
 
 header .navbar ul li ul li{
     width: 100%;
-    padding: 6%;
+    padding: 14px;
     border-bottom: solid 1px rgba(0, 0, 0, .1);
 }
 
@@ -100,6 +100,12 @@ header label{
     .logo img{
         width: 147px;
         height: 66px;
+        
+    }
+
+    .logo{
+        margin-left: -17px;
+        margin-top: -10px;
     }
 
     header{
@@ -114,7 +120,7 @@ header label{
         position: fixed; 
         left: 0;
         right: 0;
-        top: 100px;
+        top: 82px;
         bottom: 0;
         background: #ffffff;
         display: none;
@@ -149,7 +155,7 @@ header label{
 
     header .navbar span {
         display: block;
-        padding-top: 5%;
+        padding-top: 20px;
         
     }
 }
