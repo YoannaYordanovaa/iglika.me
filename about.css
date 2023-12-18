@@ -199,3 +199,63 @@ color: #182C00;
   }
 
 
+/*------------------ Footer ------------------*/
+@media (max-width: 1140px) {
+
+  .main{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .main_section{
+    margin-top: 120px;
+  }
+
+  .cover img{
+    display: none;
+  }
+
+  .main_text h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .gallery > img {
+    grid-area: 1/1;
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  .main h2{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+
+  .main .paragraph2{
+    font-size: 30px;
+  }
+
+  .my_story h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .my_story1 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    height: 170px;
+  }
+
+  .button button{
+    padding: 12px 14px;
+    font-size: 18px;
+    margin-top: 3%;
+  }
+}
