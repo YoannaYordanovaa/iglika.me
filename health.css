@@ -268,3 +268,32 @@
   
   
 /*------------------ Footer ------------------*/
+
+
+@media (max-width: 1140px){
+  
+
+  .cover img{
+    margin-top: 120px;
+    }
+
+  .button button{
+    padding: 10px 12px;
+    font-size: 16px;
+    margin-bottom: 3%;
+    background-color: #F82536;
+    color: #fff;
+  }
+  
+  main .search h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+  
+  main .search input{
+    width: 100%;
+    }
+  
+  }
