@@ -10,6 +10,10 @@
     margin-top: 10%;
     margin-bottom: 2%;
     }
+
+  .cover_mobile img{
+    display: none;
+  }
     
   main{
     margin-left: 5%;
@@ -276,6 +280,14 @@
   .cover img{
     display: none;
     }
+
+  .cover_mobile img{
+    display: flex;
+    width: 100%;
+    padding-top: 90px;
+    object-fit: cover;
+    object-position: center;
+  }
 
   .button button{
     padding: 10px 12px;
