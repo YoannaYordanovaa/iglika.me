@@ -69,6 +69,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+#first_name, #last_name, #email, #message{
+  background-color: rgb(236, 236, 236);
+}
+
 input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 12px;
@@ -155,4 +159,5 @@ input[type=submit]:hover{
   .right-side h1{
     font-size: 30px;
   }
+
 }

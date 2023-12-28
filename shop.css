@@ -143,3 +143,44 @@
 }
 
 /*------------------ Footer ------------------*/
+
+
+
+@media (max-width: 990px){
+  .cover img{
+    display: none;
+  }
+  
+  .main_section{
+    position: relative;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #182C00;
+  }
+  
+  .main_section h1{
+    margin-bottom: 20px;
+    font-size: 46px;
+    text-align: center;
+  }
+  
+  .main_text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .main_text_left .circle{
+    padding: 70px;
+    font-size: 50px;
+  }
+
+  .main_text_right .circle{
+    padding: 70px;
+    font-size: 50px;
+  }
+
+}
