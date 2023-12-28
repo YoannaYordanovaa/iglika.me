@@ -112,3 +112,47 @@ input[type=submit]:hover{
 
 /*------------------ Footer ------------------*/
 
+
+
+@media (max-width: 990px){
+
+  .cover img{
+    display: none;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+  }
+
+  .left-side {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.266);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .left-side p{
+    padding-top: 8px;
+  }
+
+  .left-side h2{
+    padding-bottom: 30px;
+  }
+
+  .id{
+    margin-top: 40px;
+    font-style: italic;
+  }
+
+  .right-side{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .right-side h1{
+    font-size: 30px;
+  }
+}
