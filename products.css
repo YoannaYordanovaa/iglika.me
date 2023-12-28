@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  padding-top: 2.3%;
+  padding-top: 50px;
   }
   
 .cover .text{
@@ -30,6 +30,7 @@
   padding-bottom: 3%;
   padding-left: 5%;
   padding-right: 50%;
+  margin-top: 20px;
   overflow: auto;
   }
 
@@ -318,7 +319,7 @@ main .search input{
 
 
 
-@media (max-width: 990px){
+@media (max-width: 1290px){
 
 .cover{
   display: none;
