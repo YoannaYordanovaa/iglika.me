@@ -200,7 +200,7 @@ color: #182C00;
 
 
 /*------------------ Footer ------------------*/
-@media (max-width: 1140px) {
+@media (max-width: 800px) {
 
   .main{
     margin-left: 25px;
@@ -250,7 +250,9 @@ color: #182C00;
   }
 
   .box {
-    height: 170px;
+    height: 100%;
+    background-color: #fea9692f;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.108);
   }
 
   .button button{
