@@ -84,7 +84,7 @@ color: #182C00;
 
 .main h2{
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 18px;
 }
 
 .main .first_list{
@@ -200,7 +200,7 @@ color: #182C00;
 
 
 /*------------------ Footer ------------------*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
   .main{
     margin-left: 25px;
@@ -216,7 +216,7 @@ color: #182C00;
   }
 
   .main_text h1{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     text-align: center;
     margin: 30px;
@@ -224,40 +224,55 @@ color: #182C00;
   
   .gallery > img {
     grid-area: 1/1;
-    width: 280px;
+    width: 250px;
     margin-bottom: 20px;
+  }
+
+  .main {
+    font-size: 16px;
   }
 
   .main h2{
     text-align: center;
-    margin-bottom: 2%;
-    font-size: 20px;
+    margin-bottom: 18px;
+    font-size: 18px;
   }
 
   .main .paragraph2{
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .my_story h3{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   .my_story1 h4{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .container{
+    height: 200px;
+  }
+
+  .container #box5{
+    display: none;
   }
 
   .box {
     height: 100%;
-    background-color: #fea9692f;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.108);
+    box-shadow: none;
   }
-
+  
+  .box > img {
+    width: 100%;
+  }
+  
   .button button{
     padding: 12px 14px;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 3%;
   }
 }
