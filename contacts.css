@@ -157,7 +157,17 @@ input[type=submit]:hover{
   }
 
   .right-side h1{
-    font-size: 30px;
+    font-size: 28px;
+  }
+
+  .left-side h1{
+    font-size: 28px;
+  }
+
+  .left-side h2{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
   }
 
 }
