@@ -1,31 +1,15 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html{
-  height: 100%;
-}
-
-body{
-  min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-
 .footer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 80px;
+  margin-top: 50px;
   color: #182C00;
   line-height: 1.5;
   border-top: 0.5px solid #a3a3a386;
   
+}
+
+.icon a {
+  padding-right: 15px;
 }
 
 .left, .right {
@@ -71,6 +55,10 @@ body{
   text-decoration: none;
 }
 
+.right p {
+  line-height: 1.6;
+}
+
 .right a:hover {
   font-weight: 500;
   color: #F82536;
@@ -104,5 +92,21 @@ body{
   .right{
     text-align: center;
     line-height: 2;
+    order: 1;
+    padding-top: 0;
+  }
+
+  .right .logo{
+    padding-bottom: 5px;
+  }
+
+  .center{
+    padding-bottom: 0;
+    padding-top: 0;
+    order: 2;
+  }
+
+  .center .copyright{
+    font-weight: 300;
   }
 }
