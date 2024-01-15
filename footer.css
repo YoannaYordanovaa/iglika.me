@@ -44,8 +44,9 @@
   text-align: right;
 }
 
-.logo1{
-  padding-bottom: 20px;
+.logo1 img{
+  width: 147px;
+  height: 66px;
 }
 
 .right a{

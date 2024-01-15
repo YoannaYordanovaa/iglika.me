@@ -10,7 +10,7 @@
 
 .main_section{
   position: relative;
-  margin-top: -76%;
+  margin-top: -77%;
   margin-left: 10%;
   margin-right: 10%;
   color: #182C00;
@@ -181,6 +181,10 @@
   .main_text_right .circle{
     padding: 70px;
     font-size: 50px;
+  }
+
+  .p8 a {
+    word-wrap:break-word;
   }
 
 }
