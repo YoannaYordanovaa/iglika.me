@@ -9,15 +9,17 @@ position: relative;
 height: 100%;
 width: 100%;
 z-index: -1;
+margin-top: 12%;
 }
 
-.main_section{
-position: relative;
-margin-top: -47%;
-color: #182C00;
-}
 
 /*------------------ Main section ------------------*/
+
+.main_section{
+  position: relative;
+  margin-top: -60%;
+  color: #182C00;
+}
 
 .main{
   position: relative;
@@ -32,11 +34,16 @@ color: #182C00;
 }
 
 .main_text h1{
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 54px;
+  font-weight: 500;
   text-align: center;
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Marck Script', cursive;
+}
+
+.main_text h1 span{
+  color: #5CA600;
 }
 
 .gallery {
@@ -177,7 +184,8 @@ color: #182C00;
   cursor: pointer;
   border: none;
   border-radius: 6px;
-  font-size: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.266);
+  font-size: 18px;
   color: white;
   background-color: #F82536;
   font-family: 'Montserrat', sans-serif;
@@ -187,7 +195,7 @@ color: #182C00;
   margin: auto;
   text-align: center;
   display: block;
-  margin-top: 1%;
+  margin-top: 15px;
   }
 
 .button a{
@@ -199,7 +207,19 @@ color: #182C00;
   }
 
 
-/*------------------ Footer ------------------*/
+
+@media (max-width: 1024px) {
+
+  .cover img{
+    margin-top: 22%;
+  }
+
+  .main_section{
+    margin-top: -67%;
+  }
+}
+
+
 @media (max-width: 900px) {
 
   .main{
@@ -216,7 +236,7 @@ color: #182C00;
   }
 
   .main_text h1{
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
     margin: 30px;
@@ -273,6 +293,6 @@ color: #182C00;
   .button button{
     padding: 12px 14px;
     font-size: 16px;
-    margin-top: 3%;
+    margin-top: 7%;
   }
 }
