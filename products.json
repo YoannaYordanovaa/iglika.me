@@ -5,23 +5,26 @@
     "p-name": "Forever Aloe Vera Gel",
     "p-name2": "Гел от Алое Вера",
     "description": "Със съдържание на над 99,7% чист гел от вътрешността на листата на алое вера Барбаденсис, който се грижи за храносмилателната система.",
-    "price": "59.54 лв."
+    "price": "59.54 лв.",
+    "url": "1000.html"
   },
   {
     "image": "products_img\\health\\drinks\\forever_aloe_mango.jpg",
     "p-id": 1001,
     "p-name": "Forever Aloe Mango",
     "p-name2": "Алое Манго",
-    "description": "Подкрепете храносмилателната си система и се насладете на невероятния манго вкус!",
-    "price": "59.54 лв."
+    "description": "Подкрепете храносмилателната система и се насладете на невероятния манго вкус!",
+    "price": "59.54 лв.",
+    "url": "1001.html"
   },
   {
     "image": "products_img\\health\\drinks\\forever_aloe_berry_nectar.jpg",
     "p-id": 1002,
     "p-name": "Forever Aloe Berry Nectar",
     "p-name2": "Алое Бери Нектар",
-    "description": "90,7% чист гел от алое вера плюс натурални плодови концентрати за подкрепа на вашето здраве!",
-    "price": "59.54 лв."
+    "description": " 90,7% чист гел от алое вера плюс натурални плодови концентрати за подкрепа на вашето здраве!",
+    "price": "59.54 лв.",
+    "url": "1002.html"
   },
   {
     "image": "products_img\\health\\drinks\\tripack_forever_aloe_vera_gel.jpg",
@@ -29,7 +32,8 @@
     "p-name": "Aloe Vera Gel TriPack",
     "p-name2": "Гел от Алое Вера ТриПак",
     "description": "Троен пакет Гел от Алое Вера!",
-    "price": "178.61 лв."
+    "price": "178.61 лв.",
+    "url": "1003.html"
   },
   {
     "image": "products_img\\health\\drinks\\tripack_forever_aloe_mango.jpg",
@@ -37,7 +41,8 @@
     "p-name": "Forever Aloe Mango TriPak",
     "p-name2": "Алое Манго ТриПак",
     "description": "Троен пакет Алое Манго!",
-    "price": "178.61 лв."
+    "price": "178.61 лв.",
+    "url": "1004.html"
   },
   {
     "image": "products_img\\health\\drinks\\tripack_forever_aloe_berry.jpg",
@@ -45,15 +50,17 @@
     "p-name": "Aloe Berry Nectar TriPak",
     "p-name2": "Алое Бери Нектар ТриПак",
     "description": "Троен пакет Алое Бери нектар!",
-    "price": "178.61 лв."
+    "price": "178.61 лв.",
+    "url": "1005.html"
   },
   {
     "image": "products_img\\health\\drinks\\aloe_vera_gel_330ml__pack.jpg",
     "p-id": 1006,
     "p-name": "Forever Aloe Vera Gel mini",
     "p-name2": "Гел от Алое Вера мини",
-    "description": "99,7% чист гел от вътрешността на листата на алое вера, който се грижи за храносмилателната система. Сега в мини опаковка 12 броя х 330мл!",
-    "price": "238.12 лв."
+    "description": "Със съдържание на над 99,7% чист гел от вътрешността на листата на алое вера Барбаденсис, който се грижи за храносмилателната система. Сега в мини опаковка 12 броя х 330мл!",
+    "price": "238.12 лв.",
+    "url": "1006.html"
   },
   {
     "image": "products_img\\health\\drinks\\aloe_peaches_330ml_pack.jpg",
@@ -61,7 +68,8 @@
     "p-name": "Forever Aloe Peaches mini",
     "p-name2": "Алое Праскови мини",
     "description": "84,5% чист гел от алое вера, допълнен с натурално пюре и аромат на праскови! Сега в мини опаковка 12 броя х 330мл!",
-    "price": "238.12 лв."
+    "price": "238.12 лв.",
+    "url": "1007.html"
   },
   {
     "image": "products_img\\health\\drinks\\aloe_berry_nectar_330ml__pack.jpg",
@@ -69,15 +77,17 @@
     "p-name": "Forever Aloe Berry Nectar mini",
     "p-name2": "Алое Бери Нектар мини",
     "description": "90,7% чист гел от алое вера плюс натурални плодови концентрати за подкрепа на вашето здраве! Сега в мини опаковка 12 броя х 330мл!",
-    "price": "238.12 лв."
+    "price": "238.12 лв.",
+    "url": "1008.html"
   },
   {
     "image": "products_img\\health\\drinks\\forever_freedom.jpg",
     "p-id": 1009,
     "p-name": "Forever Freedom",
     "p-name2": "Форевър Фрийдъм",
-    "description": "Този напитка се гордее с висока концентрация от 89% чист гел от алое вера, който спомага за подкрепата на естествените защитни функции на нашето тяло.",
-    "price": "81.36 лв."
+    "description": " Този напитка се гордее с висока концентрация от 89% чист гел от алое вера, който спомага за подкрепата на естествените защитни функции на нашето тяло.",
+    "price": "81.36 лв.",
+    "url": "1009.html"
   },
   {
     "image": "products_img\\health\\drinks\\aloe_blossom_herbal_tea.jpg",
@@ -85,7 +95,8 @@
     "p-name": "Aloe Blossom Herbal Tea",
     "p-name2": "Билков чай с цветчета от Алое",
     "description": "Безкофеинова смес от листа, билки и подправки, която може да се консумира гореща или охладена.",
-    "price": "40.06 лв."
+    "price": "40.06 лв.",
+    "url": "1010.html"
   },
   {
     "image": "products_img\\health\\drinks\\fab_forever_active_boost.jpg",
@@ -93,15 +104,17 @@
     "p-name": "FAB Forever Active Boost",
     "p-name2": "ФАБ- Енергийна напитка",
     "description": "FAB Forever Active Boost е богат на витамини B2, B3, B6 и B12. Помага за поддържането на нормалната функция на имунната система и намалява умората.",
-    "price": "8.58 лв."
+    "price": "8.58 лв.",
+    "url": "1011.html"
   },
   {
     "image": "products_img\\health\\supplements\\fields_of_greens.jpg",
     "p-id": 1012,
-    "p-name": "Fields of Greens",
+    "p-name": "Fields of Greens\n",
     "p-name2": "Зелени поля",
     "description": "Fields of Greens е отличен източник на \"зелена храна\" и антиоксиданти.",
-    "price": "27.48 лв."
+    "price": "27.48 лв.",
+    "url": "1012.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_absorbent.jpg",
@@ -109,7 +122,8 @@
     "p-name": "Absorbent-C",
     "p-name2": "Абсорбент-С",
     "description": "Създаден, за да осигури на тялото ви препоръчителната дневна доза на витамин С по лесен и вкусен начин.",
-    "price": "40.06 лв."
+    "price": "40.06 лв.",
+    "url": "1013.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_arctic_sea.jpg",
@@ -117,7 +131,8 @@
     "p-name": "Forever Arctic Sea",
     "p-name2": "Арктическо море",
     "description": "Създаден, за да осигури балансирана комбинация от омега-3 мастни киселини.",
-    "price": "72.68 лв."
+    "price": "72.68 лв.",
+    "url": "1014.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_argi.jpg",
@@ -125,7 +140,8 @@
     "p-name": "Argi+",
     "p-name2": "Арги",
     "description": "Осигурява на тялото ви L-аргинин, мощна аминокиселина, по удобен и вкусен начин.",
-    "price": "156.84 лв."
+    "price": "156.84 лв.",
+    "url": "1015.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_b12_plus.jpg",
@@ -133,7 +149,8 @@
     "p-name": "Forever B12 Plus",
     "p-name2": "Форевър B12 плюс",
     "description": "Формула за освобождаване във времето, която осигурява постоянна доставка на активните съставки за тялото ви през целия ден.",
-    "price": "35.50 лв."
+    "price": "35.50 лв.",
+    "url": "1016.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_bee_pollen.jpg",
@@ -141,7 +158,8 @@
     "p-name": "Forever Bee Pollen",
     "p-name2": "Пчелен прашец",
     "description": "Със съдържание на чист пчелен прашец, комбиниран с мед и пчелно млечице.",
-    "price": "34.91 лв."
+    "price": "34.91 лв.",
+    "url": "1017.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_bee_propolis.jpg",
@@ -149,7 +167,8 @@
     "p-name": "Forever Bee Propolis",
     "p-name2": "Пчелен прополис",
     "description": "Добавката поддържа защитните сили на организма, съдържа естествени хранителни съединения и е източник на флавоноиди.",
-    "price": "72.68 лв."
+    "price": "72.68 лв.",
+    "url": "1018.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_calcium.jpg",
@@ -157,7 +176,8 @@
     "p-name": "Forever Calcium",
     "p-name2": "Форевър Калций",
     "description": "Създаден за да достави калций, витамин D и да помогне за поддържането на правилното здраве на костите.",
-    "price": "54.94 лв."
+    "price": "54.94 лв.",
+    "url": "1019.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_garlic-thyme.jpg",
@@ -165,7 +185,8 @@
     "p-name": "Forever Garlic-Thyme",
     "p-name2": "Чесън и мащерка",
     "description": "Съчетава всички ползи от чесъна и мащерката в едно.",
-    "price": "41.79 лв."
+    "price": "41.79 лв.",
+    "url": "1020.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_immublen.jpg",
@@ -173,7 +194,8 @@
     "p-name": "Forever Immublend",
     "p-name2": "Форевър имубленд",
     "description": "Поддържа всички аспекти на имунната система и е с високо съдържание на витамини C, D и цинк.",
-    "price": "48.08 лв."
+    "price": "48.08 лв.",
+    "url": "1021.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_immune_gummy.jpg",
@@ -181,15 +203,17 @@
     "p-name": "Forever Immune Gummy",
     "p-name2": "Форевър имуно гъми",
     "description": "Желирани бонбони с тропически вкус, които осигуряват комбинация от 10 витамина и цинк дневно.",
-    "price": "84.69 лв."
+    "price": "84.69 лв.",
+    "url": "1022.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_ivision.jpg",
     "p-id": 1023,
     "p-name": "Forever iVision",
     "p-name2": "Форевър Айвижън",
-    "description": "Съдържа комбинация от антиоксиданти и други хранителни вещества, които се грижат за поддържане оптималното здраве на очите.",
-    "price": "80.12 лв."
+    "description": "Съдържа комбинация от антиоксиданти и други хранителни вещества, които се грижат за поддържане оптималното здраве на очите. ",
+    "price": "80.12 лв.",
+    "url": "1023.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_marine_collagen.jpg",
@@ -197,15 +221,17 @@
     "p-name": "Forever Marine Coallagen",
     "p-name2": "Форевър Морски колаген",
     "description": "Висококачествен морски колаген,  полезен за хидратацията на кожата, структурата и здравето и.",
-    "price": "187.14 лв."
+    "price": "187.14 лв.",
+    "url": "1024.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_multi-maca.jpg",
     "p-id": 1025,
     "p-name": "Forever Multi-Maca",
     "p-name2": "Форевър Mулти-мака",
-    "description": "Включва внимателно подбрана смес от корени, плодове и ензими.",
-    "price": "60.68 лв."
+    "description": " Включва внимателно подбрана смес от корени, плодове и ензими.",
+    "price": "60.68 лв.",
+    "url": "1025.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_royal_jelly.jpg",
@@ -213,7 +239,8 @@
     "p-name": "Forever Royal Jelly",
     "p-name2": "Пчелно млечице",
     "description": "Съдържа естествени протеини, мастни киселини, минерални соли, аминокиселини и витамини за подкрепа на здравето.",
-    "price": "75.58 лв."
+    "price": "75.58 лв.",
+    "url": "1026.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_supergreens.jpg",
@@ -221,7 +248,8 @@
     "p-name": "Forever Supergreens",
     "p-name2": "Форевър Супергрийнс",
     "description": "Този продукт е смес от над 20 плода, зеленчуци, суперхрани и алое. Стимулира естествените нива на енергия и метаболизма и е богат на антиоксидантните витамини C и E.",
-    "price": "88.12 лв."
+    "price": "88.12 лв.",
+    "url": "1027.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_vitolize_men.jpg",
@@ -229,7 +257,8 @@
     "p-name": "Vitolize men",
     "p-name2": "Витолайз за него",
     "description": "Съдържа комбинация от билки, витамини, минерали включително цинк.",
-    "price": "68.68 лв."
+    "price": "68.68 лв.",
+    "url": "1028.html"
   },
   {
     "image": "products_img\\health\\supplements\\forever_vitolize_women.jpg",
@@ -237,7 +266,8 @@
     "p-name": "Vitolize women",
     "p-name2": "Витолайз за нея",
     "description": "Богата на желязо, което допринася за нормалната когнитивна функция и фолиева киселина.",
-    "price": "72.68 лв."
+    "price": "72.68 лв.",
+    "url": "1029.html"
   },
   {
     "image": "products_img\\health\\supplements\\infinite_by_forever_firming_complex.jpg",
@@ -245,23 +275,26 @@
     "p-name": "Infinite by Forever firming complex",
     "p-name2": "Стягащ комплекс",
     "description": "Със съдържание на витамин C, който помага за здравословната формация на колаген в кожата, биотин за поддържане на здрава коса и кожа, и допълнителен морски колаген.",
-    "price": "118.46 лв."
+    "price": "118.46 лв.",
+    "url": "1030.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\aloe_activator.jpg",
     "p-id": 1031,
     "p-name": "Aloe activator",
     "p-name2": "Алое активатор",
-    "description": "Този продукт съдържа над 98% гел от алое вера, което го прави идеален за чувствителна кожа.",
-    "price": "36.61 лв."
+    "description": "Този продукт съдържа над 98% гел от алое вера, което го прави идеален за чувствителна кожа. ",
+    "price": "36.61 лв.",
+    "url": "1031.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\awakening_eye_cream.jpg",
     "p-id": 1032,
     "p-name": "Awakening eye cream",
-    "p-name2": "Пробуждащ околоочен крем",
+    "p-name2": "Пробуждащ околоочен крем ",
     "description": "Предназначен да подобри и изглади чувствителната област около очите, видимо намалява появата на линии, бръчки и тъмни кръгове.",
-    "price": "41.79 лв."
+    "price": "41.79 лв.",
+    "url": "1032.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\balancing_toner.jpg",
@@ -269,7 +302,8 @@
     "p-name": "Balancing toner",
     "p-name2": "Балансиращ тоник",
     "description": "Помага да се балансира pH на кожата и да се премахне излишният остатък след използване на почистващи продукти.",
-    "price": "49.78 лв."
+    "price": "49.78 лв.",
+    "url": "1033.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\forever_aloe_lips.jpg",
@@ -277,7 +311,8 @@
     "p-name": "Aloe lips",
     "p-name2": "Алое липс",
     "description": "Най-доброто решение срещу напукани устни.",
-    "price": "8.00 лв."
+    "price": "8.00 лв.",
+    "url": "1034.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\forever_aloe_scrub.jpg",
@@ -285,7 +320,8 @@
     "p-name": "Aloe scrub",
     "p-name2": "Алое ексфолиант",
     "description": "Натурален ексфолиант за лице и тяло.",
-    "price": "36.08 лв."
+    "price": "36.08 лв.",
+    "url": "1035.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\forever_infinite.jpg",
@@ -293,7 +329,8 @@
     "p-name": "Infinite by Forever",
     "p-name2": "Инфинит от Форевър",
     "description": "Продуктите се грижат за това да намалят появата на фини линии и бръчки, да подобрят гладкостта на кожата и да подкрепят красотата отвътре навън.",
-    "price": "400.64 лв."
+    "price": "400.64 лв.",
+    "url": "1036.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\hydrating_serum.jpg",
@@ -301,7 +338,8 @@
     "p-name": "Hydrating serum",
     "p-name2": "Хидратиращ серум",
     "description": "Продукт за грижа за кожата, предназначен да осигури максимална хидратация.",
-    "price": "80.12 лв."
+    "price": "80.12 лв.",
+    "url": "1037.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\infinite_by_forever__firming_serum.jpg",
@@ -309,7 +347,8 @@
     "p-name": "Infinite by Forever firming serum",
     "p-name2": "Инфинит стягащ серум",
     "description": "Допълва естествените процеси в кожата, за да увеличи здравината и да намали появата на фини линии и бръчки",
-    "price": "119.05 лв."
+    "price": "119.05 лв.",
+    "url": "1038.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\infinite_by_forever__hydrating_cleanser.jpg",
@@ -317,15 +356,17 @@
     "p-name": "Infinite by Forever hydrating cleanser",
     "p-name2": "Хидратиращ почистващ лосион",
     "description": "Хидратира кожата, нежно отмива мръсотията и мазнините без да изсушава.",
-    "price": "60.11 лв."
+    "price": "60.11 лв.",
+    "url": "1039.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\infinite_by_forever_restoring.jpg",
     "p-id": 1040,
     "p-name": "Infinite by Forever restoring creme",
     "p-name2": "Възстановяващ крем",
-    "description": "Абсорбира се в кожата, като я оставя хидратирана и гладка.",
-    "price": "132.77 лв."
+    "description": " Абсорбира се в кожата, като я оставя хидратирана и гладка.",
+    "price": "132.77 лв.",
+    "url": "1040.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\Protecting_Day_Lotion.jpg",
@@ -333,7 +374,8 @@
     "p-name": "Protecting Day Lotion",
     "p-name2": "Защитен дневен лосион",
     "description": "Този лосион предлага широкоспектърна SPF 20 защита и подхранва кожата.",
-    "price": "83.57 лв."
+    "price": "83.57 лв.",
+    "url": "1041.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\smoothing_exfoliator.jpg",
@@ -341,15 +383,17 @@
     "p-name": "Smoothing exfoliator",
     "p-name2": "Изглаждащ ексфолиант",
     "description": "Премахва мъртвите клетки и изглажда текстурата, за по-сияеща кожа.",
-    "price": "41.79 лв."
+    "price": "41.79 лв.",
+    "url": "1042.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\sonya_daily_skincare.jpg",
     "p-id": 1043,
     "p-name": "Sonya daily skincare system",
-    "p-name2": "Ежедневна грижа за кожата \"Соня",
+    "p-name2": "Ежедневна грижа за кожата \"Соня\"",
     "description": "Формулирана специално за комбинирана кожа, цялата линия осигурява най-доброто от науката и природата за всеки аспект от ежедневната ви грижа за кожата.",
-    "price": "195.18 лв."
+    "price": "195.18 лв.",
+    "url": "1043.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\sonya__illuminating_gel.jpg",
@@ -357,7 +401,8 @@
     "p-name": "Sonya illuminating gel",
     "p-name2": "Озаряващ гел",
     "description": "Помага за хармонизация на тена на кожата и намаляване на пигментните петна.",
-    "price": "50.92 лв."
+    "price": "50.92 лв.",
+    "url": "1044.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\sonya__refining_gel_mask.jpg",
@@ -365,7 +410,8 @@
     "p-name": "Sonya refining gel mask",
     "p-name2": "Усъвършенстваща гел маска",
     "description": "Поддържа външния вид на кожата, контролира мазнините и озарява тена.",
-    "price": "53.82 лв."
+    "price": "53.82 лв.",
+    "url": "1045.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\sonya__refreshing_gel_cleanser.jpg",
@@ -373,7 +419,8 @@
     "p-name": "Sonya refreshing gel cleanser",
     "p-name2": "Освежаващ почистващ гел",
     "description": "Иновативен почистващ гел за лице, специално разработен за комбинирана кожа.",
-    "price": "53.82 лв."
+    "price": "53.82 лв.",
+    "url": "1046.html"
   },
   {
     "image": "products_img\\cosmetics\\face\\sonya__soothing_gel_moisturizer.jpg",
@@ -381,7 +428,8 @@
     "p-name": "Sonya soothing gel moisturizer",
     "p-name2": "Успокояващ овлажняващ гел",
     "description": "Осигурява мощно успокояващо и овлажняващо действие за комбинирана кожа.",
-    "price": "58.96 лв."
+    "price": "58.96 лв.",
+    "url": "1047.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_body_lotion.jpg",
@@ -389,7 +437,8 @@
     "p-name": "Aloe Body Lotion",
     "p-name2": "Алое лосион за тяло",
     "description": "Ежедневен овлажняващ продукт, който омекотява кожата и я оставя хидратирана и здрава.",
-    "price": "34.34 лв."
+    "price": "34.34 лв.",
+    "url": "1048.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_cooling_lotion.jpg",
@@ -397,23 +446,26 @@
     "p-name": "Aloe Cooling lotion",
     "p-name2": "Aлое oхлаждащ лосион",
     "description": "Предоставя охлаждащо усещане с освежаващ ментов аромат.",
-    "price": "34.34 лв."
+    "price": "34.34 лв.",
+    "url": "1049.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_first.jpg",
     "p-id": 1050,
     "p-name": "Aloe First",
     "p-name2": "Алое Фърст",
-    "description": "Успокояващ продукт за грижа за кожата, съдържащ гел от алое вера, пчелен прополис и единадесет полезни билкови екстракта.",
-    "price": "45.24 лв."
+    "description": "Успокояващ продукт за грижа за кожата, съдържащ гел от алое вера, пчелен прополис и единадесет полезни билкови екстракта. ",
+    "price": "45.24 лв.",
+    "url": "1050.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_msm_gel.jpg",
     "p-id": 1051,
     "p-name": "Aloe MSM Gel",
     "p-name2": "Алое МСМ гел",
-    "description": "Предназначен за облекчаване на ставни и мускулни болки.",
-    "price": "52.68 лв."
+    "description": "Предназначен за облекчаване на ставни и мускулни болки. ",
+    "price": "52.68 лв.",
+    "url": "1051.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_propolis_creme.jpg",
@@ -421,7 +473,8 @@
     "p-name": "Aloe Propolis Creme",
     "p-name2": "Алое Прополис крем",
     "description": "Витамините A, E и C работят за подхранване и овлажняване на кожата, докато прополисът помага за подмладяване на кожата.",
-    "price": "45.24 лв."
+    "price": "45.24 лв.",
+    "url": "1052.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_sunscreen.jpg",
@@ -429,7 +482,8 @@
     "p-name": "Aloe sunscreen",
     "p-name2": "Алое Сънскрийн",
     "description": "Този слънцезащитен продукт предлага водоустойчива SPF 30 защита от UVA и UVB лъчи, плюс успокояващата сила на алое.",
-    "price": "47.53 лв."
+    "price": "47.53 лв.",
+    "url": "1053.html"
   },
   {
     "image": "products_img\\cosmetics\\body\\aloe_vera_gelly.jpg",
@@ -437,7 +491,8 @@
     "p-name": "Aloe Vera Gelly",
     "p-name2": "Алое Вера гел",
     "description": "Почти идентичен с вътрешността на листата на алое вера, овлажнява, подхранва и успокоява кожата",
-    "price": "34.34 лв."
+    "price": "34.34 лв.",
+    "url": "1054.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\aloe_avocado_face.jpg",
@@ -445,7 +500,8 @@
     "p-name": "Aloe Avocado Face & Body Soap",
     "p-name2": "Алое и авокадо сапун за лице и тяло",
     "description": "Достатъчно нежен за цялото ви тяло и лице с аромат на свежо набрани цитрусови плодове.",
-    "price": "13.76 лв."
+    "price": "13.76 лв.",
+    "url": "1055.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\aloe_body_wash.jpg",
@@ -453,15 +509,17 @@
     "p-name": "Aloe Body Wash",
     "p-name2": "Алое Душ-гел",
     "description": "Формула без сулфати предлага мощно, но нежно почистване със съставки които подхранват кожата, отмиват мръсотията и я оставят мека и освежена.",
-    "price": "51.49 лв."
+    "price": "51.49 лв.",
+    "url": "1056.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\aloe_liquid_soap.jpg",
     "p-id": 1057,
     "p-name": "Aloe Liquid Soap",
     "p-name2": "Алое течен сапун",
-    "description": "Овлажнява и почиства, оставяйки кожата ви по-мека, по-гладка и по-сияйна.",
-    "price": "42.92 лв."
+    "description": "Овлажнява и почиства, оставяйки кожата ви по-мека, по-гладка и по-сияйна. ",
+    "price": "42.92 лв.",
+    "url": "1057.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\aloe-jojoba_shampoo.jpg",
@@ -469,15 +527,17 @@
     "p-name": "Aloe-Jojoba Shampoo",
     "p-name2": "Алое-жожоба шампоан",
     "description": "Направен с чист алое вера гел и укрепващо жожоба масло, този шампоан е перфектен за ежедневна употреба,",
-    "price": "49.78 лв."
+    "price": "49.78 лв.",
+    "url": "1058.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\aloe-jojoba_conditioner.jpg",
     "p-id": 1059,
     "p-name": "Aloe-Jojoba Conditioner",
     "p-name2": "Алое-жожоба балсам",
-    "description": "Подхранва и хидратира в дълбочина, като омекотява, изглажда и прави косата по-лесна за разресване.",
-    "price": "53.25 лв."
+    "description": "Подхранва и хидратира в дълбочина, като омекотява, изглажда и прави косата по-лесна за разресване. ",
+    "price": "53.25 лв.",
+    "url": "1059.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\forever_bright.jpg",
@@ -485,7 +545,8 @@
     "p-name": "Forever Bright Toothgel",
     "p-name2": "Гел за зъби Форевър брайт",
     "description": "Формулата без флуорид оставя след себе си усещане за свежест и чистота.",
-    "price": "17.74 лв."
+    "price": "17.74 лв.",
+    "url": "1060.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\forever_hand_sanitizer.jpg",
@@ -493,7 +554,8 @@
     "p-name": "Forever Instant Hand Cleanser",
     "p-name2": "Почистващ гел за ръце",
     "description": "Предназначен да убива 99,9% от бактериите и да оставя ръцете ви чисти и освежени в мига, когато не можете да използвате сапун и вода.",
-    "price": "30.34 лв."
+    "price": "30.34 лв.",
+    "url": "1061.html"
   },
   {
     "image": "products_img\\cosmetics\\personal hygiene\\gentleman_s_pride.jpg",
@@ -501,7 +563,8 @@
     "p-name": "Gentleman’s Pride After Shave Balm",
     "p-name2": "Балсам за след бръснене",
     "description": "Предлага ексклузивна комбинация от съставки, които осигуряват охлаждащо усещане и прекрасен аромат.",
-    "price": "34.34 лв."
+    "price": "34.34 лв.",
+    "url": "1062.html"
   },
   {
     "image": "products_img\\packages\\1cc_touch_of_forever.jpg",
@@ -509,7 +572,8 @@
     "p-name": "Touch of Forever",
     "p-name2": "Докосване до Форевър",
     "description": "Пакет от популярни продукти от Forever Living Products, предназначени да ви запознаят с предложенията на марката.",
-    "price": "1 116.34 лв."
+    "price": "1 116.34 лв.",
+    "url": "1063.html"
   },
   {
     "image": "products_img\\packages\\330ml_forever_aloe_vera_gel_argi_tripack.jpg",
@@ -517,7 +581,8 @@
     "p-name": "ARGI+ & Aloe Mini TriPak",
     "p-name2": "ТриПак АРГИ+ и Алое мини",
     "description": "В пакета ще откриете три мини опаковки гел от алое вера по 330 мл и три пакетчета Арги+.",
-    "price": "75.19 лв."
+    "price": "75.19 лв.",
+    "url": "1064.html"
   },
   {
     "image": "products_img\\packages\\StartYourJourneyPack.png",
@@ -525,7 +590,8 @@
     "p-name": "Start Your Journey Pack",
     "p-name2": "Пакет „Стартирай пътешествието си“",
     "description": "Ако търсите начин да започнете собствен Форевър бизнес или да пазарувате продуктите на Форевър Ливинг с 30% отстъпка, този пакет може да ви заинтригува.",
-    "price": "823,36 лв"
+    "price": "Само за преференциални клиенти",
+    "url": "1065.html"
   },
   {
     "image": "products_img\\weight_control\\FOREVER_ULTRA_CHOC_SHAKE.jpg",
@@ -533,7 +599,8 @@
     "p-name": "Forever Lite Ultra with Aminotein chocolate",
     "p-name2": "Форевър лайт ултра с аминотеин шоколад",
     "description": "Протеинова добавка, която предоставя 17 грама протеин от растителен източник на порция със страхотен ванилов вкус.",
-    "price": "57.23 лв."
+    "price": "57.23 лв.",
+    "url": "1066.html"
   },
   {
     "image": "products_img\\weight_control\\FOREVER_ULTRA_VANILLE_SHAKE.jpg",
@@ -541,7 +608,8 @@
     "p-name": "Forever Lite Ultra with Aminotein vanilla",
     "p-name2": "Форевър лайт ултра с аминотеин ванилия",
     "description": "Протеинова добавка, която предоставя 17 грама протеин от растителен източник на порция със страхотен шоколадов вкус.",
-    "price": "57.23 лв."
+    "price": "57.23 лв.",
+    "url": "1067.html"
   },
   {
     "image": "products_img\\weight_control\\FOREVER_PLANT_PROTEIN.jpg",
@@ -549,7 +617,8 @@
     "p-name": "Forever Plant Protein",
     "p-name2": "Форевър Растителен протеин",
     "description": "Веганска, безмлечна и без соеви продукти протеинова добавка, която предлага 17 грама протеин на порция.",
-    "price": "127.62 лв."
+    "price": "127.62 лв.",
+    "url": "1068.html"
   },
   {
     "image": "products_img\\weight_control\\Forever_Sensatiable.jpg",
@@ -557,7 +626,8 @@
     "p-name": "Forever Sensatiable",
     "p-name2": "Форевър Сенсейшабъл",
     "description": "Естествено подсладена дъвчаща таблетка, която помага за контролиране на апетита.",
-    "price": "60.11 лв."
+    "price": "60.11 лв.",
+    "url": "1069.html"
   },
   {
     "image": "products_img\\weight_control\\FOREVER_LEAN.jpg",
@@ -565,7 +635,8 @@
     "p-name": "Forever Lean",
     "p-name2": "Форевър Лийн",
     "description": "Помага за блокиране на абсорбцията на калории от мазнини и въглехидрати.",
-    "price": "86.44 лв."
+    "price": "86.44 лв.",
+    "url": "1070.html"
   },
   {
     "image": "products_img\\weight_control\\FAST_BREAK_BARS.jpg",
@@ -573,15 +644,17 @@
     "p-name": "Forever FastBreak",
     "p-name2": "Форевър Фаст Брейк",
     "description": "Вкусен, пълен с витамини и зареден с 11 грама протеин.",
-    "price": "10.31 лв."
+    "price": "10.31 лв.",
+    "url": "1071.html"
   },
   {
     "image": "products_img\\weight_control\\DX4_BODY_BALANCING_SYSTEM.jpg",
     "p-id": 1072,
     "p-name": "DX4 Body Balancing System",
     "p-name2": "DX4 Балансираща програма",
-    "description": "Четиридневна програма, която помага за рестартиране на вашето физическо, ментално и духовно здраве.",
-    "price": "320.50 лв."
+    "description": "Четиридневна програма, която помага за рестартиране на вашето физическо, ментално и духовно здраве чрез седем хранителни продукта, практики за установяване на мисленето и ръководство за приемане на храната.",
+    "price": "320.50 лв.",
+    "url": "1072.html"
   },
   {
     "image": "products_img\\weight_control\\forever_clean-9.jpg",
@@ -589,7 +662,8 @@
     "p-name": "Clean-9",
     "p-name2": "",
     "description": "Програмата включва различни продукти, които ще ви помогнат да постигнете вашите цели за отслабване, както и физически упражнения.",
-    "price": "270.32 лв."
+    "price": "270.32 лв.",
+    "url": "1073.html"
   },
   {
     "image": "products_img\\weight_control\\f15_vanilla.jpg",
@@ -597,6 +671,7 @@
     "p-name": "F15",
     "p-name2": "",
     "description": "15-дневна програма за напреднали в областта на храненето и фитнеса, която може да ви помогне да промените своята рутина за фитнес и хранене.",
-    "price": "337.32 лв."
+    "price": "337.32 лв.",
+    "url": "1074.html"
   }
-]
+ ]
