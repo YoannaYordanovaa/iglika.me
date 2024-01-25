@@ -46,56 +46,74 @@
       </nav>
     </header>
     <main class="main_section">
-      <div class="image_section">
-        <section class="gallery">
-          <div class="thumbs">
-            <div class="gallery__item">
-              <input type="radio" id="img-1" name="gallery" class="gallery__selector"/>
-              <label for="img-1" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F13.jpg" alt=""/></label>
-              <img class="gallery__img" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F13.jpg" alt=""/>
+        <div class="gallery">
+          <div class="gallery__item">
+            <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+            <label for="img-1" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F13.jpg" alt=""/></label>
+            <img class="gallery__img" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F13.jpg" alt=""/>
+          </div>
+          <div class="gallery__item">
+            <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+            <label for="img-2" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F12.jpg" alt=""/></label>
+            <img class="gallery__img" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F12.jpg" alt=""/>
+          </div>
+          <div class="gallery__item">
+            <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+            <label for="img-3" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Social FBO Content BG-22.jpg" alt=""/></label>
+            <img class="gallery__img" src="Assets 2024-01-10 (7)/Social FBO Content BG-22.jpg" alt=""/>
+          </div>
+        </div>
+        <div class="text">
+            <h1>Aloe Vera Gel</h1>
+            <h2>Гел от Алое Вера</h2>
+            <p class="p-id">Продуктов номер: 1000</p>
+            <div class="container">
+              <div class="slideshow">
+                  <div id="slide-1" class="slide">
+                      <a href="#slide-3"></a>
+                      <a href="#slide-2"></a>
+                      <img class="image1" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F13.jpg" />
+                  </div>
+                  <div id="slide-2" class="slide">
+                      <a href="#slide-1"></a>
+                      <a href="#slide-3"></a>
+                      <img class="image2" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F12.jpg" />
+                  </div>
+                  <div id="slide-3" class="slide">
+                      <a href="#slide-2"></a>
+                      <a href="#slide-1"></a>
+                      <img class="image3" src="Assets 2024-01-10 (7)/Social FBO Content BG-22.jpg" />
+                  </div>
+              </div>
+              <div class="pagination">
+                <a href="#slide-1"><span>1</span></a>
+                <a href="#slide-2"><span>2</span></a>
+                <a href="#slide-3"><span>3</span></a>
+                <a href="#slide-4"><span>4</span></a>
+              </div>
+          </div>
+            <p class="txt">Алое Вера Гел съдържа 99,7% чист гел от вътрешността на листата на растението алое вера, който бива извлечен на ръка, за да се осигури добиването на максимално качествен продукт. Той е предназначен да насърчава цялостното благосъстояние и е популярен избор сред тези, които търсят естествени добавки в подкрепа на здравето си. Сега в Тетра Пак опаковка, изработена от 100% рециклируеми материали! Основните му предимства се изразяваат в поддържане здравето на храносмилането: Алое вера може да спомогне за облекчаване при храносмилателен дискомфорт, подкрепа на имунната система: Алое вера съдържа антиоксиданти и витамини, които могат да помогнат за засилване на имунната система, съдържание на естествени хранителни вещества, като витамини А, С и Е, както и калций, магнезий и калий.</p>
+            <p class="price">59.54 лв</p>
+            <div class="tab1">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Content')">Състав<i class="bi bi-arrow-down-short"></i></button>
+                <button class="tablinks" onclick="openTab(event, 'Use')">Употреба<i class="bi bi-arrow-down-short"></i></button>
+                <button class="tablinks" onclick="openTab(event, 'Storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
             </div>
-            <div class="gallery__item">
-              <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-              <label for="img-2" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F12.jpg" alt=""/></label>
-              <img class="gallery__img" src="Assets 2024-01-10 (7)/Forever_Awards_Social_101223-BG-02_F12.jpg" alt=""/>
+            <div class="tabcontent" id="Content">
+                <h2>Състав</h2>
+                <p>Стабилизиран гел от алое вера [гел от алое вера (99,7%), витамин С (аскорбинова киселина), антиоксидант (аскорбинова киселина), регулатор на киселинността (лимонена киселина)].</p>
             </div>
-            <div class="gallery__item">
-              <input type="radio" id="img-3" checked name="gallery" class="gallery__selector"/>
-              <label for="img-3" class="gallery__thumb"><img src="Assets 2024-01-10 (7)/Social FBO Content BG-22.jpg" alt=""/></label>
-              <img class="gallery__img" src="Assets 2024-01-10 (7)/Social FBO Content BG-22.jpg" alt=""/>
+            <div class="tabcontent" id="Use">
+                <h2>Употреба</h2>
+                <p>Разклатете добре преди употреба! Три приема дневно по 40 мл. Сипвайте всяка доза в чаша и разреждайте в 240 мл вода или сок. Сипвайте напитката в чаша, не пийте директно от опаковката, за да не попадат в нея бактерии, които могат да ускорят развалянето.</p>
             </div>
-            <div class="gallery__item">
-              <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-              <label for="img-4" class="gallery__thumb"><img src="" alt=""/></label>
-              <img class="gallery__img" src="" alt=""/>
+            <div class="tabcontent" id="Storage">
+                <h2>Съхранение</h2>
+                <p>На сухо и хладно място. След отваряне съхранявайте в изправено положение в хладилник (макс. 7°С) и консумирайте до 30 дни. Не вдигайте опаковката за гърлото, за да не я повредите.</p>
             </div>
           </div>
-        </section>
-      </div>
-      <d[iv class="text">
-        <h1>Aloe Vera Gel</h1>
-        <h2>Гел от Алое Вера</h2>
-        <p class="p-id">Продуктов номер: 1000</p>
-        <p class="txt">Алое Вера Гел съдържа 99,7% чист гел от вътрешността на листата на растението алое вера, който бива извлечен на ръка, за да се осигури добиването на максимално качествен продукт. Той е предназначен да насърчава цялостното благосъстояние и е популярен избор сред тези, които търсят естествени добавки в подкрепа на здравето си. Сега в Тетра Пак опаковка, изработена от 100% рециклируеми материали! Основните му предимства се изразяваат в поддържане здравето на храносмилането: Алое вера може да спомогне за облекчаване при храносмилателен дискомфорт, подкрепа на имунната система: Алое вера съдържа антиоксиданти и витамини, които могат да помогнат за засилване на имунната система, съдържание на естествени хранителни вещества, като витамини А, С и Е, както и калций, магнезий и калий.</p>
-        <p class="price">59.54 лв</p>
-        <div class="tab">
-          <button class="tablinks" onclick="openTab(event, 'Content')">Състав<i class="bi bi-arrow-down-short"></i></button>
-          <button class="tablinks" onclick="openTab(event, 'Use')">Употреба<i class="bi bi-arrow-down-short"></i></button>
-          <button class="tablinks" onclick="openTab(event, 'Storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
         </div>
-        <div class="tabcontent" id="Content">
-          <h2>Състав</h2>
-          <p>Стабилизиран гел от алое вера [гел от алое вера (99,7%), витамин С (аскорбинова киселина), антиоксидант (аскорбинова киселина), регулатор на киселинността (лимонена киселина)].</p>
-        </div>
-        <div class="tabcontent" id="Use">
-          <h2>Употреба</h2>
-          <p>Разклатете добре преди употреба! Три приема дневно по 40 мл. Сипвайте всяка доза в чаша и разреждайте в 240 мл вода или сок. Сипвайте напитката в чаша, не пийте директно от опаковката, за да не попадат в нея бактерии, които могат да ускорят развалянето.</p>
-        </div>
-        <div class="tabcontent" id="Storage">
-          <h2>Съхранение</h2>
-          <p>На сухо и хладно място. След отваряне съхранявайте в изправено положение в хладилник (макс. 7°С) и консумирайте до 30 дни. Не вдигайте опаковката за гърлото, за да не я повредите.</p>
-        </div>
-      </div>
     </main>
     <footer class="footer">
       <div class="left">
@@ -116,6 +134,26 @@
       </div>
     </footer>
     <script>
+        var slideshowLinks = document.querySelectorAll('.slideshow a, .pagination a');
+
+        for (var i = 0; i < slideshowLinks.length; i++) {
+            slideshowLinks[i].addEventListener('click', function(event) {
+                event.preventDefault();
+
+                var slides = document.querySelectorAll('.slideshow .slide');
+                for (var j = 0; j < slides.length; j++) {
+                    slides[j].style.display = 'none';
+                }
+                
+                var targetSlide = document.querySelector(this.getAttribute('href'));
+                targetSlide.style.display = 'block';
+            });
+        }
+
+        window.onload = function() {
+        document.querySelector('.tablinks[onclick="openTab(event, \'Content\')"]').click();
+      }
+
       document.querySelectorAll('.arrow').forEach(function(arrow) {
         arrow.addEventListener('click', function(e) {
           e.stopPropagation();
@@ -139,7 +177,6 @@
       document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
     }
-
     </script>
   </body>
 </html>
