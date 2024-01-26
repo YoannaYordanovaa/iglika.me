@@ -49,7 +49,7 @@
   }
   
   .tab1{
-    height: 250px;
+    height: 300px;
   }
 
   .tab {
@@ -90,7 +90,6 @@
     display: none;
     padding: 6px 12px;
     border-top: none;
-    height: 200px;
   }
   
   .tabcontent h2{
@@ -226,11 +225,8 @@
       display: block;
       padding-bottom: calc((100% / 6) * 4);
     }
-    .slideshow:hover a {
-      opacity: 1;
-    }
+
     .slideshow a {
-      opacity: 0;
       position: relative;
       text-decoration: none;
       transition: opacity 0.5s;
