@@ -15,9 +15,12 @@
   <body>
     <!-- -------------------Navigation menu--------------------->
     <header>
+
       <div class="logo"><a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
+
       <input type="checkbox" id="menu-bar" title="menu-bar">
       <label for="menu-bar"><img src="index_img/hamburger.png" alt=""></label>
+
       <nav class="navbar">
         <ul>
           <li><a href="about.html">За мен</a></li>
@@ -44,18 +47,27 @@
           <li><a href="shop.html">Пазарувай с отстъпка</a></li>
         </ul>
       </nav>
+
     </header>
+
     <!-- -------------------Main part--------------------->
+
     <main>
+
       <div class="cover"><img alt="" src="index_img/cover.png"></div>
+      <div class="cover_mobile"><img alt="" src="index_img/cover_mobile.jpg"></div>
+
+
       <div class="container">
+
         <div class="left-side">
           <h1>Контакти</h1>
           <h2>Иглика Величкова</h2>
           <p><i class="bi bi-telephone icon-white"></i>&nbsp;+359 88 766 3362</p>
-          <p><i class="bi bi-envelope icon-white"></i>&nbsp;&nbsp;iglika.velichkova@gmail.com</p>
+          <p><i class="bi bi-envelope icon-white"></i>&nbsp;iglika.velichkova@gmail.com</p>
           <p class="id">Идентификационен номер:<span> 359000029738</span></p>
         </div>
+
         <div class="right-side">
           <h1>Контактна форма</h1>
           <form action="#">
@@ -63,12 +75,17 @@
             <input placeholder="Фамилия" name="last_name" id="last_name" type="text">
             <input id="email" placeholder="Email" name="email" type="email">
             <textarea id="message" placeholder="Съобщение" name="message"></textarea>
-            <input value="Изпрати" type="submit">
+            <div class="button"><a href="shop.html" class="btn red">
+              <span>Изпрати</span><ion-icon name="arrow-forward"></ion-icon></a>
+            </div>
           </form>
         </div>
+
       </div>
+
     </main>
     <!-- -------------------Footer--------------------->
+
     <footer class="footer">
       <div class="left">
           <div class="icon"><a href="https://www.facebook.com/profile.php?id=100080698834400"><i class="bi bi-facebook"></i></a><a href="https://www.instagram.com/iglika.velichkova/"><i class="bi bi-instagram"></i></a><a href="https://www.youtube.com/@iglikarumenova"><i class="bi bi-youtube"></i></a></div>
@@ -87,8 +104,10 @@
           <p class="biscuits"><a href="Buscuits.html">Бисквитки</a></p>
       </div>
     </footer>
-    <!-- -------------------Footer--------------------->
 
+    <!-- -------------------Footer--------------------->
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script>
       document.querySelectorAll('.arrow').forEach(function(arrow) {
         arrow.addEventListener('click', function(e) {

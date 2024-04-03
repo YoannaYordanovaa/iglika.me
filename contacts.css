@@ -1,3 +1,6 @@
+.cover_mobile{
+  display: none;
+}
 
 .cover{
   position: relative;
@@ -32,7 +35,7 @@
 }
 
 .left-side p{
-  padding-top: 8%;
+  padding-top: 5%;
 }
 
 .left-side h1{
@@ -62,7 +65,7 @@
 
 .right-side h1{
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
 .right-side ::placeholder{
@@ -78,7 +81,7 @@ input[type=text], input[type=email], textarea {
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   resize: none;
   border-radius: 0.2rem;
 }
@@ -91,27 +94,77 @@ input[type=text], input[type=email], textarea:focus{
   outline: none;
 }
 
-input[type=submit] {
-  padding: 10px 20px;
-  cursor: pointer;
+
+/* ..............................Button.............................. */
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  min-height: 56px;
   border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: #F82536;
-  color: white;
-  margin-top: 2%;
-  font-family: 'Montserrat', sans-serif;
-  transition: all 0.3s;
-  font-weight: 500;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 0.3s;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.266);
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.5s linear;
 }
 
-input[type=submit]:hover{
-  transform: translateY(-5%);
+.button span {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+ion-icon {
+  font-size: 1.5em;
+  transition: all 0.5s linear;
+}
+
+.btn:hover ion-icon {
+  transform: rotate(-90deg);
+}
+
+.button {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 4;
+  
+}
+
+.red {
+  background: none;
+  color: #182C00;
+}
+
+.red::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100%;
+  background-color: #F82536;
+  position: absolute;
+  border-radius: 100px;
+  left: 1px;
+  z-index: -1;
+  transition: all 600ms ease;
+}
+
+.red:hover::before {
+  width: 100%;
+}
+
+.red:hover ion-icon {
+  transform: translateX(10px);
+}
+
+.red:hover{
+  color: rgb(255, 255, 255);
 }
 
 
@@ -135,18 +188,29 @@ input[type=submit]:hover{
     display: none;
   }
 
+  .cover_mobile{
+    display: block;
+  }
+
+  .cover_mobile img{
+    width: 100%;
+    height: 100%;
+    margin-top: 50%;
+  }
+
   .container{
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top: 70%;
+
   }
 
   .left-side {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.266);
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 10%;
   }
 
   .left-side p{
@@ -183,5 +247,17 @@ input[type=submit]:hover{
 
   textarea{
     height: 180px;
+  }
+
+  .red {
+    background: none;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #F82536;
+  }
+
+  .btn {
+    min-width: 150px;
+    min-height: 60px;
   }
 }
