@@ -218,7 +218,7 @@
   {
     "image": "products_img\\health\\supplements\\forever_marine_collagen.jpg",
     "p-id": 1024,
-    "p-name": "Forever Marine Coallagen",
+    "p-name": "Forever Marine Collagen",
     "p-name2": "Форевър Морски колаген",
     "description": "Висококачествен морски колаген,  полезен за хидратацията на кожата, структурата и здравето и.",
     "price": "187.14 лв.",
@@ -549,15 +549,6 @@
     "url": "1060.html"
   },
   {
-    "image": "products_img\\cosmetics\\personal hygiene\\forever_hand_sanitizer.jpg",
-    "p-id": 1061,
-    "p-name": "Forever Instant Hand Cleanser",
-    "p-name2": "Почистващ гел за ръце",
-    "description": "Предназначен да убива 99,9% от бактериите и да оставя ръцете ви чисти и освежени в мига, когато не можете да използвате сапун и вода.",
-    "price": "30.34 лв.",
-    "url": "1061.html"
-  },
-  {
     "image": "products_img\\cosmetics\\personal hygiene\\gentleman_s_pride.jpg",
     "p-id": 1062,
     "p-name": "Gentleman’s Pride After Shave Balm",
@@ -590,7 +581,7 @@
     "p-name": "Start Your Journey Pack",
     "p-name2": "Пакет „Стартирай пътешествието си“",
     "description": "Ако търсите начин да започнете собствен Форевър бизнес или да пазарувате продуктите на Форевър Ливинг с 30% отстъпка, този пакет може да ви заинтригува.",
-    "price": "Само за преференциални клиенти",
+    "price": "Виж повече",
     "url": "1065.html"
   },
   {
@@ -659,7 +650,7 @@
   {
     "image": "products_img\\weight_control\\forever_clean-9.jpg",
     "p-id": 1073,
-    "p-name": "Clean-9",
+    "p-name": "C9",
     "p-name2": "",
     "description": "Програмата включва различни продукти, които ще ви помогнат да постигнете вашите цели за отслабване, както и физически упражнения.",
     "price": "270.32 лв.",
