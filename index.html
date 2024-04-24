@@ -5,22 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Iglika Velichkova</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
   </head>
+
   <body>
-      <header>
+
+      <header id="header">
         <div class="logo"><a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
         <input type="checkbox" title="menu-bar" id="menu-bar"> 
         <label for="menu-bar"><img src="index_img/hamburger.png" alt=""></label>
         <nav class="navbar">
           <ul>
-            <li><a href="about.html">За мен</a></li>
-            <li><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+            <li class="h1"><a href="index.html">За мен</a></li>
+            <li class="h1"><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
               <ul>
-                <li><a href="health.html">Здраве и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+                <li><a href="health.html">Напитки и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
                   <ul>
                     <li><a href="drinks.html">Напитки</a></li>
                     <li><a href="supplements.html">Добавки</a></li>
@@ -37,24 +48,166 @@
                 <li><a href="packages.html">Пакети</a></li>
               </ul>
             </li>
-            <li><a href="contacts.html">Контакти</a></li>
-            <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+            <li class="h1"><a href="contacts.html">Контакти</a></li>
+            <li class="h1 shop"><a href="shop.html">Пазарувай с отстъпка</a></li>
           </ul>
         </nav>
       </header>
-    <main class="main">
-      <div class="cover"><img src="index_img/cover.png" alt=""></div>
-      <div class="main_section">
-        <div class="image"><img src="index_img/iglika.png" alt="Pictures of Iglika"></div>
-        <div class="main_text">
-          <h1>Здраве, красота и още нещо...</h1>
-          <h2>Тук освен продукти за здраве и прекрасен външен вид, можеш да откриеш и още нещо... Запознай се с моята история и разбери какво е то!</h2>
-          <div class="button"><a href="about.html">
-              <button type="button">За мен</button></a></div>
+
+      <main>
+
+        <div class="image_cover">
+          <div class="cover">
+              <img src="Iglika-photos/Iglika/about.jpg" alt="Photo of Iglika">
+          </div>
+          <div class="about_mobile">
+            <img src="Iglika-photos/Iglika/about_mobile.jpg" alt="">
+          </div>
         </div>
-      </div>
+        	
+        <div class="heart-shape"></div>
+
+        <div class="section">
+
+          <h1>Собственик на Форевър бизнес повече от 10 години!</h1>
+          <div class="button"><a href="forever_living.html" class="btn red">
+            <span>Какво е Форевър Ливинг Продъктс?</span><ion-icon name="arrow-forward"></ion-icon></a>
+          </div>
+
+          <div class="section_middle">
+
+            <div class="quad2" id="quad">
+                <figure>
+                <img src="Iglika-photos/family/10.jpg" alt="Family photo">
+                </figure>
+                <figure>
+                <img src="Iglika-photos/family/20.jpg" alt="Family photo">
+                </figure>
+                <figure>
+                <img src="Iglika-photos/family/30.jpg" alt="Family photo">
+                </figure>
+                <figure>
+                <img src="Iglika-photos/family/40.jpg" alt="Family photo">
+                </figure>
+            </div>
+
+            <div class="content">
+                <h2 class="h2_1">Как започна моето приключение с Форевър Ливинг...</h2>
+                <p>Когато дъщеря ми беше само на година и половина, страдаше от упорита кашлица, която продължи почти година. След многобройни опити да ѝ помогна да се излекува по възможно най-щадящия начин, поради крепката ѝ възраст, стигнах до нещо, което в миналото се е смятало за „универсалната панацея“, а именно Алое Вера. За мой късмет имах приятелка която знаех, че се занимава с разпространение на това лековито растение. Тогава обаче се появи една основна пречка... Като семейство, което живееше с ограничен бюджет, не можех да си позволя да ѝ осигуря висококачествените продукти, от които се нуждаеше.</p>
+                <p class="paragraph3">Така започна моето пътуване с Форевър Ливинг- уплашена, несигурна, но с надежда! Въпреки всички трудности през които преминах, за да ѝ осигуря алоето от което се нуждаеше осъзнах, че всичко до тук си е заслужавало усилията. Продуктите на Форевър помогнаха не само за подобряване здравето на моята дъщеря, но и се отразиха изключително благоприятно за повишаване имунитета на всички вкъщи! Въпреки че първоначално се колебаех да се присъединя към мулти левъл маркетинг индустрията поради негативната ѝ репутация, използвайки продуктите на Форевър, като клиент в продължение на две години, осъзнах, че определено си заслужава повече хора да научат за тях.
+                </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="quad_footer">
+
+          <figure>
+            <img src="Iglika-photos/team/2.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/3.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/4.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/1.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/5.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/6.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/7.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/8.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/9.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/10.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/11.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/12.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/13.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/14.jpg" alt="Team photo">
+          </figure>
+          <figure>
+            <img src="Iglika-photos/team/15.jpg" alt="Team photo">
+          </figure>
+
+        </div>
+
+        <div class="section_last">
+
+            <div class="content">
+              <h2>Предизвикателствата са само прикрити възможности!</h2>
+              <p class="paragraph5">Днес след повече то 10 години в компанията смело мога да кажа, че взех правилното решение. Форевър отвори нови врати за мен и моето семейство. Получих възможността да разполагам не просто с достатъчно свободно време, което да прекарвам с близките си, но и с финансова свобода. Дестинации като Бали, Малдиви, Тайланд и много други вече не бяха просто мечти, а самата реалност. Реалност, която нямаше да е възможна, ако не бях повярвала във възможностите на компанията, а те не стигат просто до екзотични дестинации и финансова независимост. Форевър е едно голямо семейство, чиято основна цел е да ни сплоти и да ни помогне да бъдем по-добри с всеки изминал ден.</p>
+              <p class="dreams">Мечтите се сбъдват, но не се случва просто така. Те изискват действие, решителност и Вяра, Вяра в себе си. Така че, ако и ти си готов за положителна промяна, позволи ми да те въведа в един нов Свят изпълнен с приключения, сега е момента…</p>
+
+              <div class="button"><a href="contacts.html" class="btn red">
+                <span>Започни своето пътешествие!</span><ion-icon name="arrow-forward"></ion-icon></a>
+              </div>
+
+            </div>
+
+            <div class="quad2" id="quad">
+              <figure>
+              <img src="Iglika-photos/Iglika/1.jpg" alt="Family photo">
+              </figure>
+              <figure>
+              <img src="Iglika-photos/Iglika/5.jpg" alt="Family photo">
+              </figure>
+              <figure>
+              <img src="Iglika-photos/Iglika/3.jpg" alt="Family photo">
+              </figure>
+              <figure>
+              <img src="Iglika-photos/Iglika/4.jpg" alt="Family photo">
+              </figure>
+          </div>
+            
+        </div>
+
+        
     </main>
+
+    <footer id="footer" class="footer">  
+
+      <div class="left">
+          <div class="icon"><a href="https://www.facebook.com/profile.php?id=100080698834400"><i class="bi bi-facebook"></i></a><a href="https://www.instagram.com/iglika.velichkova/"><i class="bi bi-instagram"></i></a><a href="https://www.youtube.com/@iglikarumenova"><i class="bi bi-youtube"></i></a></div>
+          <p class="p1">Контакти</p>
+          <p class="telephone"><i class="bi bi-telephone">+359 88 766 3362</i></p>
+          <p class="email"><i class="bi bi-envelope"> iglika.velichkova@gmail.com</i></p>
+          <p class="name">Иглика Величкова</p>
+      </div>
+      <div class="center">
+          <p class="copyright">Copyright © 2023 Иглика Величкова</p>
+      </div>
+      <div class="right">
+          <div class="logo1"><img src="index_img/IglikaLogo.png" alt="logo"></div>
+          <p class="FAQ"></i><a href="FAQ.html">Често задавани въпроси</a></p>
+          <p class="termsOfUse"><a href="Terms&Conditions.html">Условия за ползване</a></p>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
     <script>
+
       document.querySelectorAll('.arrow').forEach(function(arrow) {
         arrow.addEventListener('click', function(e) {
           e.stopPropagation();
@@ -62,6 +215,136 @@
           submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
         });
       });
+
+
+
+
+      var quad = document.getElementById('quad');
+      var quadImages = document.querySelectorAll("#quad figure");
+
+      if (window.matchMedia("(max-width: 900px)").matches) {
+      for (var i = 0; i < quadImages.length; i++) {
+          quadImages[i].addEventListener('touchstart', function() {
+              if (this.classList.contains("expanded")) {
+                  this.classList.remove("expanded");
+                  quad.classList.remove("full");
+              } else {
+                  this.classList.add("expanded");
+                  quad.classList.add("full");
+              }
+          });
+      }
+      } else {
+          for (var i = 0; i < quadImages.length; i++) {
+              quadImages[i].addEventListener('mouseenter', function() {
+                  this.classList.add("expanded");
+                  quad.classList.add("full");
+              });
+
+              quadImages[i].addEventListener('mouseleave', function() {
+                  this.classList.remove("expanded");
+                  quad.classList.remove("full");
+              });
+
+              quadImages[i].addEventListener('click', function() {
+                  if (this.classList.contains("expanded")) {
+                      this.classList.remove("expanded");
+                      quad.classList.remove("full");
+                  } else {
+                      this.classList.add("expanded");
+                      quad.classList.add("full");
+                  }
+              });
+          }
+      }
+
+
+
+
+
+      document.addEventListener("DOMContentLoaded", function() {
+        const indicator = document.querySelector('.heart-shape');
+        const sectionDiv = document.querySelector('.section');
+        const h1 = sectionDiv.querySelector('h1');
+        const button = document.querySelector('.button');
+
+        if (window.innerWidth >= 900) {
+          sectionDiv.style.paddingTop = `${button.offsetHeight + 20}px`;
+        }
+        
+        if (indicator && sectionDiv && h1) {
+          indicator.addEventListener('click', function() {
+            sectionDiv.scrollIntoView({ behavior: 'smooth' });
+          });
+
+          if (window.innerWidth < 900) {
+                  indicator.addEventListener('touchstart', function() {
+                    sectionDiv.scrollIntoView({ behavior: 'smooth' });
+                  });
+                }
+        }
+      });
+
+
+
+      
+
+      var quad = document.getElementById('quad_footer');
+      var quadImages = document.querySelectorAll("#quad_footer figure");
+      var currentIndex = 0;
+      var intervalId;
+
+      function expandImage(index) {
+          quadImages[index].classList.add("expanded");
+          quad.classList.add("full");
+      }
+
+      function collapseImage(index) {
+          quadImages[index].classList.remove("expanded");
+          quad.classList.remove("full");
+      }
+
+      function startAutomation() {
+          intervalId = setInterval(function() {
+              collapseImage(currentIndex);
+
+              currentIndex = (currentIndex + 1) % quadImages.length;
+
+              expandImage(currentIndex);
+
+              quad.scrollTo({
+                  left: quadImages[currentIndex].offsetLeft - quad.offsetWidth / 2 + quadImages[currentIndex].offsetWidth / 2,
+                  behavior: 'smooth'
+              });
+          }, 3000); 
+      }
+
+      startAutomation();
+
+      for (var i = 0; i < quadImages.length; i++) {
+          quadImages[i].addEventListener('mouseenter', function() {
+              clearInterval(intervalId);
+
+              this.classList.add("expanded");
+              quad.classList.add("full");
+          });
+
+          quadImages[i].addEventListener('mouseleave', function() {
+              this.classList.remove("expanded");
+              quad.classList.remove("full");
+
+              startAutomation();
+          });
+
+          quadImages[i].addEventListener('click', function() {
+              this.classList.remove("expanded");
+              quad.classList.remove("full");
+          });
+
+      }
+
+
+        
     </script>
   </body>
 </html>
