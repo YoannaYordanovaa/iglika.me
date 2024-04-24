@@ -24,8 +24,8 @@ header{
     left: 0;
     right: 0;
     background: #ffffff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-    padding: 5px 60px;
+    box-shadow: 0 5px 10px rgba(61, 61, 61, 0.079);
+    padding: 0 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,8 +34,7 @@ header{
 }
 
 .logo img{
-    width: 160px;
-    height: 71px;
+    width: 80%;
 }
 
 .logo {
@@ -55,7 +54,7 @@ header .navbar span{
 header .navbar ul li{
     position: relative;
     float: left;
-    padding: 20px;
+    padding: 16px;
 }
 
 header .navbar ul li a{
@@ -73,7 +72,7 @@ header .navbar ul li ul{
     position: absolute;
     left: 0;
     top: 100%;
-    width: 230px;
+    width: 250px;
     background: #ffffff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     display: none;
@@ -86,7 +85,7 @@ header .navbar ul li ul li{
 }
 
 header .navbar ul li ul li ul{
-    left: 230px;
+    left: 240px;
     top: 0;
 }
 
@@ -109,13 +108,13 @@ header label{
 @media (max-width: 1024px) {
 
     .logo img{
-        width: 147px;
-        height: 66px;
+        width: 120px;
         
     }
 
     header{
-        padding: 5px 20px;
+        padding: 0 20px;
+        box-shadow: 0 3px 10px rgba(59, 59, 59, 0.068);
     }
 
     header label{
@@ -126,7 +125,7 @@ header label{
         position: fixed; 
         left: 0;
         right: 0;
-        top: 82px;
+        top: 65px;
         bottom: 0;
         background: #ffffff;
         display: none;
@@ -140,6 +139,11 @@ header label{
         width: 100%;
     }
 
+    header .navbar ul .h1{
+        font-weight: 500;
+       
+    }
+
     header .navbar ul li ul{
         position: relative;
         width: 100%;
@@ -147,12 +151,13 @@ header label{
 
     header .navbar ul li ul li{
         background: #fff;
-        border-bottom: none;
+        
     }
 
     header .navbar ul li ul li ul{
         width: 100%;
         left: 0;
+        font-weight: 300;
     }
 
     #menu-bar:checked ~ .navbar{
