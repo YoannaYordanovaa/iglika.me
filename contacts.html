@@ -70,14 +70,13 @@
 
         <div class="right-side">
           <h1>Контактна форма</h1>
-          <form action="#">
-            <input placeholder="Име" name="first_name" id="first_name" type="text">
-            <input placeholder="Фамилия" name="last_name" id="last_name" type="text">
-            <input id="email" placeholder="Email" name="email" type="email">
-            <textarea id="message" placeholder="Съобщение" name="message"></textarea>
-            <div class="button"><a href="shop.html" class="btn red">
-              <span>Изпрати</span><ion-icon name="arrow-forward"></ion-icon></a>
-            </div>
+          <form id="contact-form" action="/submit-form" method="post">
+            <input placeholder="Име*" name="first_name" id="first_name" type="text" required>
+            <input placeholder="Телефон" name="last_name" id="last_name" type="text">
+            <input id="email" placeholder="Email*" name="email" type="email" required>
+            <textarea id="message" placeholder="Съобщение*" name="message"></textarea>
+            <p>*С натискане на бутона "Изпрати", Вие се съгласявате да предоставите личните си данни за използване спрямо нуждите на сайта. </p>
+            <button type="submit">Изпрати</button>
           </form>
         </div>
 
@@ -100,8 +99,7 @@
       <div class="right">
           <div class="logo1"><img src="index_img/IglikaLogo.png" alt="logo"></div>
           <p class="FAQ"></i><a href="FAQ.html">Често задавани въпроси</a></p>
-          <p class="termsOfUse"><a href="termsOfUse.html">Условия за ползване</a></p>
-          <p class="biscuits"><a href="Buscuits.html">Бисквитки</a></p>
+          <p class="termsOfUse"><a href="Terms&Conditions.html">Условия за ползване</a></p>
       </div>
     </footer>
 
@@ -109,6 +107,26 @@
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script>
+
+      document.querySelector('#contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+
+          let formData = new FormData(this);
+
+          fetch('/submit-form', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+              alert(data.message);
+          })
+          .catch((error) => {
+              console.error('Error:', error);
+          });
+      });
+
+
       document.querySelectorAll('.arrow').forEach(function(arrow) {
         arrow.addEventListener('click', function(e) {
           e.stopPropagation();

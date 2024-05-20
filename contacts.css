@@ -65,7 +65,7 @@
 
 .right-side h1{
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .right-side ::placeholder{
@@ -94,55 +94,51 @@ input[type=text], input[type=email], textarea:focus{
   outline: none;
 }
 
+#popup-message{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 60px;
+  color: #71B120;
+  font-weight: 600;
+}
+
+form p{
+  font-size: 12px;
+  padding-bottom: 15px;
+}
 
 /* ..............................Button.............................. */
 
-.btn {
+button {
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 100px;
-  min-height: 56px;
+  min-height: 50px;
   border: none;
   border-radius: 100px;
   cursor: pointer;
   font-weight: 400;
   text-decoration: none;
   transition: all 0.5s linear;
-}
-
-.button span {
   font-size: 18px;
   font-weight: 700;
   padding: 0 10px;
-}
-
-ion-icon {
-  font-size: 1.5em;
-  transition: all 0.5s linear;
-}
-
-.btn:hover ion-icon {
-  transform: rotate(-90deg);
-}
-
-.button {
   position: relative;
-  width: 40%;
+  width: 33%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
   z-index: 4;
-  
-}
-
-.red {
   background: none;
   color: #182C00;
 }
 
-.red::before {
+button::before {
   content: "";
   display: block;
   width: 100px;
@@ -155,15 +151,11 @@ ion-icon {
   transition: all 600ms ease;
 }
 
-.red:hover::before {
+button:hover::before {
   width: 100%;
 }
 
-.red:hover ion-icon {
-  transform: translateX(10px);
-}
-
-.red:hover{
+button:hover{
   color: rgb(255, 255, 255);
 }
 

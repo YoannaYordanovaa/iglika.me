@@ -145,9 +145,9 @@
                           <div class="h-bg">
                             <div class="h-bg-inner"></div>
                           </div>
-                          <a class="cart" href="${product.url}">
-                            <span class="price">${product.price}</span>
-                            <span class="see-more">Виж повече</span>
+                          <a class="cart" href="#" data-id="${product.id}">
+                              <span class="price">${product.price}</span>
+                              <span class="see-more">Виж повече</span>
                           </a>
                         </div>
                       </div>`;
@@ -158,6 +158,7 @@
 
               let totalPages = Math.ceil(data.length / itemsPerPage);
               let paginationHtml = '';
+              
               for(let i = 1; i <= totalPages; i++) {
                   paginationHtml += `<button class="pagination-button" data-page="${i}">${i}</button>`;
               }
@@ -176,8 +177,17 @@
             renderPage(1, searchData); 
         });
 
+        $(document).on('click', '.cart', function(e) {
+            e.preventDefault();
+            let productId = $(this).attr('data-id');
+            window.location.href = `/Product_data.html?id=${productId}`;
+        });
+
       });
 
+    </script>
+    
+    <script>
 
       document.querySelectorAll('.arrow').forEach(function(arrow) {
       arrow.addEventListener('click', function(e) {

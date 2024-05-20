@@ -121,6 +121,7 @@ left: 1em;
   /*------------------ Products_display ------------------*/
 
 
+
 .box-up img{
   width: 100%;
   height: 100%;
@@ -130,6 +131,7 @@ left: 1em;
   margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   }
 
@@ -283,16 +285,12 @@ left: 1em;
   top: 50%;
   left: 110%;
   transform: translate(-50%, -50%);
-  }
-
-.cart .see-more .txt {
   font-size: 12px;
   color: #fff;
   letter-spacing: 0.045em;
   text-transform: uppercase;
   white-space: nowrap;
   }
-
 
 /*------------------ Products_display_end ------------------*/
 
