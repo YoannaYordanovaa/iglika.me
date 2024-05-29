@@ -6,9 +6,8 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const multer = require('multer'); 
 const upload = multer();
-
-
 const app = express();
+
 app.use(express.static(__dirname));
 
 
