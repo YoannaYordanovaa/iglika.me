@@ -19,8 +19,12 @@
   grid-template-columns: 340px 513px;
   gap: 40px;
   justify-content: center;
-  margin-bottom: 8%;
-  margin-top: -32%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20%;
+
 }
 
 .left-side {
@@ -164,12 +168,10 @@ button:hover{
 @media (max-width: 1024px){
 
   .cover img{
-    padding-top: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   
-  .container {
-    margin-top: -380px;
-  }
 
 }
 
@@ -196,7 +198,7 @@ button:hover{
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
-    top: 70%;
+    top: 15%;
 
   }
 
@@ -234,22 +236,22 @@ button:hover{
   .left-side h2{
     font-size: 20px;
     font-weight: 200;
-    font-style: normal;
   }
 
   textarea{
     height: 180px;
   }
 
-  .red {
+  button {
     background: none;
-    color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     background-color: #F82536;
-  }
-
-  .btn {
-    min-width: 150px;
+    padding: 1%;
+    color: #ffffff;
+    min-width: 140px;
     min-height: 60px;
-  }
+    font-size: 18px;
+}
+
+
 }
