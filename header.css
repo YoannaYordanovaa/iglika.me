@@ -17,7 +17,6 @@ body{
     overflow: hidden;
 }
 
-
 header{
     position: fixed;
     top: 0;
@@ -34,11 +33,10 @@ header{
 }
 
 .logo img{
-    width: 80%;
+    width: 140px;
 }
 
 .logo {
-    padding-bottom: 5px;
     padding-top: 5px;
 }
 
@@ -55,6 +53,8 @@ header .navbar ul li{
     position: relative;
     float: left;
     padding: 16px;
+    font-weight: 400;
+
 }
 
 header .navbar ul li a{
@@ -139,11 +139,6 @@ header label{
         width: 100%;
     }
 
-    header .navbar ul .h1{
-        font-weight: 500;
-       
-    }
-
     header .navbar ul li ul{
         position: relative;
         width: 100%;
@@ -157,7 +152,6 @@ header label{
     header .navbar ul li ul li ul{
         width: 100%;
         left: 0;
-        font-weight: 300;
     }
 
     #menu-bar:checked ~ .navbar{
