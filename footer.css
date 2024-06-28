@@ -46,14 +46,14 @@
 }
 
 .logo1 img{
-  width: 35%;
-  margin-bottom: 10px;
+  width: 150px;
 }
 
 .right a{
-  color: #182C00;
+  color: #71B120;
   text-decoration: none;
   line-height: 1.7;
+  font-weight: 400;
 }
 
 .right p {
@@ -61,7 +61,6 @@
 }
 
 .right a:hover {
-  font-weight: 500;
   color: #F82536;
 }
 
