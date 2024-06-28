@@ -1,29 +1,47 @@
 <div class="logo"><a href="index.html"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
-        <input type="checkbox" title="menu-bar" id="menu-bar"> 
-        <label for="menu-bar"><img src="index_img/hamburger.png" alt=""></label>
-        <nav class="navbar">
+<input type="checkbox" title="menu-bar" id="menu-bar"> 
+<label for="menu-bar"><img src="index_img/hamburger.svg" alt=""></label>
+<nav class="navbar">
+  <ul>
+    <li class="h1"><a href="index.html">За мен</a></li>
+    <li class="h1"><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+      <ul>
+        <li><a href="health.html">Напитки и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
           <ul>
-            <li><a href="index.html">За мен</a></li>
-            <li><a href="products.html">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
-              <ul>
-                <li><a href="health.html">Напитки и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
-                  <ul>
-                    <li><a href="drinks.html">Напитки</a></li>
-                    <li><a href="supplements.html">Добавки</a></li>
-                  </ul>
-                </li>
-                <li><a href="cosmetics.html">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
-                  <ul>
-                    <li><a href="face.html">Грижа за лицето</a></li>
-                    <li><a href="body.html">Грижа за тялото</a></li>
-                    <li><a href="personal_hygiene.html">Лична хигиена</a></li>
-                  </ul>
-                </li>
-                <li><a href="weightcontrol.html">Контрол на теглото</a></li>
-                <li><a href="packages.html">Пакети</a></li>
-              </ul>
-            </li>
-            <li><a href="contacts.html">Контакти</a></li>
-            <li><a href="shop.html">Пазарувай с отстъпка</a></li>
+            <li><a href="drinks.html">Напитки</a></li>
+            <li><a href="supplements.html">Добавки</a></li>
           </ul>
-        </nav>
+        </li>
+        <li><a href="cosmetics.html">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+          <ul>
+            <li><a href="face.html">Грижа за лицето</a></li>
+            <li><a href="body.html">Грижа за тялото</a></li>
+            <li><a href="personal_hygiene.html">Лична хигиена</a></li>
+          </ul>
+        </li>
+        <li><a href="weightcontrol.html">Контрол на теглото</a></li>
+        <li><a href="packages.html">Пакети</a></li>
+      </ul>
+    </li>
+    <li class="h1"><a href="contacts.html">Контакти</a></li>
+    <li class="h1 shop"><a href="shop.html">Пазарувай с отстъпка</a></li>
+  </ul>
+</nav>
+
+<script>
+
+  document.querySelectorAll('.arrow').forEach(function(arrow) {
+    function toggleMenu(e) {
+      e.stopPropagation();
+      let submenu = this.nextElementSibling;
+      console.log('Arrow clicked:', this);
+      console.log('Submenu:', submenu);
+      if (submenu) {
+        submenu.style.display = (submenu.style.display === '' || submenu.style.display === 'none') ? 'block' : 'none';
+      }
+    }
+
+    arrow.addEventListener('touchstart', toggleMenu);
+  });
+  
+</script>
