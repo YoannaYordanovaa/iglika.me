@@ -91,7 +91,7 @@
 
       function renderPage(pageNumber, searchData) {
         
-          $.get("http://192.168.201.85:3000/getProducts", function(data, status){
+          $.get("http://127.0.0.1:3000/getProducts", function(data, status){
 
             if (searchData && searchData.trim() !== "") {
                   data = data.filter(function(product) {
