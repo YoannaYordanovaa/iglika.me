@@ -219,7 +219,7 @@ ion-icon {
 
 .button {
     position: relative;
-    width: 260px;
+    max-width: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;

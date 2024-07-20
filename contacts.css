@@ -27,7 +27,7 @@
 
 }
 
-.left-side {
+.container .left-side {
   background-color: #F82536;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -38,41 +38,41 @@
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.266);
 }
 
-.left-side p{
+.container .left-side p{
   padding-top: 5%;
 }
 
-.left-side h1{
+.container .left-side h1{
   font-weight: 700;
 }
 
-.left-side h2{
+.container .left-side h2{
   font-weight: 300;
   font-size: 20px;
   font-style: italic;
   padding-bottom: 10%;
 }
 
-.id{
+.container .left-side .id{
   margin-top: 15%;
   font-style: italic;
 }
 
-.id span{
+.container .left-side .id span{
   font-weight: 600;
   font-style: normal;
 }
 
-.right-side {
+.container .right-side {
   color: black;
 }
 
-.right-side h1{
+.container .right-side h1{
   text-align: center;
   padding-bottom: 3%;
 }
 
-.right-side ::placeholder{
+.container .right-side ::placeholder{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -120,7 +120,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100px;
+  max-width: 500px;
   min-height: 50px;
   border: none;
   border-radius: 100px;
@@ -202,40 +202,40 @@ button:hover{
 
   }
 
-  .left-side {
+  .container .left-side {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.266);
     padding: 10%;
   }
 
-  .left-side p{
+  .container .left-side p{
     padding-top: 8px;
   }
 
-  .left-side h2{
+  .container .left-side h2{
     padding-bottom: 30px;
   }
 
-  .id{
+  .container .left-side .id{
     margin-top: 40px;
     font-style: italic;
   }
 
-  .right-side{
+  .container .left-side h1{
+    font-size: 28px;
+  }
+
+  .container .left-side h2{
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .container .right-side{
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  .right-side h1{
+  .container .right-side h1{
     font-size: 28px;
-  }
-
-  .left-side h1{
-    font-size: 28px;
-  }
-
-  .left-side h2{
-    font-size: 20px;
-    font-weight: 200;
   }
 
   textarea{
