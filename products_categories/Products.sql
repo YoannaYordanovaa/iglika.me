@@ -1,5 +1,3 @@
-USE products;
-
 CREATE TABLE mytable(
    image       VARCHAR(74) NOT NULL PRIMARY KEY
   ,id          INTEGER  NOT NULL
