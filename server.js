@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -158,6 +159,16 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/products.html');
   });
   
+
+  app.get('/:page', (req, res, next) => {
+    const fileName = path.join(__dirname, `${req.params.page}.html`);
+    res.sendFile(fileName, err => {
+        if (err) {
+            next();
+        }
+    });
+});
+
 
 app.listen(3000, () => {
   console.log('Server started on port 3000');
