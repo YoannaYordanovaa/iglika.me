@@ -65,7 +65,7 @@
 
       function renderPage(pageNumber, searchData) {
         
-          $.get("http://127.0.0.1:3000/getDrinks", function(data, status){
+          $.get("http://iglika.me/getDrinks", function(data, status){
 
             if (searchData && searchData.trim() !== "") {
                   data = data.filter(function(product) {

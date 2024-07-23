@@ -160,13 +160,13 @@ app.get('/', (req, res) => {
   });
   
 
-  app.get('/:page', (req, res, next) => {
-    const fileName = path.join(__dirname, `${req.params.page}.html`);
-    res.sendFile(fileName, err => {
-        if (err) {
-            next();
-        }
-    });
+app.get('/:page', (req, res, next) => {
+  const fileName = path.join(__dirname, `${req.params.page}.html`);
+  res.sendFile(fileName, err => {
+      if (err) {
+          next();
+      }
+  });
 });
 
 
