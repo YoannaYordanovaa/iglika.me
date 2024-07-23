@@ -85,7 +85,7 @@
 
       function renderPage(pageNumber, searchData) {
         
-          $.get("http://iglika.me/getProducts", function(data, status){
+          $.get("https://iglika.me/getProducts", function(data, status){
 
             if (searchData && searchData.trim() !== "") {
                   data = data.filter(function(product) {

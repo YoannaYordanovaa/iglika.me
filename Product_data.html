@@ -122,7 +122,7 @@
       $(document).ready(function(){
           // Function to fetch product details by ID from the backend
           function fetchProductDetails(productId) {
-              $.get(`http://iglika.me/getProductDetails/${productId}`, function(data, status){
+              $.get(`https://iglika.me/getProductDetails/${productId}`, function(data, status){
                   // Populate product details into the placeholders
                   $('.nameEN').text(data.h1);
                   $('.nameBG').text(data.h2);
