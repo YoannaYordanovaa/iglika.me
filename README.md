@@ -5,13 +5,13 @@
 Welcome to Iglika.me, your destination to learn about Iglika Velichkova's journey with Forever Living products. Iglika.me is all about sharing inspiring stories and providing information about Forever Living's diverse product range.
 
 <h2> Features </h2>
-- Responsive design that works on most devices
+- Responsive design that works across desktop and mobile devices
 <br>- Clean and modern layout
 <br>- Interactive elements using JavaScript
 <br>- Easy navigation and user-friendly interface
 <br>- Contact form with email notifications
 
-<h2> Technologies Used </h2>
+<h2> Tools and Technologies Used </h2>
 
 <h3> Design </h3>
 Figma: Used for creating wireframes and prototypes.
