@@ -14,10 +14,10 @@ Welcome to Iglika.me, your destination to learn about Iglika Velichkova's journe
 <h2> Technologies Used </h2>
 
 <h3> Frontend <h3>
-**HTML**: The structure of the web pages.
+<p>**HTML**: The structure of the web pages.
 <br> **CSS**: For styling the web pages.
 <br>**JavaScript**: To add interactivity to the website.
-<br>**jQuery**: Used to simplify HTML DOM manipulation, event handling, and AJAX interactions.
+<br>**jQuery**: Used to simplify HTML DOM manipulation, event handling, and AJAX interactions.<p>
 
 <h3> Backend <h3>
 Node.js: Used to build the server-side of the application.
@@ -41,4 +41,4 @@ Visit the website at www.iglika.me to explore.
 
 <h2> Contact </h2>
 Email: ioannaiordanova99@gmail.com
-LinkedIn: https://www.linkedin.com/in/yoanna-yordanova-42y42y/
+<br>LinkedIn: https://www.linkedin.com/in/yoanna-yordanova-42y42y/
