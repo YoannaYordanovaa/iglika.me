@@ -13,11 +13,16 @@ Welcome to Iglika.me, your destination to learn about Iglika Velichkova's journe
 
 <h2> Technologies Used </h2>
 
+<h3> Design </h3>
+Figma: Used for creating wireframes and prototypes.
+<br>Adobe Illustrator: Used for creating logo and vector graphics.
+<br>Adobe Photoshop: Used for editing and enhancing images.
+
 <h3> Frontend </h3>
-**HTML**: The structure of the web pages.
-<br> **CSS**: For styling the web pages.
-<br>**JavaScript**: To add interactivity to the website.
-<br>**jQuery**: Used to simplify HTML DOM manipulation, event handling, and AJAX interactions.
+HTML: The structure of the web pages.
+<br> CSS: For styling the web pages.
+<br>JavaScript: To add interactivity to the website.
+<br>jQuery: Used to simplify HTML DOM manipulation, event handling, and AJAX interactions.
 
 <h3> Backend </h3>
 Node.js: Used to build the server-side of the application.
