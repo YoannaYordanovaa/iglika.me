@@ -81,15 +81,20 @@ main .main_section .main_text_left .p2 a:hover, .main_text_right .p5 a:hover{
   color: #F82536;
 }
 
-main .main_section .main_text_left ul li{
+main .main_section .main_text_left ul li, .main_text_right ul li{
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-main .main_section .main_text_left span{
+main .main_section .main_text_left ul li span{
   font-weight: 600;
 }
+
+main .main_section .main_text_right .description{
+  margin-top: 10px;
+}
+
 
 /* ..................................Media querry.................................. */
 
