@@ -74,7 +74,7 @@
         <div class="tab1">
           <div class="tab">
               <button class="tablinks" onclick="openTab(event, 'content')">Състав<i class="bi bi-arrow-down-short"></i></button>
-              <button class="tablinks" onclick="openTab(event, 'howtouse')">Употреба<i class="bi bi-arrow-down-short"></i></button>
+              <button class="tablinks" onclick="openTab(event, 'howToUse')">Употреба<i class="bi bi-arrow-down-short"></i></button>
               <button class="tablinks" onclick="openTab(event, 'storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
           </div>
 
@@ -83,7 +83,7 @@
               <p></p>
           </div>
 
-          <div class="tabcontent" id="howtouse">
+          <div class="tabcontent" id="howToUse">
               <h2>Употреба</h2>
               <p></p>
           </div>
@@ -136,7 +136,7 @@
                   addImage('#image02', data.image2);
                   addImage('#image03', data.image3);
                   $('#content p').text(data.content);
-                  $('#howtouse p').text(data.howtouse);
+                  $('#howToUse p').text(data.howToUse);
                   $('#storage p').text(data.storage);
               });
           }
