@@ -47,9 +47,29 @@
             <p class="id"></p>
           </div>
         </div>
+
         <div class="circle">
-          <p class="price"></p>
+
+          <div class="noDiscount">
+            <p class="price"></p>
+          </div>
+
+          <a href="shop#-5" target="_blank" rel="noopener noreferrer">
+            <div class="discount">
+              <span>-5%</span>
+              <p class="discount5"></p>
+            </div>
+          </a>
+
+          <a href="shop#-30" target="_blank" rel="noopener noreferrer">
+            <div class="discount">
+              <span>-30%</span>
+              <p class="discount30"></p>
+            </div>
+          </a>
+          
         </div>
+
         <div class="button">
           <a href="contacts" target="_blank" class="btn red">
           <span>Поръчай</span><ion-icon name="arrow-forward"></ion-icon>
@@ -72,10 +92,13 @@
         <p class="txt"></p>
 
         <div class="tab1">
+
           <div class="tab">
+
               <button class="tablinks" onclick="openTab(event, 'content')">Състав<i class="bi bi-arrow-down-short"></i></button>
               <button class="tablinks" onclick="openTab(event, 'howToUse')">Употреба<i class="bi bi-arrow-down-short"></i></button>
               <button class="tablinks" onclick="openTab(event, 'storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
+
           </div>
 
           <div class="tabcontent" id="content">
@@ -129,6 +152,8 @@
                   $('.id').text(data.id);
                   $('.price').text(data.price);
                   $('.txt').text(data.txt);
+                  $('.discount5').text(data.discount5);
+                  $('.discount30').text(data.discount30);
                   addImage('#image1', data.image1);
                   addImage('#image2', data.image2);
                   addImage('#image3', data.image3);
