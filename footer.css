@@ -94,6 +94,11 @@
     padding-top: 0;
   }
 
+  .left, .right {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .right .logo{
     padding-bottom: 5px;
   }
