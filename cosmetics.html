@@ -121,6 +121,11 @@
               
               $('.pagination-button').click(function() {
                   let btn = $(this);
+
+                  $('html, body').animate({
+                      scrollTop: $('.search').offset().top
+                  }, 100);
+
                   renderPage(btn.data('page'), $('#searchInput').val());
               });
           });
