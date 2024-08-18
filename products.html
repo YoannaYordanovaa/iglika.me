@@ -135,8 +135,11 @@
               for(let i = 1; i <= totalPages; i++) {
                   paginationHtml += `<button class="pagination-button" data-page="${i}">${i}</button>`;
               }
-              $('#pagination').html(paginationHtml);
 
+              $('#pagination').html(paginationHtml);
+              $('.pagination-button').removeClass('active');
+              $(`.pagination-button[data-page="${pageNumber}"]`).addClass('active');
+              
               $('.pagination-button').click(function() {
                   let btn = $(this);
                   renderPage(btn.data('page'), $('#searchInput').val());
