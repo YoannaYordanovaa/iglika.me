@@ -359,9 +359,9 @@ main #pagination button {
 
   }
 
-  #pagination .pagination-button:hover {
-    background-color: #F82536;
-    color: #ffffff;
+#pagination .pagination-button:hover {
+  background-color: #F82536;
+  color: #ffffff;
 }
 
 #pagination .pagination-button.active {
