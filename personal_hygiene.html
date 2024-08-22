@@ -168,8 +168,8 @@
                   $('.pagination-button').click(function() {
                       let btn = $(this);
                       $('html, body').animate({
-                          scrollTop: $('.search').offset().top
-                      }, 400);
+                          scrollTop: $('.search_filter').offset().top
+                      }, 500);
                       renderPage(btn.data('page'), $('#searchInput').val(), $('#sortOptions').val());
                   });
               });
