@@ -28,7 +28,7 @@ db.connect((err) => {
 app.use(cors());
 
 app.get('/getProducts', (req, res) => {
-  let sql = 'SELECT * FROM mytable';
+  let sql = 'SELECT * FROM forever_table';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -36,7 +36,7 @@ app.get('/getProducts', (req, res) => {
 });
 
 app.get('/getHealth', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "напитки" OR category = "добавки"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "напитки" OR category = "добавки"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -44,7 +44,7 @@ app.get('/getHealth', (req, res) => {
 });
 
 app.get('/getCosmetics', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Грижа за лицето" OR category = "Грижа за тялото" OR category = "Лична хигиена"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Грижа за лицето" OR category = "Грижа за тялото" OR category = "Лична хигиена"';
 
   db.query(sql, (err, results) => {
     if(err) throw err;
@@ -53,7 +53,7 @@ app.get('/getCosmetics', (req, res) => {
 });
 
 app.get('/getWeightcontrol', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Контрол на теглото"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Контрол на теглото"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -61,7 +61,7 @@ app.get('/getWeightcontrol', (req, res) => {
 });
 
 app.get('/getPackages', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Пакети"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Пакети"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -70,7 +70,7 @@ app.get('/getPackages', (req, res) => {
 
 
 app.get('/getDrinks', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Напитки"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Напитки"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -78,7 +78,7 @@ app.get('/getDrinks', (req, res) => {
 });
 
 app.get('/getSupplements', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Добавки"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Добавки"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -86,7 +86,7 @@ app.get('/getSupplements', (req, res) => {
 });
 
 app.get('/getFace', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Грижа за лицето"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Грижа за лицето"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -94,7 +94,7 @@ app.get('/getFace', (req, res) => {
 });
 
 app.get('/getBody', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Грижа за тялото"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Грижа за тялото"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -102,7 +102,7 @@ app.get('/getBody', (req, res) => {
 });
 
 app.get('/getPersonalhygiene', (req, res) => {
-  let sql = 'SELECT * FROM mytable WHERE category = "Лична хигиена"';
+  let sql = 'SELECT * FROM forever_table WHERE category = "Лична хигиена"';
   db.query(sql, (err, results) => {
     if(err) throw err;
     res.send(results);
@@ -112,7 +112,7 @@ app.get('/getPersonalhygiene', (req, res) => {
 
 app.get('/getProductDetails/:productId', (req, res) => {
   const productId = req.params.productId;
-  let sql = 'SELECT * FROM mytable2 WHERE id = ?';
+  let sql = 'SELECT * FROM forever_table WHERE id = ?';
   db.query(sql, [productId], (err, result) => {
     if (err) throw err;
     res.send(result[0]); 

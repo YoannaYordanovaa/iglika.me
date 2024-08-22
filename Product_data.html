@@ -50,9 +50,13 @@
 
         <div class="circle">
 
-          <div class="noDiscount">
-            <p class="price"></p>
-          </div>
+          <a href="" class="urlCopy" onclick="showTooltip">
+            <div class="noDiscount" >
+              <p class="price"></p>
+            </div>
+          </a>
+
+          <div id="tooltip">Копирано!</div>
 
           <a href="shop#-5" target="_blank" rel="noopener noreferrer">
             <div class="discount">
@@ -142,7 +146,7 @@
 
     <script>
 
-      $(document).ready(function(){
+        $(document).ready(function(){
           // Function to fetch product details by ID from the backend
           function fetchProductDetails(productId) {
               $.get(`https://iglika.me/getProductDetails/${productId}`, function(data, status){
@@ -163,7 +167,8 @@
                   $('#content p').text(data.content);
                   $('#howToUse p').text(data.howToUse);
                   $('#storage p').text(data.storage);
-                  $('.button a').attr('href', data.forever_url);
+                  $('.url').attr('href', data.forever_url_Iglika);
+                  $('.urlCopy').attr('href', data.forever_url_Iglika);
               });
           }
 
@@ -287,10 +292,52 @@
         if (expandedImg.style.display === 'block') {
             expandedImg.style.display = 'none';
         }
-    });
+      });
+      
+      });
 
-    
-    });
+
+
+      function showTooltip(event) {
+          event.preventDefault();  
+
+          var url = $(this).attr('href');
+          if (url) {
+              navigator.clipboard.writeText(url).then(function() {
+                  console.log('URL copied to clipboard:', url);
+
+                  // Handle both mouse and touch events
+                  var pageX, pageY;
+                  if (event.type === 'touchend' && event.originalEvent.changedTouches) {
+                      // For touch events, get the coordinates from the first changed touch
+                      pageX = event.originalEvent.changedTouches[0].pageX;
+                      pageY = event.originalEvent.changedTouches[0].pageY;
+                  } else {
+                      // For mouse events
+                      pageX = event.pageX;
+                      pageY = event.pageY;
+                  }
+
+                  // Show the tooltip at the calculated position
+                  $('#tooltip').css({
+                      top: pageY + 10 + 'px',
+                      left: pageX + 10 + 'px'
+                  }).fadeIn(200).delay(1000).fadeOut(200);  
+              }).catch(function(err) {
+                  console.error('Error copying URL:', err);
+              });
+          } else {
+              console.error('No URL found to copy.');
+          }
+      }
+
+      // Bind the event handlers
+      $('.urlCopy').on('click', showTooltip);
+      $('.urlCopy').on('touchend', function(event) {
+          setTimeout(function() {
+              showTooltip.call(event.currentTarget, event);
+          }, 0);
+      });
   
     </script>
   </body>

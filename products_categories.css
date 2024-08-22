@@ -19,14 +19,49 @@ main .intro h1{
   font-weight: 500;
 }
 
-main .search{
-  padding-top: 2%;
+.search_filter{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 1%;
+}
+
+.sort_filter{
   text-align: right;
+}
+
+#sortOptions {
+  -webkit-appearance: none;  
+  -moz-appearance: none;   
+  appearance: none;        
+  background-color: #fff;   
+  color: #222222;              
+  padding: 12px 20px;            
+  font-size: 16px;           
+  border: 1px solid #ccc;    
+  border-radius: 2px;        
+  box-sizing: border-box; 
+  margin-top: 1%; 
+  font-family: 'Montserrat', sans-serif;  
+  background-image: url(index_img/arrow-down-short.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.sort option{
+  text-align: left;
+}
+
+main .search{
+  text-align: right;
+  margin-top: 5%;
   }
 
 main .search h2{
   color: #182C00;
   margin-left: 2%;
+  font-size: 18px;
   }
 
 main .search #searchInput{
@@ -34,7 +69,7 @@ main .search #searchInput{
   }
 
 main .search input{
-  width: 20%;
+  width: 100%;
   padding: 12px 20px;
   margin-top: 1%;
   }
@@ -361,16 +396,27 @@ main #pagination button {
     margin-top: 10%;
   }
     
-  main .search h2{
-    font-size: 24px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    }
-  
-  main .search input{
-    width: 100%;
-    }
+  .search_filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  #sortOptions{
+    order: 2;
+  }
+
+  .sort_filter{
+    order: 2;
+    margin-top: 1%;
+  }
+
+  .search{
+    padding-top: 16%;
+    order: 1;
+  }
   
 
 .button {
