@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="bg">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-62VMB7NFG8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-62VMB7NFG8");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MZ74J329");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Информация за продукт</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Product_data.css">
-    <link href="header.css" rel="stylesheet">
-    <link href="footer.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="index_img/icon_logo.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Product_data.css" />
+    <link href="header.css" rel="stylesheet" />
+    <link href="footer.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="index_img/icon_logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-
     <!-- -------------------Navigation menu--------------------->
-     
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MZ74J329"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="cookieConsent">
+      <p>
+        С цел подобряване на обслужването, платформата на www.rumen-aloe.com
+        използва <a href="cookies.html" target="_blank">“бисквитки"</a>
+        <button id="acceptCookies">Приемам</button>
+        <button id="rejectCookies">Отказвам</button>
+      </p>
+    </div>
     <header id="header"></header>
 
     <!-- -------------------Main part--------------------->
 
     <main class="main_section">
-
       <div id="quad">
         <figure>
-        <img src="" id="image1" alt="Product image">
+          <img src="" id="image1" alt="Product image" />
         </figure>
         <figure>
-          <img src="" id="image2" alt="Product image">
+          <img src="" id="image2" alt="Product image" />
         </figure>
         <figure>
-          <img src="" id="image3" alt="Product image">
+          <img src="" id="image3" alt="Product image" />
         </figure>
       </div>
 
       <div class="text">
-
         <div class="name">
           <div class="descr">
             <h1 class="nameEN"></h1>
@@ -49,9 +104,8 @@
         </div>
 
         <div class="circle">
-
           <a href="" class="urlCopy" onclick="showTooltip">
-            <div class="noDiscount" >
+            <div class="noDiscount">
               <p class="price"></p>
             </div>
           </a>
@@ -71,148 +125,153 @@
               <p class="discount30"></p>
             </div>
           </a>
-          
         </div>
 
         <div class="button">
           <a href="contacts" target="_blank" class="btn red">
-          <span>Поръчай</span><ion-icon name="arrow-forward"></ion-icon>
+            <span>Поръчай</span><ion-icon name="arrow-forward"></ion-icon>
           </a>
         </div>
 
-        <img id="expandedImg" src="" alt="Expanded image">
+        <img id="expandedImg" src="" alt="Expanded image" />
         <div id="quad_mobile">
           <figure>
-          <img src="" id="image01" alt="Product image">
+            <img src="" id="image01" alt="Product image" />
           </figure>
           <figure>
-            <img src="" id="image02" alt="Product image">
+            <img src="" id="image02" alt="Product image" />
           </figure>
           <figure>
-            <img src="" id="image03" alt="Product image">
+            <img src="" id="image03" alt="Product image" />
           </figure>
         </div>
 
         <p class="txt"></p>
 
         <div class="tab1">
-
           <div class="tab">
-
-              <button class="tablinks" onclick="openTab(event, 'content')">Състав<i class="bi bi-arrow-down-short"></i></button>
-              <button class="tablinks" onclick="openTab(event, 'howToUse')">Употреба<i class="bi bi-arrow-down-short"></i></button>
-              <button class="tablinks" onclick="openTab(event, 'storage')">Съхранение<i class="bi bi-arrow-down-short"></i></button>
-
+            <button class="tablinks" onclick="openTab(event, 'content')">
+              Състав<i class="bi bi-arrow-down-short"></i>
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'howToUse')">
+              Употреба<i class="bi bi-arrow-down-short"></i>
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'storage')">
+              Съхранение<i class="bi bi-arrow-down-short"></i>
+            </button>
           </div>
 
           <div class="tabcontent" id="content">
-              <h2>Състав</h2>
-              <p></p>
+            <h2>Състав</h2>
+            <p></p>
           </div>
 
           <div class="tabcontent" id="howToUse">
-              <h2>Употреба</h2>
-              <p></p>
+            <h2>Употреба</h2>
+            <p></p>
           </div>
 
           <div class="tabcontent" id="storage">
-              <h2>Съхранение</h2>
-              <p></p>
+            <h2>Съхранение</h2>
+            <p></p>
           </div>
-
         </div>
-        
       </div>
-
     </main>
-    
+
     <!-- -------------------Footer--------------------->
 
     <footer id="footer" class="footer"></footer>
 
     <!-- -------------------Footer--------------------->
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
 
+    <script src="cookies.js"></script>
     <script>
-      $(document).ready(function(){
+      $(document).ready(function () {
         $("#header").load("header.html");
       });
 
-      $(document).ready(function(){
+      $(document).ready(function () {
         $("#footer").load("footer.html");
       });
     </script>
 
     <script>
-
-        $(document).ready(function(){
-          // Function to fetch product details by ID from the backend
-          function fetchProductDetails(productId) {
-              $.get(`https://iglika.me/getProductDetails/${productId}`, function(data, status){
-                  // Populate product details into the placeholders
-                  $('.nameEN').text(data.h1);
-                  $('.nameBG').text(data.h2);
-                  $('.id').text(data.id);
-                  $('.price').text(data.price);
-                  $('.txt').text(data.txt);
-                  $('.discount5').text(data.discount5);
-                  $('.discount30').text(data.discount30);
-                  addImage('#image1', data.image1);
-                  addImage('#image2', data.image2);
-                  addImage('#image3', data.image3);
-                  addImage('#image01', data.image1);
-                  addImage('#image02', data.image2);
-                  addImage('#image03', data.image3);
-                  $('#content p').text(data.content);
-                  $('#howToUse p').text(data.howToUse);
-                  $('#storage p').text(data.storage);
-                  $('.url').attr('href', data.forever_url_Iglika);
-                  $('.urlCopy').attr('href', data.forever_url_Iglika);
-              });
-          }
-
-          function addImage(selector, src) {
-              $(selector).attr('src', src)
-                          .attr('alt', '')
-                          .css('display', 'inline')
-                          .on('error', function() { 
-                              $(this).css('display', 'none'); 
-                          });
-          }
-
-          // Function to parse the product ID from the URL
-          function getProductIdFromUrl() {
-              const urlParams = new URLSearchParams(window.location.search);
-              return urlParams.get('id');
-          }
-
-          // Fetch product details when the page loads
-          const productId = getProductIdFromUrl();
-            if (productId) {
-                fetchProductDetails(productId);
-            } else {
-                console.error('Product ID not found in the URL.');
+      $(document).ready(function () {
+        // Function to fetch product details by ID from the backend
+        function fetchProductDetails(productId) {
+          $.get(
+            `https://iglika.me/getProductDetails/${productId}`,
+            function (data, status) {
+              // Populate product details into the placeholders
+              $(".nameEN").text(data.h1);
+              $(".nameBG").text(data.h2);
+              $(".id").text(data.id);
+              $(".price").text(data.price);
+              $(".txt").text(data.txt);
+              $(".discount5").text(data.discount5);
+              $(".discount30").text(data.discount30);
+              addImage("#image1", data.image1);
+              addImage("#image2", data.image2);
+              addImage("#image3", data.image3);
+              addImage("#image01", data.image1);
+              addImage("#image02", data.image2);
+              addImage("#image03", data.image3);
+              $("#content p").text(data.content);
+              $("#howToUse p").text(data.howToUse);
+              $("#storage p").text(data.storage);
+              $(".url").attr("href", data.forever_url_Iglika);
+              $(".urlCopy").attr("href", data.forever_url_Iglika);
             }
+          );
+        }
 
+        function addImage(selector, src) {
+          $(selector)
+            .attr("src", src)
+            .attr("alt", "")
+            .css("display", "inline")
+            .on("error", function () {
+              $(this).css("display", "none");
+            });
+        }
+
+        // Function to parse the product ID from the URL
+        function getProductIdFromUrl() {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get("id");
+        }
+
+        // Fetch product details when the page loads
+        const productId = getProductIdFromUrl();
+        if (productId) {
+          fetchProductDetails(productId);
+        } else {
+          console.error("Product ID not found in the URL.");
+        }
       });
 
+      window.onload = function () {
+        document
+          .querySelector(".tablinks[onclick=\"openTab(event, 'content')\"]")
+          .click();
+      };
 
-
-        window.onload = function() {
-        document.querySelector('.tablinks[onclick="openTab(event, \'content\')"]').click();
-      }
-
-        document.querySelectorAll('.arrow').forEach(function(arrow) {
-          arrow.addEventListener('click', function(e) {
-            e.stopPropagation();
-            let submenu = this.nextElementSibling;
-            submenu.style.display = submenu.style.display === 'none' ? 'block' : 'none';
-          });
+      document.querySelectorAll(".arrow").forEach(function (arrow) {
+        arrow.addEventListener("click", function (e) {
+          e.stopPropagation();
+          let submenu = this.nextElementSibling;
+          submenu.style.display =
+            submenu.style.display === "none" ? "block" : "none";
         });
+      });
 
-
-        function openTab(evt, tabName) {
+      function openTab(evt, tabName) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -228,117 +287,120 @@
         evt.currentTarget.className += " active";
       }
 
-
-
-      var quad = document.getElementById('quad');
+      var quad = document.getElementById("quad");
       var quadImages = document.querySelectorAll("#quad figure");
 
       // Function to toggle expansion
       function toggleExpansion() {
-          if (this.classList.contains("expanded")) {
-              this.classList.remove("expanded");
-              quad.classList.remove("full");
-          } else {
-              // Remove "expanded" class from all images before expanding current one
-              for (var j = 0; j < quadImages.length; j++) {
-                  quadImages[j].classList.remove("expanded");
-              }
-              this.classList.add("expanded");
-              quad.classList.add("full");
+        if (this.classList.contains("expanded")) {
+          this.classList.remove("expanded");
+          quad.classList.remove("full");
+        } else {
+          // Remove "expanded" class from all images before expanding current one
+          for (var j = 0; j < quadImages.length; j++) {
+            quadImages[j].classList.remove("expanded");
           }
+          this.classList.add("expanded");
+          quad.classList.add("full");
+        }
       }
 
       // Check if the device supports touch events
-      var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints;
+      var isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints;
 
       // Add event listeners based on device type
       if (isTouchDevice) {
-          for (var i = 0; i < quadImages.length; i++) {
-              quadImages[i].addEventListener('click', toggleExpansion);
-          }
+        for (var i = 0; i < quadImages.length; i++) {
+          quadImages[i].addEventListener("click", toggleExpansion);
+        }
       } else {
-          for (var i = 0; i < quadImages.length; i++) {
-              quadImages[i].addEventListener('mouseenter', function() {
-                  this.classList.add("expanded");
-                  quad.classList.add("full");
-              });
+        for (var i = 0; i < quadImages.length; i++) {
+          quadImages[i].addEventListener("mouseenter", function () {
+            this.classList.add("expanded");
+            quad.classList.add("full");
+          });
 
-              quadImages[i].addEventListener('mouseleave', function() {
-                  this.classList.remove("expanded");
-                  quad.classList.remove("full");
-              });
+          quadImages[i].addEventListener("mouseleave", function () {
+            this.classList.remove("expanded");
+            quad.classList.remove("full");
+          });
 
-              quadImages[i].addEventListener('click', toggleExpansion);
-          }
+          quadImages[i].addEventListener("click", toggleExpansion);
+        }
       }
 
+      document.addEventListener("DOMContentLoaded", function () {
+        var images = document.querySelectorAll("#quad_mobile img");
+        var expandedImg = document.querySelector("#expandedImg");
 
-      document.addEventListener('DOMContentLoaded', function() {
-        var images = document.querySelectorAll('#quad_mobile img');
-        var expandedImg = document.querySelector('#expandedImg');
-
-        images.forEach(function(img) {
-            img.addEventListener('click', function() {
-                expandedImg.src = img.src;
-                expandedImg.style.display = 'block';
-            });
+        images.forEach(function (img) {
+          img.addEventListener("click", function () {
+            expandedImg.src = img.src;
+            expandedImg.style.display = "block";
+          });
         });
 
-        expandedImg.addEventListener('click', function() {
-            expandedImg.style.display = 'none';
+        expandedImg.addEventListener("click", function () {
+          expandedImg.style.display = "none";
         });
 
-        window.addEventListener('scroll', function() {
-        if (expandedImg.style.display === 'block') {
-            expandedImg.style.display = 'none';
-        }
+        window.addEventListener("scroll", function () {
+          if (expandedImg.style.display === "block") {
+            expandedImg.style.display = "none";
+          }
+        });
       });
-      
-      });
-
-
 
       function showTooltip(event) {
-          event.preventDefault();  
+        event.preventDefault();
 
-          var url = $(this).attr('href');
-          if (url) {
-              navigator.clipboard.writeText(url).then(function() {
-                  console.log('URL copied to clipboard:', url);
+        var url = $(this).attr("href");
+        if (url) {
+          navigator.clipboard
+            .writeText(url)
+            .then(function () {
+              console.log("URL copied to clipboard:", url);
 
-                  // Handle both mouse and touch events
-                  var pageX, pageY;
-                  if (event.type === 'touchend' && event.originalEvent.changedTouches) {
-                      // For touch events, get the coordinates from the first changed touch
-                      pageX = event.originalEvent.changedTouches[0].pageX;
-                      pageY = event.originalEvent.changedTouches[0].pageY;
-                  } else {
-                      // For mouse events
-                      pageX = event.pageX;
-                      pageY = event.pageY;
-                  }
+              // Handle both mouse and touch events
+              var pageX, pageY;
+              if (
+                event.type === "touchend" &&
+                event.originalEvent.changedTouches
+              ) {
+                // For touch events, get the coordinates from the first changed touch
+                pageX = event.originalEvent.changedTouches[0].pageX;
+                pageY = event.originalEvent.changedTouches[0].pageY;
+              } else {
+                // For mouse events
+                pageX = event.pageX;
+                pageY = event.pageY;
+              }
 
-                  // Show the tooltip at the calculated position
-                  $('#tooltip').css({
-                      top: pageY + 10 + 'px',
-                      left: pageX + 10 + 'px'
-                  }).fadeIn(200).delay(1000).fadeOut(200);  
-              }).catch(function(err) {
-                  console.error('Error copying URL:', err);
-              });
-          } else {
-              console.error('No URL found to copy.');
-          }
+              // Show the tooltip at the calculated position
+              $("#tooltip")
+                .css({
+                  top: pageY + 10 + "px",
+                  left: pageX + 10 + "px",
+                })
+                .fadeIn(200)
+                .delay(1000)
+                .fadeOut(200);
+            })
+            .catch(function (err) {
+              console.error("Error copying URL:", err);
+            });
+        } else {
+          console.error("No URL found to copy.");
+        }
       }
 
       // Bind the event handlers
-      $('.urlCopy').on('click', showTooltip);
-      $('.urlCopy').on('touchend', function(event) {
-          setTimeout(function() {
-              showTooltip.call(event.currentTarget, event);
-          }, 0);
+      $(".urlCopy").on("click", showTooltip);
+      $(".urlCopy").on("touchend", function (event) {
+        setTimeout(function () {
+          showTooltip.call(event.currentTarget, event);
+        }, 0);
       });
-  
     </script>
   </body>
 </html>

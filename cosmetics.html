@@ -1,43 +1,104 @@
 <!DOCTYPE html>
 <html lang="bg">
   <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-62VMB7NFG8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-62VMB7NFG8");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MZ74J329");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <title>Козметика</title>
-    <meta content="" name="description">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="products_categories.css" rel="stylesheet">
-    <link href="header.css" rel="stylesheet">
-    <link href="footer.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="index_img/icon_logo.png">
+    <meta content="" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="products_categories.css" rel="stylesheet" />
+    <link href="header.css" rel="stylesheet" />
+    <link href="footer.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="index_img/icon_logo.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-
     <!-- -------------------Navigation menu--------------------->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MZ74J329"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
+    <div id="cookieConsent">
+      <p>
+        С цел подобряване на обслужването, платформата на www.rumen-aloe.com
+        използва <a href="cookies.html" target="_blank">“бисквитки"</a>
+        <button id="acceptCookies">Приемам</button>
+        <button id="rejectCookies">Отказвам</button>
+      </p>
+    </div>
     <header id="header"></header>
-    
+
     <!-- -------------------Main part--------------------->
 
     <main class="main">
-
       <div class="intro">
         <h1>Козметика</h1>
       </div>
 
-      <div class="button"><a href="shop" class="btn red">
-        <span>Присъедини се към моя екип и пазарувай с отстъпка!</span><ion-icon name="arrow-forward"></ion-icon></a>
+      <div class="button">
+        <a href="shop" class="btn red">
+          <span>Присъедини се към моя екип и пазарувай с отстъпка!</span
+          ><ion-icon name="arrow-forward"></ion-icon
+        ></a>
       </div>
 
       <div class="search_filter">
-
         <div class="sort_filter">
           <select title="filter" id="sortOptions">
             <option value="id">Сортирай</option>
@@ -50,9 +111,8 @@
 
         <div class="search">
           <h2>Намери продукт &nbsp;<i class="bi bi-search"></i></h2>
-          <input id="searchInput" placeholder="Търсене..." type="text">
+          <input id="searchInput" placeholder="Търсене..." type="text" />
         </div>
-
       </div>
 
       <div class="row" id="products"></div>
@@ -60,73 +120,89 @@
       <div id="products"></div>
 
       <div id="pagination"></div>
-
     </main>
-    
+
     <!-- -------------------Footer--------------------->
 
     <footer id="footer" class="footer"></footer>
 
     <!-- -------------------Script--------------------->
 
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
     <script>
-      
-      $(document).ready(function(){
-          const itemsPerPage = 16;
-          let currentPage = 1;
+      $(document).ready(function () {
+        const itemsPerPage = 16;
+        let currentPage = 1;
 
-          function renderPage(pageNumber, searchData, sortType = 'ID') {
-              $.get("https://iglika.me/getCosmetics", function(data, status){
+        function renderPage(pageNumber, searchData, sortType = "ID") {
+          $.get("https://iglika.me/getCosmetics", function (data, status) {
+            // Filter the data based on search input
+            if (searchData && searchData.trim() !== "") {
+              data = data.filter(function (product) {
+                return (
+                  (product.id && product.id.toString().includes(searchData)) ||
+                  (product.h1 &&
+                    product.h1
+                      .toLowerCase()
+                      .includes(searchData.toLowerCase())) ||
+                  (product.h2 &&
+                    product.h2
+                      .toLowerCase()
+                      .includes(searchData.toLowerCase())) ||
+                  (product.description &&
+                    product.description
+                      .toLowerCase()
+                      .includes(searchData.toLowerCase()))
+                );
+              });
+            }
 
-                  // Filter the data based on search input
-                  if (searchData && searchData.trim() !== "") {
-                      data = data.filter(function(product) {
-                          return (product.id && product.id.toString().includes(searchData)) || 
-                                (product.h1 && product.h1.toLowerCase().includes(searchData.toLowerCase())) ||
-                                (product.h2 && product.h2.toLowerCase().includes(searchData.toLowerCase())) ||
-                                (product.description && product.description.toLowerCase().includes(searchData.toLowerCase()));
-                      });
-                  }
+            // Sort the data based on the selected sort type
+            switch (sortType) {
+              case "price_asc":
+                data.sort(function (a, b) {
+                  return (
+                    parseFloat(a.price.replace(/[^\d.-]/g, "")) -
+                    parseFloat(b.price.replace(/[^\d.-]/g, ""))
+                  ); // Price low to high
+                });
+                break;
+              case "price_desc":
+                data.sort(function (a, b) {
+                  return (
+                    parseFloat(b.price.replace(/[^\d.-]/g, "")) -
+                    parseFloat(a.price.replace(/[^\d.-]/g, ""))
+                  ); // Price high to low
+                });
+                break;
+              case "name_asc":
+                data.sort(function (a, b) {
+                  return a.h2.localeCompare(b.h2); // Name A to Z
+                });
+                break;
+              case "name_desc":
+                data.sort(function (a, b) {
+                  return b.h2.localeCompare(a.h2); // Name Z to A
+                });
+                break;
+              case "ID":
+                data.sort(function (a, b) {
+                  return a.amount_p - b.amount_p;
+                });
+                break;
+            }
 
-                  // Sort the data based on the selected sort type
-                  switch (sortType) {
-                    case 'price_asc':
-                          data.sort(function(a, b) {
-                              return parseFloat(a.price.replace(/[^\d.-]/g, '')) - parseFloat(b.price.replace(/[^\d.-]/g, '')); // Price low to high
-                          });
-                          break;
-                      case 'price_desc':
-                          data.sort(function(a, b) {
-                              return parseFloat(b.price.replace(/[^\d.-]/g, '')) - parseFloat(a.price.replace(/[^\d.-]/g, '')); // Price high to low
-                          });
-                          break;
-                      case 'name_asc':
-                          data.sort(function(a, b) {
-                              return a.h2.localeCompare(b.h2); // Name A to Z
-                          });
-                          break;
-                      case 'name_desc':
-                          data.sort(function(a, b) {
-                              return b.h2.localeCompare(a.h2); // Name Z to A
-                          });
-                          break;
-                      case 'ID':
-                          data.sort(function(a, b) {
-                              return a.amount_p - b.amount_p; 
-                          });
-                          break;
-                  }
+            // Pagination logic
+            let start = (pageNumber - 1) * itemsPerPage;
+            let end = start + itemsPerPage;
+            let pageData = data.slice(start, end);
 
-                  // Pagination logic
-                  let start = (pageNumber - 1) * itemsPerPage;
-                  let end = start + itemsPerPage;
-                  let pageData = data.slice(start, end);
-
-                  let rowHtml = '<div class="row">';
-                  pageData.forEach(function(product) {
-                      let productHtml = `
+            let rowHtml = '<div class="row">';
+            pageData.forEach(function (product) {
+              let productHtml = `
                           <div class="wrapper">
                               <div class="box-up">
                                   <img class="img" src="${product.image3}" alt="">
@@ -149,67 +225,73 @@
                                   </a>
                               </div>
                           </div>`;
-                      rowHtml += productHtml;  
-                  });
-                  rowHtml += '</div>'; 
-                  $('#products').html(rowHtml); 
+              rowHtml += productHtml;
+            });
+            rowHtml += "</div>";
+            $("#products").html(rowHtml);
 
-                  // Pagination buttons
-                  let totalPages = Math.ceil(data.length / itemsPerPage);
-                  let paginationHtml = '';
-                  for(let i = 1; i <= totalPages; i++) {
-                      paginationHtml += `<button class="pagination-button" data-page="${i}">${i}</button>`;
-                  }
-                  $('#pagination').html(paginationHtml);
-                  $('.pagination-button').removeClass('active');
-                  $(`.pagination-button[data-page="${pageNumber}"]`).addClass('active');
-                    
-                  // Attach click event to pagination buttons
-                  $('.pagination-button').click(function() {
-                      let btn = $(this);
-                      $('html, body').animate({
-                          scrollTop: $('.search_filter').offset().top
-                      }, 100);
-                      renderPage(btn.data('page'), $('#searchInput').val(), $('#sortOptions').val());
-                  });
-              });
-          }
+            // Pagination buttons
+            let totalPages = Math.ceil(data.length / itemsPerPage);
+            let paginationHtml = "";
+            for (let i = 1; i <= totalPages; i++) {
+              paginationHtml += `<button class="pagination-button" data-page="${i}">${i}</button>`;
+            }
+            $("#pagination").html(paginationHtml);
+            $(".pagination-button").removeClass("active");
+            $(`.pagination-button[data-page="${pageNumber}"]`).addClass(
+              "active"
+            );
 
-          // Initial page render
-          renderPage(currentPage);
-
-          // Event handler for search input
-          $('#searchInput').on('input', function() {
-              let searchData = $(this).val();
-              renderPage(1, searchData, $('#sortOptions').val()); 
+            // Attach click event to pagination buttons
+            $(".pagination-button").click(function () {
+              let btn = $(this);
+              $("html, body").animate(
+                {
+                  scrollTop: $(".search_filter").offset().top,
+                },
+                100
+              );
+              renderPage(
+                btn.data("page"),
+                $("#searchInput").val(),
+                $("#sortOptions").val()
+              );
+            });
           });
+        }
 
-          // Event handler for sorting options
-          $('#sortOptions').change(function() {
-              renderPage(1, $('#searchInput').val(), $(this).val());
-          });
+        // Initial page render
+        renderPage(currentPage);
 
-          // Event handler for clicking on product
-          $(document).on('click', '.cart', function(e) {
-              e.preventDefault();
-              let productId = $(this).attr('data-id');
-              window.location.href = `/Product_data?id=${productId}`;
-          });
+        // Event handler for search input
+        $("#searchInput").on("input", function () {
+          let searchData = $(this).val();
+          renderPage(1, searchData, $("#sortOptions").val());
+        });
 
+        // Event handler for sorting options
+        $("#sortOptions").change(function () {
+          renderPage(1, $("#searchInput").val(), $(this).val());
+        });
+
+        // Event handler for clicking on product
+        $(document).on("click", ".cart", function (e) {
+          e.preventDefault();
+          let productId = $(this).attr("data-id");
+          window.location.href = `/Product_data?id=${productId}`;
+        });
       });
-
     </script>
 
+    <script src="cookies.js"></script>
     <script>
-          
-      $(document).ready(function(){
+      $(document).ready(function () {
         $("#header").load("header.html");
       });
 
-      $(document).ready(function(){
+      $(document).ready(function () {
         $("#footer").load("footer.html");
       });
-
     </script>
   </body>
 </html>

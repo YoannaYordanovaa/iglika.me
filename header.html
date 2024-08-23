@@ -1,18 +1,26 @@
-<div class="logo"><a href="index"><img src="index_img/IglikaLogo.png" alt="Logo"></a></div>
-<input type="checkbox" title="menu-bar" id="menu-bar"> 
-<label for="menu-bar"><img src="index_img/hamburger.svg" alt=""></label>
+<div class="logo">
+  <a href="index"><img src="index_img/IglikaLogo.png" alt="Logo" /></a>
+</div>
+<input type="checkbox" title="menu-bar" id="menu-bar" />
+<label for="menu-bar"><img src="index_img/hamburger.svg" alt="" /></label>
 <nav class="navbar">
   <ul>
     <li class="h1"><a href="index">За мен</a></li>
-    <li class="h1"><a href="products">Продукти</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+    <li class="h1">
+      <a href="products">Продукти</a
+      ><span class="arrow"><i class="fa fa-angle-down"></i></span>
       <ul>
-        <li><a href="health">Напитки и добавки</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+        <li>
+          <a href="health">Напитки и добавки</a
+          ><span class="arrow"><i class="fa fa-angle-down"></i></span>
           <ul>
             <li><a href="drinks">Напитки</a></li>
             <li><a href="supplements">Добавки</a></li>
           </ul>
         </li>
-        <li><a href="cosmetics">Козметика</a><span class="arrow"><i class="fa fa-angle-down"></i></span>
+        <li>
+          <a href="cosmetics">Козметика</a
+          ><span class="arrow"><i class="fa fa-angle-down"></i></span>
           <ul>
             <li><a href="face">Грижа за лицето</a></li>
             <li><a href="body">Грижа за тялото</a></li>
@@ -29,19 +37,20 @@
 </nav>
 
 <script>
-
-  document.querySelectorAll('.arrow').forEach(function(arrow) {
+  document.querySelectorAll(".arrow").forEach(function (arrow) {
     function toggleMenu(e) {
       e.stopPropagation();
       let submenu = this.nextElementSibling;
-      console.log('Arrow clicked:', this);
-      console.log('Submenu:', submenu);
+      console.log("Arrow clicked:", this);
+      console.log("Submenu:", submenu);
       if (submenu) {
-        submenu.style.display = (submenu.style.display === '' || submenu.style.display === 'none') ? 'block' : 'none';
+        submenu.style.display =
+          submenu.style.display === "" || submenu.style.display === "none"
+            ? "block"
+            : "none";
       }
     }
 
-    arrow.addEventListener('touchstart', toggleMenu);
+    arrow.addEventListener("touchstart", toggleMenu);
   });
-  
 </script>
