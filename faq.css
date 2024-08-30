@@ -1,80 +1,74 @@
-main .cover_mobile{
-    display: none;
+main .cover_mobile {
+  display: none;
 }
 
-main .index_cover img{
+main .index_cover img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+
+main .text_main {
+  position: relative;
+  margin: 8%;
+  background-color: rgba(255, 255, 255, 0.556);
+  padding: 3%;
+  line-height: 1.5;
+  border-radius: 2rem;
+}
+
+main .text_main h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+main .text_main p {
+  margin-bottom: 3%;
+}
+
+main .text_main a {
+  word-wrap: break-word;
+}
+
+@media (max-width: 900px) {
+  main .index_cover {
+    display: none;
+  }
+
+  main .cover_mobile {
+    display: block;
+  }
+
+  main .cover_mobile img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
     width: 100%;
     position: absolute;
-}
+  }
 
-main .text_main{
+  main .text_main {
     position: relative;
-    margin: 8%;
-    background-color: rgba(255, 255, 255, 0.556);
-    padding: 3%;
-    line-height: 1.5;
-    border-radius: 2rem;
-}
+    margin-top: 30%;
+    padding: 5%;
+  }
 
-main .text_main h1{
+  main .text_main h1 {
+    padding-bottom: 15%;
+  }
+
+  main .text_main h2 {
     text-align: center;
     margin-bottom: 3%;
-}
+    font-size: 20px;
+  }
 
-main .text_main p{
-    margin-bottom: 3%;
-}
-
-main .text_main a{
-    word-wrap: break-word
-      
-}
-
-
-
-@media (max-width: 900px) {
-
-    main .index_cover{
-        display: none;
-    }
-
-    main .cover_mobile{
-        display: block;
-      }
-
-    main .cover_mobile img{
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        position: absolute;
-    }
-
-    main .text_main{
-        position: relative;
-        margin-top: 30%;
-        padding: 5%;
-    }
-
-    main .text_main h1{
-        padding-bottom: 15%;
-    }
-
-    main .text_main h2{
-        text-align: center;
-        margin-bottom: 3%;
-        font-size: 20px;
-    }
-
-    main .text_main p{
-        margin-bottom: 10%;
-        text-align: justify;
-        font-size: 16px;
-    }
-
-
+  main .text_main p {
+    margin-bottom: 10%;
+    text-align: justify;
+    font-size: 16px;
+  }
 }

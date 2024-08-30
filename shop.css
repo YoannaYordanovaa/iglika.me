@@ -1,16 +1,16 @@
- body{
-  color: #182C00;
+body {
+  color: #182c00;
 }
 
-main{
+main {
   position: relative;
 }
 
-main .cover_mobile img{
+main .cover_mobile img {
   display: none;
 }
 
-main .index_cover img{
+main .index_cover img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,18 +20,18 @@ main .index_cover img{
   position: absolute;
 }
 
-main .main_section{
+main .main_section {
   position: relative;
   margin: 10% 5%;
 }
 
-main .main_section h1{
+main .main_section h1 {
   text-align: center;
   font-size: 48px;
   margin-bottom: 3%;
 }
 
-main .main_section .main_text{
+main .main_section .main_text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: rgba(255, 255, 255, 0.747);
@@ -41,79 +41,82 @@ main .main_section .main_text{
   border-radius: 2rem;
 }
 
-main .main_section .main_text .main_text_left .p1, .main_text .main_text_right .p4{
+main .main_section .main_text .main_text_left .p1,
+.main_text .main_text_right .p4 {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
   padding-bottom: 3%;
 }
 
-main .main_section .main_text .main_text_left .p1 span, .main_text .main_text_right .p4 span{
-  color: #F82536;
+main .main_section .main_text .main_text_left .p1 span,
+.main_text .main_text_right .p4 span {
+  color: #f82536;
   font-weight: 700;
 }
 
-main .main_section .main_text_left .circle, .main_text_right .circle{
+main .main_section .main_text_left .circle,
+.main_text_right .circle {
   font-size: 48px;
   font-weight: 700;
   color: white;
-  background-color: #F82536;
+  background-color: #f82536;
   border-radius: 50%;
   width: 140px;
   height: 140px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
-main .main_section .main_text_left .p2 a, .main_text_right .p5{
+main .main_section .main_text_left .p2 a,
+.main_text_right .p5 {
   text-align: justify;
 }
 
-main .main_section .main_text_left .p2 a, .main_text_right .p5 a{
-  color: #71B120;
+main .main_section .main_text_left .p2 a,
+.main_text_right .p5 a {
+  color: #71b120;
   text-decoration: none;
   font-weight: 700;
 }
 
-main .main_section .main_text_left .p2 a:hover, .main_text_right .p5 a:hover{
-  color: #F82536;
+main .main_section .main_text_left .p2 a:hover,
+.main_text_right .p5 a:hover {
+  color: #f82536;
 }
 
-main .main_section .main_text_left ul li, .main_text_right ul li{
+main .main_section .main_text_left ul li,
+.main_text_right ul li {
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-main .main_section .main_text_left ul li span{
+main .main_section .main_text_left ul li span {
   font-weight: 600;
 }
 
-main .main_section .main_text_right .description{
+main .main_section .main_text_right .description {
   margin-top: 10px;
 }
 
-
 /* ..................................Media querry.................................. */
 
-
-@media (max-width: 1024px){
-
-  main .index_cover img{
+@media (max-width: 1024px) {
+  main .index_cover img {
     margin-top: 20%;
     margin-bottom: 15%;
   }
 }
 
-@media (max-width: 900px){
-
-  main .index_cover{
+@media (max-width: 900px) {
+  main .index_cover {
     display: none;
   }
 
-  main .cover_mobile img{
+  main .cover_mobile img {
     display: block;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,31 +127,32 @@ main .main_section .main_text_right .description{
     position: absolute;
   }
 
-  main .main_section{
+  main .main_section {
     margin-top: 30%;
     margin-left: 3%;
     margin-right: 3%;
-  }  
+  }
 
-  main .main_section .main_text{
+  main .main_section .main_text {
     display: flex;
     flex-direction: column;
     padding: 6%;
   }
 
-  main .main_section .main_text .main_text_right{
+  main .main_section .main_text .main_text_right {
     margin-top: 8%;
     text-align: justify;
   }
 
-  main .main_section .main_text .main_text_left .p1, .main_text .main_text_right .p4{
+  main .main_section .main_text .main_text_left .p1,
+  .main_text .main_text_right .p4 {
     line-height: 1.3;
     margin-bottom: 4%;
   }
 
-  main .main_section .main_text_left .circle, .main_text_right .circle{
+  main .main_section .main_text_left .circle,
+  .main_text_right .circle {
     width: 120px;
     height: 120px;
   }
-
 }

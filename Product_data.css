@@ -1,235 +1,229 @@
-.main_section{
-    margin-top: 80px;
-    display: grid;
-    gap: 15px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .text{
-    margin-top: 60px;
-    line-height: 1.5;
-    margin-right: 80px;
-  }
+.main_section {
+  margin-top: 80px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-    
-  .text h1{
-    font-size: 40px;
-    text-align: center;
-  }
-  
-  .text h2{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-  }
-  
-  .text .txt{
-    text-align: justify;
-    padding: 30px 5px;
-    font-size: 16px;
-    margin-top: -60px;
-  }
+.text {
+  margin-top: 60px;
+  line-height: 1.5;
+  margin-right: 80px;
+}
 
-  .text .name{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+.text h1 {
+  font-size: 40px;
+  text-align: center;
+}
 
-  .text .name .descr{
-    z-index: 2;
-  }
+.text h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
 
-  .text .id{
-    text-align: center;
-    font-style: italic;
-    font-size: 16px;
-    color: #919191;
-  }
+.text .txt {
+  text-align: justify;
+  padding: 30px 5px;
+  font-size: 16px;
+  margin-top: -60px;
+}
 
+.text .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  .text .circle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 10px;
-    gap: 15px;
-  }
+.text .name .descr {
+  z-index: 2;
+}
 
-  .text .circle a{
-    text-decoration: none;
-  }
+.text .id {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  color: #919191;
+}
 
-  .text .circle .discount, .noDiscount{
-    display: flex;
-    text-align: center;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column;
-    gap: 0;
-    z-index: -1;
-    font-size: 16px;
-    font-weight: 800;
-    background-color: #71B120;
-    color: white;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
+.text .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 15px;
+}
 
-  .text .discount:hover{
-    background-color: #F82536;
-  }
+.text .circle a {
+  text-decoration: none;
+}
 
-  .text .circle .discount span{
-    font-size: 32px;
-  }
+.text .circle .discount,
+.noDiscount {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+  z-index: -1;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #71b120;
+  color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
-  .text .circle .discount p, .noDiscount p{
-    color: #182C00;
-  }
+.text .discount:hover {
+  background-color: #f82536;
+}
 
-  #tooltip{
-    position: absolute; 
-    padding: 5px; 
-    background: #333; 
-    color: #fff; 
-    border-radius: 4px; 
-    display: none; 
-    pointer-events: none; 
-    font-size: 12px;
-    }
+.text .circle .discount span {
+  font-size: 32px;
+}
 
-  /* ..............................Tab.............................. */
+.text .circle .discount p,
+.noDiscount p {
+  color: #182c00;
+}
 
+#tooltip {
+  position: absolute;
+  padding: 5px;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  display: none;
+  pointer-events: none;
+  font-size: 12px;
+}
 
-  .tab {
-    overflow: hidden;
-    border: 0.2px solid #72b12057;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    background-color: white;
-    border-left: none;
-    border-right: none;
-  }
-  
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 60px;
-    transition: 0.3s;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  
-  .tab button:hover {
-    background-color: #ffffff;
-    color: #F82536;
-  }
-  
-  .tab button.active {
-    background-color: #ffffff;
-    color: #F82536;
-  }
-  
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-    font-size: 16px;
-    height: 200px;
-    text-align: justify;
-  }
-  
-  .tabcontent h2{
-    font-style: normal;
-    font-size: 18px;
-    margin-bottom: 1%;
-    font-weight: 600;
-    padding-top: 20px;
-    color: #182C00;
-    text-align: left;
-  }
-  
+/* ..............................Tab.............................. */
+
+.tab {
+  overflow: hidden;
+  border: 0.2px solid #72b12057;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: white;
+  border-left: none;
+  border-right: none;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 60px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tab button:hover {
+  background-color: #ffffff;
+  color: #f82536;
+}
+
+.tab button.active {
+  background-color: #ffffff;
+  color: #f82536;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  font-size: 16px;
+  height: 200px;
+  text-align: justify;
+}
+
+.tabcontent h2 {
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 1%;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #182c00;
+  text-align: left;
+}
 
 /* ..............................Gallery.............................. */
 
+#quad_mobile,
+#expandedImg {
+  display: none;
+}
 
+div#quad {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  flex-direction: column;
+}
 
-  #quad_mobile, #expandedImg{
-    display: none;
-  }
+div#quad figure {
+  margin: 3px;
+  width: 50%;
+  height: auto;
+  transition: 1s;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
 
-  div#quad { 
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    margin-top: 120px;
-    flex-direction: column;
-  }
+div#quad figure:hover {
+  cursor: pointer;
+  z-index: 4;
+}
 
-  div#quad figure { 
-    margin: 3px; 
-    width: 50%; 
-    height: auto; 
-    transition: 1s; 
-    display: inline-block; 
-    position: relative; 
-    overflow: hidden; 
-  }
+div#quad figure.expanded img:hover {
+  cursor: zoom-out;
+}
 
-  div#quad figure:hover { 
-    cursor: pointer; 
-    z-index: 4; 
-  }
+div#quad figure img {
+  width: 100%;
+  height: auto;
+}
 
-  div#quad figure.expanded img:hover { 
-    cursor: zoom-out; 
-  }
+div#quad figure img:hover {
+  cursor: zoom-in;
+}
 
-  div#quad figure img { 
-    width: 100%; 
-    height: auto; 
-  }
-  
-  div#quad figure img:hover { 
-    cursor: zoom-in;
-  }  
+div#quad figure:nth-child(1) {
+  transform-origin: top;
+}
 
-  div#quad figure:nth-child(1) { 
-    transform-origin: top; 
-  }
+div#quad figure:nth-child(2) {
+  transform-origin: center;
+}
 
-  div#quad figure:nth-child(2) { 
-    transform-origin: center; 
-  }
+div#quad figure:nth-child(3) {
+  transform-origin: bottom;
+}
 
-  div#quad figure:nth-child(3) { 
-    transform-origin: bottom; 
-  }
+.expanded {
+  transform: scale(1.5);
+  z-index: 5;
+}
 
-  .expanded { 
-    transform: scale(1.5); 
-    z-index: 5; 
-  }
-
-  div.full figure:not(.expanded) { 
-    pointer-events: none;
-  }
-  
+div.full figure:not(.expanded) {
+  pointer-events: none;
+}
 
 /* ..............................Button.............................. */
 
-
-
-  .btn {
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +250,6 @@ ion-icon {
 
 .btn:hover ion-icon {
   transform: rotate(-90deg);
-
 }
 
 .button {
@@ -265,14 +258,13 @@ ion-icon {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 5% auto 8% ;
+  margin: 5% auto 8%;
   z-index: 4;
-    
 }
 
 .red {
   background: none;
-  color: #182C00;
+  color: #182c00;
 }
 
 .red::before {
@@ -280,7 +272,7 @@ ion-icon {
   display: block;
   width: 100px;
   height: 100%;
-  background-color: #F82536;
+  background-color: #f82536;
   position: absolute;
   border-radius: 100px;
   left: 1em;
@@ -296,34 +288,29 @@ ion-icon {
   transform: translateX(10px);
 }
 
-.red:hover{
+.red:hover {
   color: rgb(255, 255, 255);
 }
 
-
-
 /* ..............................Media Query.............................. */
 
-
-  
-@media (max-width: 1350px){
-
-  .main_section{
+@media (max-width: 1350px) {
+  .main_section {
     display: flex;
     flex-direction: column;
   }
 
-  .text{
+  .text {
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  .text .txt{
+  .text .txt {
     text-align: justify;
     padding: 0;
   }
 
-  .tab1{
+  .tab1 {
     min-height: 650px;
   }
 
@@ -331,7 +318,7 @@ ion-icon {
     padding: 6% 4%;
   }
 
-  .tab1 .tab{
+  .tab1 .tab {
     display: flex;
     flex-direction: row;
   }
@@ -343,56 +330,50 @@ ion-icon {
   }
 }
 
-
-
-@media (max-width: 900px){
-  
-  .text{
+@media (max-width: 900px) {
+  .text {
     margin-top: 3vh;
   }
 
-  .text .txt{
+  .text .txt {
     margin-top: 0;
   }
 
-  .text .name .descr .nameEN{
+  .text .name .descr .nameEN {
     font-weight: 800;
     text-align: center;
     margin: 0 10px;
   }
 
-  .text .circle{
+  .text .circle {
     gap: 3px;
   }
 
-  .text .circle .discount, .noDiscount{
+  .text .circle .discount,
+  .noDiscount {
     min-width: 115px;
     min-height: 115px;
     max-width: 115px;
     max-height: 115px;
   }
 
-
-/* ..............................Button.............................. */
-
+  /* ..............................Button.............................. */
 
   .red {
     background: none;
     color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: #F82536;
+    background-color: #f82536;
     padding-left: 20%;
     padding-right: 20%;
   }
 
   .btn {
-      min-width: 190px;
-      min-height: 60px;
+    min-width: 190px;
+    min-height: 60px;
   }
 
-
-/* ..............................Gallery.............................. */
-
+  /* ..............................Gallery.............................. */
 
   #expandedImg {
     position: fixed;
@@ -405,64 +386,63 @@ ion-icon {
     border: 0.5px solid #5f5f5f;
   }
 
-  div#quad{
+  div#quad {
     display: none;
   }
 
-  #quad_mobile { 
-    width: 100%; 
+  #quad_mobile {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  #quad_mobile figure { 
-    margin: 3px; 
-    width: 80%; 
-    height: auto; 
-    transition: 1s; 
-    display: inline-block; 
-    position: relative; 
-    overflow: hidden; 
+  #quad_mobile figure {
+    margin: 3px;
+    width: 80%;
+    height: auto;
+    transition: 1s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
   }
 
-  #quad_mobile figure:hover { 
-    cursor: pointer; 
-    z-index: 4; 
+  #quad_mobile figure:hover {
+    cursor: pointer;
+    z-index: 4;
   }
 
-  #quad_mobile figure.expanded img:hover { 
-    cursor: zoom-out; 
+  #quad_mobile figure.expanded img:hover {
+    cursor: zoom-out;
   }
 
-  #quad_mobile figure img { 
-    width: 100%; 
-    height: auto; 
+  #quad_mobile figure img {
+    width: 100%;
+    height: auto;
   }
-  
-  #quad_mobile figure img:hover { 
+
+  #quad_mobile figure img:hover {
     cursor: zoom-in;
-  }  
-
-  #quad_mobile figure:nth-child(1) { 
-    transform-origin: top; 
   }
 
-  #quad_mobile figure:nth-child(2) { 
-    transform-origin: center; 
+  #quad_mobile figure:nth-child(1) {
+    transform-origin: top;
   }
 
-  #quad_mobile figure:nth-child(3) { 
-    transform-origin: bottom; 
+  #quad_mobile figure:nth-child(2) {
+    transform-origin: center;
   }
 
-  .expanded { 
-    transform: scale(1.5); 
-    z-index: 5; 
+  #quad_mobile figure:nth-child(3) {
+    transform-origin: bottom;
   }
 
-  div.full figure:not(.expanded) { 
+  .expanded {
+    transform: scale(1.5);
+    z-index: 5;
+  }
+
+  div.full figure:not(.expanded) {
     pointer-events: none;
   }
-
 }

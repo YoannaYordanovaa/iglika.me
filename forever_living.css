@@ -1,11 +1,10 @@
-
 .scroll {
   overflow: hidden;
   position: relative;
   height: 100vh;
 }
 
-.page_0{
+.page_0 {
   position: absolute;
   left: 0;
   top: 0;
@@ -30,8 +29,8 @@
   transform: translate3d(38.4vh, -100%, 0);
 }
 
-.page_0.active .half{
-  transform: translate3d(0,0,0);
+.page_0.active .half {
+  transform: translate3d(0, 0, 0);
 }
 
 .page {
@@ -41,14 +40,14 @@
   width: 140%;
   height: 100%;
   transform: skewX(-18deg);
-  background: #71B120; 
+  background: #71b120;
 }
 
-.page_left .page{
+.page_left .page {
   left: -40%;
 }
 
-.page_right .page{
+.page_right .page {
   right: -40%;
 }
 
@@ -68,31 +67,30 @@
   transition: transform 1s, opacity 1s;
   background-size: cover;
   line-height: 1.5;
-
 }
 
-.page_content .back{
+.page_content .back {
   display: none;
 }
 
-.page_left .page_content{
+.page_left .page_content {
   padding-left: 30%;
   padding-right: 20%;
   transform-origin: 100% 0;
 }
 
-.page_right .page_content{
+.page_right .page_content {
   padding-left: 20%;
   padding-right: 30%;
   transform-origin: 0 100%;
 }
 
-.page_0.inactive .page_content{
+.page_0.inactive .page_content {
   opacity: 0.5;
   transform: skewX(18deg) scale(0.95);
 }
 
-.ion_icon{
+.ion_icon {
   display: none;
 }
 
@@ -108,52 +106,50 @@
   text-align: justify;
 }
 
-.page_content ul li{
+.page_content ul li {
   padding-top: 20px;
 }
 
-.page_content ul li span{
-  color: #182C00;
+.page_content ul li span {
+  color: #182c00;
   font-weight: 800;
 }
 
 .pagenum_1 .page_left .page_content {
-  background-image: url('Forever_img/DSC_1841-1.jpg');
+  background-image: url("Forever_img/DSC_1841-1.jpg");
 }
 
 .pagenum_1 .page_right .page_content {
-  background: lighten(#1C1C1C, 5%);
+  background: lighten(#1c1c1c, 5%);
 }
 
 .pagenum_2 .page_left .page_content {
-  background: lighten(#1C1C1C, 5%);
+  background: lighten(#1c1c1c, 5%);
 }
 .pagenum_2 .page_right .page_content {
-  background-image: url('Forever_img/5c8ed60d9b911d0019c0dc9b-v2.jpg');
+  background-image: url("Forever_img/5c8ed60d9b911d0019c0dc9b-v2.jpg");
 }
 
 .pagenum_3 .page_left .page_content {
-  background-image: url('Forever_img/SJ_FLP_734_DR_March18_0901.jpg');
+  background-image: url("Forever_img/SJ_FLP_734_DR_March18_0901.jpg");
 }
 .pagenum_3 .page_right .page_content {
-  background: lighten(#1C1C1C, 5%);
+  background: lighten(#1c1c1c, 5%);
 }
 
 .pagenum_4 .page_left .page_content {
-  background: lighten(#1C1C1C, 5%);
+  background: lighten(#1c1c1c, 5%);
 }
 .pagenum_4 .page_right .page_content {
-  background-image: url('Forever_img/DSC_0319.JPG');
+  background-image: url("Forever_img/DSC_0319.JPG");
 }
 
 .pagenum_5 .page_left .page_content {
-  background-image: url('Forever_img/Untitled-1.png');
+  background-image: url("Forever_img/Untitled-1.png");
 }
 .pagenum_5 .page_right .page_content {
-  background: lighten(#1C1C1C, 5%);
+  background: lighten(#1c1c1c, 5%);
 }
-    
-
 
 .btn {
   display: flex;
@@ -182,7 +178,6 @@ ion-icon {
 
 .btn:hover ion-icon {
   transform: rotate(-90deg);
-
 }
 
 .button {
@@ -198,7 +193,7 @@ ion-icon {
 
 .red {
   background: none;
-  color: #182C00;
+  color: #182c00;
 }
 
 .red::before {
@@ -206,10 +201,10 @@ ion-icon {
   display: block;
   width: 100px;
   height: 100%;
-  background-color: #F82536;
+  background-color: #f82536;
   position: absolute;
   border-radius: 100px;
-left: 1em;
+  left: 1em;
   z-index: -1;
   transition: all 600ms ease;
 }
@@ -222,24 +217,27 @@ left: 1em;
   transform: translateX(10px);
 }
 
-.red:hover{
+.red:hover {
   color: rgb(255, 255, 255);
 }
 
-
-@media (max-width: 1024px){
-
-  .page1_left, .page2_right, .page3_left, .page4_right, .page5_left, #header{
+@media (max-width: 1024px) {
+  .page1_left,
+  .page2_right,
+  .page3_left,
+  .page4_right,
+  .page5_left,
+  #header {
     display: none;
   }
-  
+
   .scroll {
-    overflow: hidden; 
+    overflow: hidden;
     position: relative;
     height: 100vh;
-    }
-    
-  .page_0{
+  }
+
+  .page_0 {
     width: 100%;
   }
 
@@ -249,21 +247,21 @@ left: 1em;
     height: 100vh;
     transition: transform 1s;
   }
-  
+
   .page_left {
     transform: translate3d(1vh, 100%, 0);
     right: 0;
   }
-  
+
   .page_right {
     transform: translate3d(1vh, 100%, 0);
     left: 0;
   }
-  
-  .page_0.active .half{
-    transform: translate3d(0,0,0);
+
+  .page_0.active .half {
+    transform: translate3d(0, 0, 0);
   }
-  
+
   .page {
     width: 100%;
     transform: skewX(0deg);
@@ -272,17 +270,17 @@ left: 1em;
     background-repeat: no-repeat;
     background-position: center;
   }
-  
-  .page_left .page{
+
+  .page_left .page {
     left: 0;
     right: 0;
   }
-  
-  .page_right .page{
+
+  .page_right .page {
     right: 0;
     left: 0;
   }
-  
+
   .page_content {
     flex-flow: column;
     margin-left: auto;
@@ -298,7 +296,7 @@ left: 1em;
     background-color: #000000b6;
   }
 
-  .page_content .back{
+  .page_content .back {
     position: absolute;
     top: 9vh;
     color: #fff;
@@ -311,8 +309,8 @@ left: 1em;
     font-size: 1em;
     padding-right: 5px;
   }
-  
-  .ion_icon{
+
+  .ion_icon {
     position: absolute;
     color: #fff;
     display: flex;
@@ -320,57 +318,51 @@ left: 1em;
     align-items: center;
     bottom: 5vh;
     font-size: 25px;
-  
   }
 
-  .page_left .page_content{
+  .page_left .page_content {
     padding-left: 8%;
     padding-right: 8%;
   }
-  
-  .page_right .page_content{
+
+  .page_right .page_content {
     padding-left: 8%;
     padding-right: 8%;
   }
-  
-  .page_0.inactive .page_content{
+
+  .page_0.inactive .page_content {
     transform: skewX(0deg);
   }
-  
-  
+
   .page_description {
     font-size: 16px;
     text-align: justify;
   }
-  
-  .page_content ul li{
+
+  .page_content ul li {
     text-align: justify;
   }
-  
-  .page_content ul li span{
-    color: #71B120;
+
+  .page_content ul li span {
+    color: #71b120;
   }
-  
-  
+
   .button {
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
   }
-  
+
   .red {
     background: none;
     color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: #F82536;
+    background-color: #f82536;
     padding: 5%;
   }
-  
+
   .btn {
     min-width: 240px;
     min-height: 60px;
-  
   }
 }
-
-

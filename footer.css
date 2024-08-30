@@ -1,10 +1,10 @@
-.footer{
+.footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  color: #182C00;
+  color: #182c00;
   line-height: 1.5;
   border-top: 0.5px solid #a3a3a386;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 150px;
 }
 
@@ -12,7 +12,8 @@
   padding-right: 15px;
 }
 
-.left, .right {
+.left,
+.right {
   padding: 20px 60px;
 }
 
@@ -22,35 +23,35 @@
   padding-bottom: 10px;
 }
 
-.left .telephone{
+.left .telephone {
   padding-bottom: 5px;
 }
 
-.left .name{
+.left .name {
   padding-top: 10px;
   font-weight: 600;
 }
 
-.left .icon a{
-  color: #182C00;
+.left .icon a {
+  color: #182c00;
   text-decoration: none;
-  transition: all 0.2s;  
+  transition: all 0.2s;
 }
 
-.left .icon a:hover{
-  color: #F82536;
+.left .icon a:hover {
+  color: #f82536;
 }
 
-.right{
+.right {
   text-align: right;
 }
 
-.logo1 img{
+.logo1 img {
   width: 150px;
 }
 
-.right a{
-  color: #71B120;
+.right a {
+  color: #71b120;
   text-decoration: none;
   line-height: 1.7;
   font-weight: 400;
@@ -61,7 +62,7 @@
 }
 
 .right a:hover {
-  color: #F82536;
+  color: #f82536;
 }
 
 .center {
@@ -73,12 +74,9 @@
   color: rgb(102, 102, 102);
 }
 
-
-
 @media (max-width: 1024px) {
-
-  .logo1 img{
-      width: 150px;
+  .logo1 img {
+    width: 150px;
   }
 
   .footer {
@@ -87,31 +85,31 @@
     text-align: center;
   }
 
-  .right{
+  .right {
     text-align: center;
     line-height: 2;
     order: 1;
     padding-top: 0;
   }
 
-  .left, .right {
+  .left,
+  .right {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .right .logo{
+  .right .logo {
     padding-bottom: 5px;
   }
 
-  .center{
+  .center {
     padding-bottom: 0;
     padding-top: 0;
     order: 2;
     font-size: 12px;
   }
 
-  .center .copyright{
+  .center .copyright {
     font-weight: 300;
   }
-
 }

@@ -1,14 +1,13 @@
-.cover_mobile{
+.cover_mobile {
   display: none;
 }
 
-.cover{
+.cover {
   position: relative;
   z-index: -1;
-  
 }
 
-.cover img{
+.cover img {
   width: 100%;
   height: 100%;
   padding-top: 2%;
@@ -24,13 +23,12 @@
   right: 0;
   margin: 0 auto;
   top: 20%;
-
 }
 
 .container .left-side {
-  background-color: #F82536;
+  background-color: #f82536;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding-top: 15%;
   font-weight: 300;
@@ -38,27 +36,27 @@
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.266);
 }
 
-.container .left-side p{
+.container .left-side p {
   padding-top: 5%;
 }
 
-.container .left-side h1{
+.container .left-side h1 {
   font-weight: 700;
 }
 
-.container .left-side h2{
+.container .left-side h2 {
   font-weight: 300;
   font-size: 20px;
   font-style: italic;
   padding-bottom: 10%;
 }
 
-.container .left-side .id{
+.container .left-side .id {
   margin-top: 15%;
   font-style: italic;
 }
 
-.container .left-side .id span{
+.container .left-side .id span {
   font-weight: 600;
   font-style: normal;
 }
@@ -67,20 +65,25 @@
   color: black;
 }
 
-.container .right-side h1{
+.container .right-side h1 {
   text-align: center;
   padding-bottom: 3%;
 }
 
-.container .right-side ::placeholder{
-  font-family: 'Montserrat', sans-serif;
+.container .right-side ::placeholder {
+  font-family: "Montserrat", sans-serif;
 }
 
-#first_name, #last_name, #email, #message{
+#first_name,
+#last_name,
+#email,
+#message {
   background-color: rgb(236, 236, 236);
 }
 
-input[type=text], input[type=email], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -90,26 +93,28 @@ input[type=text], input[type=email], textarea {
   border-radius: 0.2rem;
 }
 
-textarea{
+textarea {
   padding-bottom: 15%;
 }
 
-input[type=text], input[type=email], textarea:focus{
+input[type="text"],
+input[type="email"],
+textarea:focus {
   outline: none;
 }
 
-#popup-message{
+#popup-message {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 60px;
-  color: #71B120;
+  color: #71b120;
   font-weight: 600;
 }
 
-form p{
+form p {
   font-size: 12px;
   padding-bottom: 15px;
 }
@@ -139,7 +144,7 @@ button {
   margin: 0 auto;
   z-index: 4;
   background: none;
-  color: #182C00;
+  color: #182c00;
 }
 
 button::before {
@@ -147,7 +152,7 @@ button::before {
   display: block;
   width: 100px;
   height: 100%;
-  background-color: #F82536;
+  background-color: #f82536;
   position: absolute;
   border-radius: 100px;
   left: 1px;
@@ -159,47 +164,39 @@ button:hover::before {
   width: 100%;
 }
 
-button:hover{
+button:hover {
   color: rgb(255, 255, 255);
 }
 
-
-
-@media (max-width: 1024px){
-
-  .cover img{
+@media (max-width: 1024px) {
+  .cover img {
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  
-
 }
 
-
-@media (max-width: 990px){
-
-  .cover img{
+@media (max-width: 990px) {
+  .cover img {
     display: none;
   }
 
-  .cover_mobile{
+  .cover_mobile {
     display: block;
   }
 
-  .cover_mobile img{
+  .cover_mobile img {
     width: 100%;
     height: 100%;
     margin-top: 50%;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
     top: 15%;
-
   }
 
   .container .left-side {
@@ -207,51 +204,49 @@ button:hover{
     padding: 10%;
   }
 
-  .container .left-side p{
+  .container .left-side p {
     padding-top: 8px;
   }
 
-  .container .left-side h2{
+  .container .left-side h2 {
     padding-bottom: 30px;
   }
 
-  .container .left-side .id{
+  .container .left-side .id {
     margin-top: 40px;
     font-style: italic;
   }
 
-  .container .left-side h1{
+  .container .left-side h1 {
     font-size: 28px;
   }
 
-  .container .left-side h2{
+  .container .left-side h2 {
     font-size: 20px;
     font-weight: 200;
   }
 
-  .container .right-side{
+  .container .right-side {
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  .container .right-side h1{
+  .container .right-side h1 {
     font-size: 28px;
   }
 
-  textarea{
+  textarea {
     height: 180px;
   }
 
   button {
     background: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: #F82536;
+    background-color: #f82536;
     padding: 1%;
     color: #ffffff;
     min-width: 140px;
     min-height: 60px;
     font-size: 18px;
-}
-
-
+  }
 }
