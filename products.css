@@ -300,6 +300,7 @@ main .search input {
 .info-inner .p-name {
   font-size: 18px;
   color: #252525;
+  font-weight: 400;
 }
 
 .info-inner .p-name2 {
