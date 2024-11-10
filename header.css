@@ -42,7 +42,7 @@ header {
 
 header .navbar ul {
   list-style: none;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 header .navbar span {
@@ -53,7 +53,7 @@ header .navbar ul li {
   position: relative;
   float: left;
   padding: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 header .navbar ul li a {
