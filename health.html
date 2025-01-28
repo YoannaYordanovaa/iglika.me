@@ -80,8 +80,8 @@
 
     <div id="cookieConsent">
       <p>
-        С цел подобряване на обслужването, платформата на www.iglika.me
-        използва <a href="cookies.html" target="_blank">“бисквитки"</a>
+        С цел подобряване на обслужването, платформата на www.iglika.me използва
+        <a href="cookies.html" target="_blank">“бисквитки"</a>
         <button id="acceptCookies">Приемам</button>
         <button id="rejectCookies">Отказвам</button>
       </p>
@@ -140,10 +140,23 @@
       $(document).ready(function () {
         const itemsPerPage = 16;
         let currentPage = 1;
+        let currentCategory = ""; // Store the selected category
 
-        function renderPage(pageNumber, searchData, sortType = "ID") {
+        function renderPage(
+          pageNumber,
+          searchData = "",
+          sortType = "ID",
+          categoryFilter = currentCategory
+        ) {
           $.get("https://iglika.me/getHealth", function (data, status) {
-            // Filter the data based on search input
+            // Filter by category
+            if (categoryFilter && categoryFilter.trim() !== "") {
+              data = data.filter(function (product) {
+                return product.category && product.category === categoryFilter;
+              });
+            }
+
+            // Filter by search input
             if (searchData && searchData.trim() !== "") {
               data = data.filter(function (product) {
                 return (
@@ -164,14 +177,14 @@
               });
             }
 
-            // Sort the data based on the selected sort type
+            // Sort data based on sortType
             switch (sortType) {
               case "price_asc":
                 data.sort(function (a, b) {
                   return (
                     parseFloat(a.price.replace(/[^\d.-]/g, "")) -
                     parseFloat(b.price.replace(/[^\d.-]/g, ""))
-                  ); // Price low to high
+                  );
                 });
                 break;
               case "price_desc":
@@ -179,17 +192,17 @@
                   return (
                     parseFloat(b.price.replace(/[^\d.-]/g, "")) -
                     parseFloat(a.price.replace(/[^\d.-]/g, ""))
-                  ); // Price high to low
+                  );
                 });
                 break;
               case "name_asc":
                 data.sort(function (a, b) {
-                  return a.h2.localeCompare(b.h2); // Name A to Z
+                  return a.h2.localeCompare(b.h2);
                 });
                 break;
               case "name_desc":
                 data.sort(function (a, b) {
-                  return b.h2.localeCompare(a.h2); // Name Z to A
+                  return b.h2.localeCompare(a.h2);
                 });
                 break;
               case "ID":
@@ -206,29 +219,30 @@
 
             let rowHtml = '<div class="row">';
             pageData.forEach(function (product) {
+              console.log(product);
               let productHtml = `
-                          <div class="wrapper">
-                              <div class="box-up">
-                                  <img class="img" src="${product.image3}" alt="">
-                                  <div class="img-info">
-                                      <div class="info-inner">
-                                          <span class="p-id">${product.id}</span>
-                                          <span class="p-name">${product.h1}</span>
-                                          <span class="p-name2">${product.h2}</span>
-                                      </div>
-                                      <div class="description">${product.description}</div>
-                                  </div>
+                  <div class="wrapper">
+                      <div class="box-up">
+                          <img class="img" src="${product.image3}" alt="">
+                          <div class="img-info">
+                              <div class="info-inner">
+                                  <span class="p-id">${product.id}</span>
+                                  <span class="p-name">${product.h1}</span>
+                                  <span class="p-name2">${product.h2}</span>
                               </div>
-                              <div class="box-down">
-                                  <div class="h-bg">
-                                      <div class="h-bg-inner"></div>
-                                  </div>
-                                  <a class="cart" href="#" data-id="${product.id}">
-                                      <span class="price">${product.price}</span>
-                                      <span class="see-more">Виж повече</span>
-                                  </a>
-                              </div>
-                          </div>`;
+                              <div class="description">${product.description}</div>
+                          </div>
+                      </div>
+                      <div class="box-down">
+                          <div class="h-bg">
+                              <div class="h-bg-inner"></div>
+                          </div>
+                          <a class="cart" href="#" data-id="${product.id}">
+                              <span class="price">${product.price}</span>
+                              <span class="see-more">Поръчай</span>
+                          </a>
+                      </div>
+                  </div>`;
               rowHtml += productHtml;
             });
             rowHtml += "</div>";
@@ -253,12 +267,13 @@
                 {
                   scrollTop: $(".search_filter").offset().top,
                 },
-                100
+                200
               );
               renderPage(
                 btn.data("page"),
                 $("#searchInput").val(),
-                $("#sortOptions").val()
+                $("#sortOptions").val(),
+                currentCategory // Pass currentCategory when paginating
               );
             });
           });
@@ -270,19 +285,60 @@
         // Event handler for search input
         $("#searchInput").on("input", function () {
           let searchData = $(this).val();
-          renderPage(1, searchData, $("#sortOptions").val());
+          renderPage(1, searchData, $("#sortOptions").val(), currentCategory); // Pass currentCategory
         });
 
         // Event handler for sorting options
         $("#sortOptions").change(function () {
-          renderPage(1, $("#searchInput").val(), $(this).val());
+          renderPage(
+            1,
+            $("#searchInput").val(),
+            $(this).val(),
+            currentCategory
+          ); // Pass currentCategory
         });
 
-        // Event handler for clicking on product
+        // Event handler for category clicks
+        $(".categories a").click(function (e) {
+          e.preventDefault(); // Prevent default anchor behavior
+          currentCategory = $(this).data("category"); // Update currentCategory
+
+          // Remove active class from all category links
+          $(".categories a").removeClass("active");
+
+          // Add active class to the clicked category link
+          $(this).addClass("active");
+
+          $("#searchInput").val(""); // Clear the search input
+          $("#sortOptions").val(""); // Reset the sort dropdown to its default
+
+          // Render page with the selected category
+          renderPage(
+            1,
+            $("#searchInput").val(),
+            $("#sortOptions").val(),
+            currentCategory
+          );
+        });
+
+        // Event handler for cart click
         $(document).on("click", ".cart", function (e) {
           e.preventDefault();
           let productId = $(this).attr("data-id");
-          window.location.href = `/Product_data?id=${productId}`;
+
+          // Fetch product details, specifically the 'forever_name'
+          $.get(`/getProductDetails/${productId}`, function (data) {
+            let foreverName = data.forever_name; // Fetch 'forever_name' from the response
+
+            // Generate the URL dynamically
+            let baseUrl = "https://foreverliving.com/shop/bgr/bg-BG/products/";
+            let fullUrl = `${baseUrl}${foreverName}?fboId=359000029738&purchaseFlowType=PERSONAL&languageCode=bg-BG&memberTitleId=4&storeId=74&countryCode=bgr&isBots=true&productId=27545 &removeDiscountConfig=true&uniqueExtRefID=0156510d-1ccf-4919-a3cc-7c5842c35c9b&shortenUrl=thealoeveraco.shop/Bw7LTIYH&referralUuid=ac9fecac-374a-471f-b417-3ff604478b3b`;
+
+            // Redirect to the generated URL
+            window.open(fullUrl, "_self");
+          }).fail(function () {
+            alert("Error retrieving product details.");
+          });
         });
       });
     </script>
