@@ -94,7 +94,7 @@ ion-icon {
 
 .button {
   position: relative;
-  max-width: 700px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
