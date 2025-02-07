@@ -12,20 +12,16 @@
 }
 
 .text h1 {
-  font-size: 40px;
   text-align: center;
 }
 
 .text h2 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 400;
 }
 
 .text .txt {
   text-align: justify;
   padding: 30px 5px;
-  font-size: 16px;
   margin-top: -60px;
 }
 
@@ -43,7 +39,6 @@
 .text .id {
   text-align: center;
   font-style: italic;
-  font-size: 16px;
   color: #919191;
 }
 
@@ -69,8 +64,6 @@
   flex-direction: column;
   gap: 0;
   z-index: -1;
-  font-size: 16px;
-  font-weight: 800;
   background-color: #71b120;
   color: white;
   width: 120px;
@@ -81,10 +74,6 @@
 
 .text .discount:hover {
   background-color: #f82536;
-}
-
-.text .circle .discount span {
-  font-size: 32px;
 }
 
 .text .circle .discount p,
@@ -124,8 +113,6 @@
   cursor: pointer;
   padding: 14px 60px;
   transition: 0.3s;
-  font-size: 16px;
-  font-weight: 600;
 }
 
 .tab button:hover {
@@ -142,16 +129,13 @@
   display: none;
   padding: 6px 12px;
   border-top: none;
-  font-size: 16px;
   height: 200px;
   text-align: justify;
 }
 
 .tabcontent h2 {
   font-style: normal;
-  font-size: 18px;
   margin-bottom: 1%;
-  font-weight: 600;
   padding-top: 20px;
   color: #182c00;
   text-align: left;
@@ -232,19 +216,15 @@ div.full figure:not(.expanded) {
   border: none;
   border-radius: 100px;
   cursor: pointer;
-  font-weight: 400;
   text-decoration: none;
   transition: all 0.5s linear;
 }
 
 .button span {
-  font-size: 18px;
-  font-weight: 700;
   padding: 0 10px;
 }
 
 ion-icon {
-  font-size: 2em;
   transition: all 0.5s linear;
 }
 
@@ -340,7 +320,6 @@ ion-icon {
   }
 
   .text .name .descr .nameEN {
-    font-weight: 800;
     text-align: center;
     margin: 0 10px;
   }

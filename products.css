@@ -1,5 +1,9 @@
-body {
-  color: #182c00;
+.cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
 .cover .mobile {
@@ -7,37 +11,40 @@ body {
 }
 
 .cover .web {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover .web img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 50px;
-  margin-top: 80px;
+  z-index: -1;
 }
 
 .cover .text {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  right: 6%;
-  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  margin-right: 5%;
   text-align: justify;
 }
 
 .cover .text .first {
-  font-size: 26px;
   line-height: 1.2;
   text-align: center;
+margin-bottom: 8%;
 }
 
 .cover .text .first .aloe {
   color: #71b120;
-  font-size: 48px;
   font-family: "Marck Script", cursive;
+  font-size: 48px;
+  font-weight: 300;
 }
 
 .cover .text .main_text {
@@ -45,8 +52,6 @@ body {
 }
 
 .cover .last {
-  font-size: 18px;
-  font-weight: 500;
   text-align: center;
   padding-top: 5%;
 }
@@ -72,13 +77,10 @@ main {
 }
 
 .button span {
-  font-size: 18px;
-  font-weight: 600;
   padding: 0 10px;
 }
 
 ion-icon {
-  font-size: 2em;
   transition: all 0.5s linear;
 }
 
@@ -88,14 +90,14 @@ ion-icon {
 
 .button {
   position: relative;
-  max-width: 700px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   z-index: 4;
-  margin-top: 1px;
+  margin-top: 5%;
 }
 
 .red {
@@ -149,7 +151,6 @@ ion-icon {
   background-color: #fff;
   color: #222222;
   padding: 12px 20px;
-  font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 2px;
   box-sizing: border-box;
@@ -172,11 +173,6 @@ main .search {
 main .search h2 {
   color: #182c00;
   margin-left: 2%;
-  font-size: 18px;
-}
-
-main .search #searchInput {
-  font-size: 16px;
 }
 
 main .search input {
@@ -298,13 +294,10 @@ main .search input {
 }
 
 .info-inner .p-name {
-  font-size: 18px;
   color: #252525;
-  font-weight: 400;
 }
 
 .info-inner .p-name2 {
-  font-size: 16px;
   color: #8c8c8c;
 }
 
@@ -332,7 +325,6 @@ main .search input {
   height: 100%;
   top: 0;
   left: 0;
-  font-weight: 700;
 }
 
 .cart .price {
@@ -344,7 +336,6 @@ main .search input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 16px;
   color: #182c00;
 }
 
@@ -379,7 +370,6 @@ main #pagination button {
   transition: all 0.2s;
   border-width: thin;
   border-radius: 6rem;
-  font-size: 16px;
   background-color: white;
   color: #000000;
   border: #f82536 solid 0.5px;
@@ -401,7 +391,13 @@ main #pagination button {
 }
 
 @media (max-width: 1290px) {
-  .cover .web {
+
+  .cover{
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .cover .web img {
     display: none;
   }
 
@@ -409,7 +405,7 @@ main #pagination button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 5%;
   }
 
   .cover .mobile img {
@@ -420,21 +416,16 @@ main #pagination button {
   }
 
   .cover .text {
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: 3%;
-    font-size: 18px;
-    text-align: justify;
+    max-width: 100%;
+    margin: 0 4%;
   }
 
-  .cover .text .first {
-    font-size: 24px;
+  .cover .text .first{
+    margin: 4% 0;
   }
 
   .cover .text .first .aloe {
     color: #71b120;
-    font-size: 42px;
     font-family: "Marck Script", cursive;
   }
 
@@ -464,6 +455,7 @@ main #pagination button {
   .search {
     padding-top: 16%;
     order: 1;
+    width: 90%;
   }
 
   .button {
@@ -473,8 +465,6 @@ main #pagination button {
   }
 
   .button span {
-    font-size: 16px;
-    font-weight: 600;
     text-align: center;
   }
 

@@ -97,12 +97,10 @@
 .page_heading {
   margin-bottom: 25px;
   text-transform: uppercase;
-  font-size: 25px;
   text-align: center;
 }
 
 .page_description {
-  font-size: 18px;
   text-align: justify;
 }
 
@@ -112,7 +110,6 @@
 
 .page_content ul li span {
   color: #182c00;
-  font-weight: 800;
 }
 
 .pagenum_1 .page_left .page_content {
@@ -160,19 +157,15 @@
   border: none;
   border-radius: 100px;
   cursor: pointer;
-  font-weight: 400;
   text-decoration: none;
   transition: all 0.5s linear;
 }
 
 span {
-  font-size: 18px;
-  font-weight: 700;
   padding: 0 10px;
 }
 
 ion-icon {
-  font-size: 2em;
   transition: all 0.5s linear;
 }
 
@@ -306,7 +299,6 @@ ion-icon {
   }
 
   .page_content a ion-icon {
-    font-size: 1em;
     padding-right: 5px;
   }
 
@@ -317,7 +309,6 @@ ion-icon {
     justify-content: center;
     align-items: center;
     bottom: 5vh;
-    font-size: 25px;
   }
 
   .page_left .page_content {
@@ -335,7 +326,6 @@ ion-icon {
   }
 
   .page_description {
-    font-size: 16px;
     text-align: justify;
   }
 

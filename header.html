@@ -37,20 +37,42 @@
 </nav>
 
 <script>
-  document.querySelectorAll(".arrow").forEach(function (arrow) {
-    function toggleMenu(e) {
-      e.stopPropagation();
-      let submenu = this.nextElementSibling;
-      console.log("Arrow clicked:", this);
-      console.log("Submenu:", submenu);
-      if (submenu) {
-        submenu.style.display =
-          submenu.style.display === "" || submenu.style.display === "none"
-            ? "block"
-            : "none";
-      }
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select all arrows
+    document.querySelectorAll(".arrow").forEach(function (arrow) {
+      arrow.addEventListener("click", function (e) {
+        e.stopPropagation(); // Prevent event bubbling
+
+        const submenu = this.nextElementSibling; // Get the submenu (next sibling)
+
+        if (submenu && submenu.tagName === "UL") {
+          // Toggle submenu visibility
+          const isOpen = submenu.style.display === "block";
+          submenu.style.display = isOpen ? "none" : "block";
+
+          // Toggle arrow rotation by adding/removing a class
+          this.classList.toggle("expanded", !isOpen);
+        }
+      });
+    });
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    // On page load, set the active link from localStorage
+    const activeHref = localStorage.getItem("activeLink"); // Get the saved href
+    if (activeHref) {
+      $("#categories a").removeClass("active"); // Remove active from all
+      $(`#categories a[href="${activeHref}"]`).addClass("active"); // Add active to saved href
     }
 
-    arrow.addEventListener("touchstart", toggleMenu);
+    // On link click, set active and save href to localStorage
+    $("#categories a").click(function () {
+      const clickedHref = $(this).attr("href"); // Get href of clicked link
+      localStorage.setItem("activeLink", clickedHref); // Save to localStorage
+
+      $("#categories a").removeClass("active"); // Remove active from all
+      $(this).addClass("active"); // Add active to clicked link
+    });
   });
 </script>

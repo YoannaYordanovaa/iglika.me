@@ -2,8 +2,6 @@ main {
   position: relative;
   line-height: 1.5;
   text-align: justify;
-  font-size: 16px;
-  color: #182c00;
 }
 
 main .image_cover .about_mobile img {
@@ -12,10 +10,9 @@ main .image_cover .about_mobile img {
 
 main .image_cover {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  height: 100vh;
-  margin-top: 39px;
+  height: 100%;
   z-index: -1;
   position: relative;
 }
@@ -33,10 +30,10 @@ main .heart-shape {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 70vh;
+  top: 75vh;
   width: 50px;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #f82536;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   animation: move-heart 2s ease-in-out infinite;
@@ -54,7 +51,7 @@ main .heart-shape:before {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #f82536;
 }
 
 main .heart-shape:after {
@@ -68,7 +65,7 @@ main .heart-shape:after {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #f82536;
 }
 
 main .heart-shape:before,
@@ -81,7 +78,7 @@ main .heart-shape:before,
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #f82536;
 }
 main .heart-shape:before {
   bottom: 0px;
@@ -104,12 +101,10 @@ main .heart-shape:after {
   }
 }
 
-main .section h1 {
+main .headline h1 {
   text-align: center;
   font-family: "Marck Script", cursive;
-  font-size: 52px;
   text-align: center;
-  font-weight: 500;
   color: #71b120;
 }
 
@@ -131,16 +126,19 @@ main .section_middle {
 
 main .section_middle div#quad,
 .section_last div#quad {
-  font-size: 0;
   max-width: 650px;
+  display: flex;
+  flex-wrap: wrap;
 }
 main .section_middle div#quad figure,
 main .section_last div#quad figure {
   margin: 0;
-  width: 50%;
+  width: 50%; /* Each figure takes 50% width */
   height: auto;
   transition: 1s;
-  display: inline-block;
+  display: flex; /* Use flex to center images */
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
@@ -151,6 +149,7 @@ div#quad figure:hover {
 div#quad figure img {
   width: 100%;
   height: auto;
+ 
 }
 div#quad figure:nth-child(1) {
   transform-origin: top left;
@@ -166,7 +165,7 @@ div#quad figure:nth-child(4) {
 }
 
 .expanded {
-  transform: scale(2);
+  transform: scale(1.2);
   z-index: 5;
 }
 div.full figure:not(.expanded) {
@@ -185,10 +184,7 @@ main .section_middle .content {
 main .section_middle .content h2,
 .section_last .content h2 {
   text-align: center;
-  font-weight: 450;
   margin-bottom: 20px;
-  font-size: 22px;
-  font-weight: 450;
 }
 
 main .section_middle .content .paragraph3 {
@@ -198,7 +194,6 @@ main .section_middle .content .paragraph3 {
 /* .......................................Gallery_footer....................................... */
 
 main div#quad_footer {
-  height: 400px;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
@@ -215,6 +210,7 @@ main #quad_footer::-webkit-scrollbar-thumb {
 main div#quad_footer figure {
   display: inline-block;
   margin-top: 100px;
+  margin-bottom: 100px;
   width: auto;
   height: 200px;
   transition: 1s;
@@ -274,19 +270,15 @@ main .section_last .content .dreams {
   border: none;
   border-radius: 100px;
   cursor: pointer;
-  font-weight: 400;
   text-decoration: none;
   transition: all 0.5s linear;
 }
 
 .button span {
-  font-size: 18px;
-  font-weight: 600;
   padding: 0 10px;
 }
 
 ion-icon {
-  font-size: 2em;
   transition: all 0.5s linear;
 }
 
@@ -352,7 +344,7 @@ ion-icon {
     margin: auto;
     z-index: -1;
     position: relative;
-    margin-top: 10vh;
+    margin-top: 5%;
   }
 
   main .image_cover {
@@ -360,45 +352,23 @@ ion-icon {
   }
 
   main .heart-shape {
-    top: 70vh;
+    display: none;
   }
 
-  main .heart-shape {
-    background-color: #f82536;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  main .heart-shape:before {
-    background-color: #f82536;
-  }
-
-  main .heart-shape:after {
-    background-color: #f82536;
-  }
-
-  main .heart-shape:before,
-  .heart-shape:after {
-    background-color: #f82536;
-  }
-
-  main .section h1 {
-    font-size: 35px;
-    line-height: 0.9;
+  main .headline h1 {
+    line-height: 1;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 30vh;
+    padding-top: 6%;
     text-align: center;
+    font-size: 32px;
   }
 
   main .section .button {
     margin-top: 40px;
     margin-bottom: 40px;
     width: 30%;
-  }
-
-  .button span {
-    font-size: 16px;
-    font-weight: 600;
+    text-align: center;
   }
 
   .red {
@@ -436,10 +406,6 @@ ion-icon {
     padding-right: 5%;
   }
 
-  main .section_middle .content h2 {
-    font-weight: 550;
-  }
-
   main .section_last {
     display: flex;
     flex-direction: column;
@@ -450,7 +416,6 @@ ion-icon {
   main .section_last h2 {
     padding-left: 5%;
     padding-right: 5%;
-    font-weight: 550;
   }
 
   main .section_last .content {

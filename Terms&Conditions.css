@@ -6,14 +6,17 @@ main .index_cover img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
   width: 100%;
-  height: 100%;
   position: absolute;
 }
 
 main .text_main {
   position: relative;
-  margin: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  margin-bottom: 8%;
   background-color: rgba(255, 255, 255, 0.556);
   padding: 3%;
   line-height: 1.5;
@@ -71,12 +74,10 @@ main .text_main .text_second p {
   main .text_main h2 {
     text-align: center;
     margin-bottom: 3%;
-    font-size: 20px;
   }
 
   main .text_main p {
     margin-bottom: 10%;
     text-align: justify;
-    font-size: 16px;
   }
 }
