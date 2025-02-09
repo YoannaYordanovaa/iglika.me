@@ -1,7 +1,3 @@
-body {
-  color: #182c00;
-}
-
 main {
   position: relative;
 }
@@ -33,10 +29,10 @@ main .main_section .main_text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: rgba(255, 255, 255, 0.747);
-  gap: 3%;
-  padding: 3%;
+  gap: 4%;
+  padding: 2%;
   line-height: 1.5;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 main .main_section .main_text .main_text_left h3,
@@ -54,15 +50,17 @@ main .main_section .main_text_left .circle,
 .main_text_right .circle {
   color: white;
   background-color: #f82536;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 50%;
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
+  margin-bottom: 1%;
 }
 
 main .main_section .main_text_left .p2 a,
