@@ -1,3 +1,5 @@
+USE products;
+
 CREATE TABLE forever_table(
    amount_p          INTEGER  NOT NULL PRIMARY KEY 
   ,category          VARCHAR(18) NOT NULL
