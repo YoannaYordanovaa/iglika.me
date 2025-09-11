@@ -220,6 +220,8 @@
 
             let rowHtml = '<div class="row">';
             pageData.forEach(function (product) {
+              const euroRate = 1.95583;
+              let priceInEuro = (parseFloat(product.price) / euroRate).toFixed(2);
               console.log(product);
               let productHtml = `
                   <div class="wrapper">
@@ -239,7 +241,7 @@
                               <div class="h-bg-inner"></div>
                           </div>
                           <a class="cart" href="#" data-id="${product.id}">
-                              <span class="price">${product.price}</span>
+                              <span class="price">€${priceInEuro} &#x2758; ${product.price}</span>
                               <span class="see-more">Поръчай</span>
                           </a>
                       </div>

@@ -337,6 +337,8 @@ main .search input {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #182c00;
+  text-align: center;
+  min-width: 170px;
 }
 
 .cart .see-more {
