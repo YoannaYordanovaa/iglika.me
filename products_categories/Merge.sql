@@ -1,4 +1,7 @@
 USE products;
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
+
 
 CREATE TABLE forever_table(
    amount_p     INTEGER  NOT NULL PRIMARY KEY 
